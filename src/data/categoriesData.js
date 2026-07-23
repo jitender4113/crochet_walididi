@@ -1,3 +1,6 @@
+import bouquetImage from '../images/categories/bouquet1.png'
+import bagsImage from '../images/categories/bags1.png'
+
 export const pageCategories = [
   {
     id: 'gifts-bouquets',
@@ -5,7 +8,7 @@ export const pageCategories = [
     tagline: 'Blooms that never wilt',
     description:
       'Handmade crochet bouquets and gifting sets, crafted stem by stem for birthdays, anniversaries and everyday love.',
-    image: 'https://picsum.photos/seed/cat-gifts-bouquets/900/1100',
+    image: bouquetImage,
   },
   {
     id: 'accessories',
@@ -13,7 +16,7 @@ export const pageCategories = [
     tagline: 'Bags, pouches & keychains',
     description:
       'Little everyday companions — totes, pouches and keychains, each looped by hand with quiet, careful detail.',
-    image: 'https://picsum.photos/seed/cat-accessories/900/1100',
+    image: bagsImage,
   },
   {
     id: 'fashion',

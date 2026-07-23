@@ -1,5 +1,3 @@
-
-
 import { useEffect } from 'react'
 import { Outlet, useLocation, useNavigation } from 'react-router-dom'
 import { motion } from 'framer-motion'
@@ -50,19 +48,3 @@ export default function App() {
   )
 }
 
-
-
-{/* <main>
-        <AnimatePresence mode="wait" initial={false}>
-          <motion.div
-            key={location.pathname}
-            initial={{ opacity: 0, y: 14 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -14 }}
-            transition={{ duration: 0.35, ease: 'easeInOut' }}
-          >
-            <Outlet />
-          </motion.div>
-        </AnimatePresence>
-        <Outlet />
-      </main> */}

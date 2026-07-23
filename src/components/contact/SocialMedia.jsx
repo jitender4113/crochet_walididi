@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Instagram } from 'lucide-react'
-import { PinterestIcon, WhatsAppIcon } from './BrandIcons'
+import { PinterestIcon, WhatsAppIcon } from '../ui/BrandIcons'
 import { socialLinks } from '../../data/contactData'
 
 const iconMap = {

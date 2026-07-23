@@ -4,6 +4,9 @@ export const productFilterCategories = [
   { slug: 'keychains', label: 'Keychains' },
   { slug: 'hair-accessories', label: 'Hair Accessories' },
   { slug: 'bags', label: 'Bags' },
+  { slug: 'home-decor', label: 'Home Decor' },
+  { slug: 'fashion', label: 'Fashion' },
+  { slug: 'toys', label: 'Toys' },
 ]
 
 // `category` = broad display label (used on ProductDetails, etc — unchanged).
@@ -25,7 +28,7 @@ export const products = [
   { id: 14, name: 'Mini Amigurumi Bear', price: 649, category: 'Kids & Toys', subCategory: 'toys', rating: 4.9, badge: 'Bestseller', image: 'https://picsum.photos/seed/prod-14/500/600', description: 'A huggable mini amigurumi bear, stitched safe and snug with soft yarn — a sweet little friend for any age.' },
   { id: 15, name: 'Bunny Rattle Toy', price: 549, category: 'Kids & Toys', subCategory: 'toys', rating: 4.8, image: 'https://picsum.photos/seed/prod-15/500/520', description: "A gentle bunny rattle toy, crocheted with baby-safe yarn and a soft internal chime for tiny hands to explore." },
   { id: 16, name: 'Rainbow Stacking Blocks', price: 999, category: 'Kids & Toys', subCategory: 'toys', rating: 4.7, badge: 'New', image: 'https://picsum.photos/seed/prod-16/500/660', description: 'A set of soft crochet stacking blocks in rainbow colors, designed for gentle, screen-free playtime.' },
-  { id: 17, name: 'Sunshine Duckling Plushie', price: 599, category: 'Kids & Toys', subCategory: 'toys', rating: 4.7, image: 'https://picsum.photos/seed/prod-18/500/580', description: 'A cheerful little duckling plushie in sunshine yellow, stitched with love for nap-time cuddles.' },
+  { id: 17, name: 'Sunshine Duckling Plushie', price: 599, category: 'Kids & Toys', subCategory: 'toys', rating: 4.7, image: 'https://picsum.photos/seed/prod-17/500/580', description: 'A cheerful little duckling plushie in sunshine yellow, stitched with love for nap-time cuddles.' },
   { id: 18, name: 'Crochet Heart Keychain', price: 149, category: 'Accessories', subCategory: 'keychains', rating: 4.8, badge: 'New', image: 'https://picsum.photos/seed/prod-19/500/500', description: 'A tiny hand-looped heart keychain, finished with a sturdy clasp — a sweet little charm for your keys or bag.' },
   { id: 19, name: 'Crochet Bee Keychain', price: 179, category: 'Accessories', subCategory: 'keychains', rating: 4.7, image: 'https://picsum.photos/seed/prod-20/500/500', description: 'A cheerful striped bee charm, crocheted stitch by stitch and clipped onto a gold-tone keyring.' },
 ]

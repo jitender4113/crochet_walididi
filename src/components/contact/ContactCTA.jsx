@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
 import { ArrowUpRight } from 'lucide-react'
-import { WhatsAppIcon } from './BrandIcons'
+import { WhatsAppIcon } from '../ui/BrandIcons'
 
 export default function ContactCTA() {
   return (

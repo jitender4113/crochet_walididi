@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { Star, ImagePlus, X, BadgeCheck, ChevronLeft, ChevronRight } from 'lucide-react'
-import Badge from './ui/Badge'
+import Badge from '../ui/Badge'
 
 const STORAGE_PREFIX = 'cwd_reviews_'
 
