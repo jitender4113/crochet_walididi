@@ -8,7 +8,7 @@ export const categories = [
     id: 'bouquets',
     name: 'Bouquets & Flowers',
     tagline: 'Blooms that never wilt',
-    image: 'bouquet',
+    image: {bouquet},
   },
   {
 
@@ -18,14 +18,14 @@ export const categories = [
 
   tagline: 'Handmade totes & slings',
 
-  image: 'bags',
+  image: {bags},
 
 },
   {
     id: 'Hair accessories',
     name: 'Hair Accessories',
     tagline: 'Hair clips, ties, gajra, parandas',
-    image: 'hair',
+    image: {hair},
   },
   {
 
@@ -35,7 +35,7 @@ export const categories = [
 
   tagline: 'Cute handmade charms',
 
-  image: 'keychain',
+  image: {keychain},
 
 },
 ]
