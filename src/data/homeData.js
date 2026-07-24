@@ -1,9 +1,14 @@
+import bouquet from "../images/categories/bouquet1.png";
+import bags from "../images/categories/bags1.png";
+import hair from "../images/categories/hair1.png";
+import keychain from "../images/categories/keychain1.png";
+
 export const categories = [
   {
     id: 'bouquets',
     name: 'Bouquets & Flowers',
     tagline: 'Blooms that never wilt',
-    image: '/src/images/categories/bouquet1.png',
+    image: 'bouquet',
   },
   {
 
@@ -13,14 +18,14 @@ export const categories = [
 
   tagline: 'Handmade totes & slings',
 
-  image: '/src/images/categories/bags1.png',
+  image: 'bags',
 
 },
   {
     id: 'Hair accessories',
     name: 'Hair Accessories',
     tagline: 'Hair clips, ties, gajra, parandas',
-    image: '/src/images/categories/hair1.png',
+    image: 'hair',
   },
   {
 
@@ -30,7 +35,7 @@ export const categories = [
 
   tagline: 'Cute handmade charms',
 
-  image: '/src/images/categories/keychain1.png',
+  image: 'keychain',
 
 },
 ]
