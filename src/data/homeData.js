@@ -2,6 +2,7 @@ import bouquet from "../images/categories/bouquet1.png";
 import bags from "../images/categories/bags1.png";
 import hair from "../images/categories/hair1.png";
 import keychain from "../images/categories/keychain1.png";
+import pinkRose from "../images/bestSellers/pink-rose-bag.png";
 
 export const categories = [
   {
@@ -41,7 +42,7 @@ export const categories = [
 ]
 
 export const bestSellers = [
-  { id: 1, name: 'Sunrise Peony Bouquet', price: 1899, rating: 4.9, image: 'https://picsum.photos/seed/best-1/500/600', badge: 'Bestseller' },
+  { id: 1, name: 'Sunrise Peony Bouquet', price: 1899, rating: 4.9, image: 'pinkRose', badge: 'Bestseller' },
   { id: 2, name: 'Blush Rose Hair Clip Set', price: 549, rating: 4.8, image: 'https://picsum.photos/seed/best-2/500/600', badge: 'Bestseller' },
   { id: 3, name: 'Sage Granny-Square Tote', price: 1299, rating: 5.0, image: 'https://picsum.photos/seed/best-3/500/600', badge: "Didi's Pick" },
   { id: 4, name: 'Ivory Tulip Table Vase Set', price: 2199, rating: 4.9, image: 'https://picsum.photos/seed/best-4/500/600', badge: 'Bestseller' },
