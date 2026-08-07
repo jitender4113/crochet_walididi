@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import Button from '../ui/Button'
+import heroBouquet from "../../images/hero-bouquet.jpg";
 
 export default function Hero() {
   return (
@@ -61,7 +62,7 @@ export default function Hero() {
           <div className="absolute -inset-6 -z-10 rounded-[3rem] bg-blush-light/70 blur-2xl" />
           <div className="relative mx-auto aspect-[4/5] w-full max-w-md overflow-hidden rounded-[2.5rem] border-8 border-cream shadow-soft ring-1 ring-cocoa/10">
             <img
-              src="/src/images/hero-bouquet.jpg"
+              src={heroBouquet}
               alt="Large handmade crochet flower bouquet in blush and sage tones"
               className="h-full w-full object-cover"
             />
