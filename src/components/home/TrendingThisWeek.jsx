@@ -1,7 +1,9 @@
 import { motion } from 'framer-motion'
-import { trending } from '../../data/homeData'
+import { products } from '../../data/productsData'
 import SectionHeading from '../ui/SectionHeading'
 import ProductCard from '../ui/ProductCard'
+
+const trending = products.filter((product) => product.isTrending)
 
 const container = {
   hidden: {},
@@ -13,6 +15,8 @@ const item = {
 }
 
 export default function TrendingThisWeek() {
+  if (trending.length === 0) return null
+
   return (
     <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
       <SectionHeading

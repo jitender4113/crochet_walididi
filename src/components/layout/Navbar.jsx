@@ -8,13 +8,21 @@ import { useProductSearch } from '../../hooks/useProductSearch.js'
 import SearchSuggestions from '../common/SearchSuggestions.jsx'
 import logo from '../../assets/logo.png'
 
+// const mainLinks = [
+//   { label: 'Home', to: '/' },
+//   { label: 'Products', to: '/products' },
+//   { label: 'categories', to: '/categories' },
+//   { label: 'build', to: '/build-your-own-bouquet' },
+//   { label: 'About Us', to: '/about' },
+//   { label: 'Contact', to: '/contact' },
+// ]
+
 const mainLinks = [
   { label: 'Home', to: '/' },
   { label: 'Products', to: '/products' },
-  { label: 'categories', to: '/categories' },
-  { label: 'build', to: '/build-your-own-bouquet' },
-  { label: 'About Us', to: '/about' },
-  { label: 'Contact', to: '/contact' },
+  // { label: 'Categories', to: '/categories' },
+  { label: 'Build', to: '/build-your-own-bouquet' },
+  { label: 'Our Story', to: '/our-story' },
 ]
 
 export default function Navbar() {

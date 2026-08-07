@@ -6,7 +6,7 @@ import PageLoader from "./components/ui/PageLoader";
 import { WishlistProvider } from "./context/WishlistContext.jsx";
 import { CartProvider } from "./context/CartContext.jsx";
 import './index.css'
-
+import OurStory from "./pages/OurStory";
 
 
 // Lazy-loaded pages: smaller initial bundle + a real loading state
@@ -19,8 +19,8 @@ const Cart = lazy(() => import("./pages/Cart"));
 const Checkout = lazy(() => import("./pages/Checkout"));
 const Categories = lazy(() => import("./pages/Categories"));
 const BuildYourOwnBouquet = lazy(() => import("./pages/BuildYourOwnBouquet"));
-const About = lazy(() => import("./pages/About"));
-const Contact = lazy(() => import("./pages/Contact"));
+// const About = lazy(() => import("./pages/About"));
+// const Contact = lazy(() => import("./pages/Contact"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 const withSuspense = (Component) => (
@@ -42,8 +42,9 @@ const router = createBrowserRouter([
       { path: 'checkout', element: withSuspense(Checkout) },
       { path: "categories", element: withSuspense(Categories) },
       { path: "build-your-own-bouquet", element: withSuspense(BuildYourOwnBouquet) },
-      { path: 'about', element: withSuspense(About) },
-      { path: 'contact', element: withSuspense(Contact) },
+      // { path: 'about', element: withSuspense(About) },
+      // { path: 'contact', element: withSuspense(Contact) },
+      { path: 'our-story', element: withSuspense(OurStory) },
       { path: '*', element: withSuspense(NotFound) },
     ],
   },

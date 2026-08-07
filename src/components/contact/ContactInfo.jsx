@@ -11,24 +11,33 @@ export default function ContactInfo() {
         {contactInfo.map((info, i) => {
           const Icon = iconMap[info.type]
           return (
-            <motion.div
-              key={info.type}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.4 }}
-              transition={{ duration: 0.5, delay: i * 0.1 }}
-              className="flex flex-col items-center gap-3 rounded-3xl bg-white/50 p-7 text-center ring-1 ring-cocoa/10"
-            >
+            <motion.a
+  key={info.type}
+  href={info.href}
+  target={info.type === 'Location' ? '_blank' : undefined}
+  rel={info.type === 'Location' ? 'noopener noreferrer' : undefined}
+  initial={{ opacity: 0, y: 20 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  whileHover={{ y: -3 }}
+  viewport={{ once: true, amount: 0.4 }}
+  transition={{ duration: 0.5, delay: i * 0.1 }}
+  className="flex cursor-pointer flex-col items-center gap-3 rounded-3xl bg-white/50 p-7 text-center ring-1 ring-cocoa/10 transition-all hover:ring-blush/30"
+>
               <span className="flex h-12 w-12 items-center justify-center rounded-2xl bg-blush-light text-blush-dark">
                 <Icon size={20} strokeWidth={1.5} />
               </span>
               <p className="text-xs font-semibold uppercase tracking-wide text-cocoa-light">
                 {info.type}
               </p>
-              <p className="font-display text-base font-medium text-cocoa sm:text-lg">
-                {info.value}
-              </p>
-            </motion.div>
+              <a
+  href={info.href}
+  target={info.type === 'Location' ? '_blank' : undefined}
+  rel={info.type === 'Location' ? 'noopener noreferrer' : undefined}
+  className="font-display text-base font-medium text-cocoa transition-colors hover:text-blush-dark"
+>
+  {info.value}
+</a>
+            </motion.a>
           )
         })}
       </div>

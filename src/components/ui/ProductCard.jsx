@@ -20,9 +20,20 @@ export default function ProductCard({ product, className = '' }) {
             alt={product.name}
             className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
           />
-          {product.badge && (
+          {/* {product.badge && (
             <SwingTag className="absolute left-3 top-3">{product.badge}</SwingTag>
-          )}
+          )} */}
+          {product.isBestSeller ? (
+  <div className="absolute left-3 top-3 z-20 rounded-full bg-[#D4A017] px-3 py-1 text-xs font-semibold text-white shadow-md">
+    ⭐ Best Seller
+  </div>
+) : (
+  product.badge && (
+    <SwingTag className="absolute left-3 top-3">
+      {product.badge}
+    </SwingTag>
+  )
+)}
           <button
             aria-label={wishlisted ? 'Remove from wishlist' : 'Add to wishlist'}
             aria-pressed={wishlisted}
@@ -57,3 +68,4 @@ export default function ProductCard({ product, className = '' }) {
     </motion.div>
   )
 }
+

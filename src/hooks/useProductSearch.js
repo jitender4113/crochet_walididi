@@ -9,24 +9,35 @@ const subCategoryLabels = productFilterCategories.reduce((acc, c) => {
 }, {})
 
 /**
- * Matches products by name, broad category, or fine-grained subCategory
- * (slug or label) — case-insensitive substring match.
+ * Case-insensitive, partial-match test of a single product against a query.
+ * Checks name, broad category, fine-grained subCategory (slug + label),
+ * description, and keywords — shared by the Navbar's live suggestions and
+ * the Products page search bar so both behave identically.
+ */
+export function matchesQuery(product, query) {
+  const q = query.trim().toLowerCase()
+  if (!q) return true
+
+  const categoryLabel = subCategoryLabels[product.subCategory] || ''
+  const keywords = product.keywords || []
+
+  return (
+    product.name.toLowerCase().includes(q) ||
+    product.category.toLowerCase().includes(q) ||
+    product.subCategory?.toLowerCase().includes(q) ||
+    categoryLabel.toLowerCase().includes(q) ||
+    product.description?.toLowerCase().includes(q) ||
+    keywords.some((keyword) => keyword.toLowerCase().includes(q))
+  )
+}
+
+/**
+ * Matches products by name, category, description, or keywords —
+ * case-insensitive substring match. Returns up to `limit` results.
  */
 export function searchProducts(query, limit = 6) {
-  const q = query.trim().toLowerCase()
-  if (!q) return []
-
-  return products
-    .filter((product) => {
-      const categoryLabel = subCategoryLabels[product.subCategory] || ''
-      return (
-        product.name.toLowerCase().includes(q) ||
-        product.category.toLowerCase().includes(q) ||
-        product.subCategory?.toLowerCase().includes(q) ||
-        categoryLabel.toLowerCase().includes(q)
-      )
-    })
-    .slice(0, limit)
+  if (!query.trim()) return []
+  return products.filter((product) => matchesQuery(product, query)).slice(0, limit)
 }
 
 /**

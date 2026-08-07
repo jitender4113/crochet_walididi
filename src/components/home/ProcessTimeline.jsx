@@ -6,11 +6,11 @@ export default function ProcessTimeline() {
   return (
     <section className="bg-sage-light/40 py-14 lg:py-20">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-        <SectionHeading
-          eyebrow="how it's made"
-          title="From Skein to Story"
-          subtitle="A real, unhurried process — because a bouquet that took 8 hours shouldn't feel like it took 8 minutes."
-        />
+       <SectionHeading
+  eyebrow="our journey"
+  title="Your Crochet Journey"
+  subtitle="From your first idea to the final handcrafted piece, every creation is made with love, care, and attention to every detail."
+/>
 
         <div className="relative mt-14">
           {/* connecting stitch line - desktop */}

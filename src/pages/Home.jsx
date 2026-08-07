@@ -12,6 +12,10 @@ import Newsletter from "../components/home/Newsletter";
 import FooterCTA from "../components/home/FooterCTA";
 import StitchDivider from "../components/ui/StitchDivider";
 import CustomBouquetBanner from '../components/home/CustomBouquetBanner'
+import DidiYeBanaDoge from '../components/home/DidiYeBanaDoge'
+import { products } from '../data/productsData'
+
+const hasTrending = products.some((product) => product.isTrending)
 
 export default function Home() {
   return (
@@ -24,16 +28,16 @@ export default function Home() {
       <BestSellers />
       <StitchDivider color="#90A186" />
       <TrendingThisWeek />
+      <DidiYeBanaDoge />
       <ProcessTimeline />
       <CurvedDivider fill="#4A3B32" bgTop="#FBF7F1" />
       <StatsStrip />
       <CurvedDivider fill="#FBF7F1" bgTop="#4A3B32" flip />
       <Testimonials />
       <InstagramGallery />
-      <Newsletter />
+      {/* <Newsletter /> */}
       <FooterCTA />
+      
     </>
   )
 }
-
-

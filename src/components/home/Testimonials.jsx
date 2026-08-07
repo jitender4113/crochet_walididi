@@ -7,10 +7,10 @@ export default function Testimonials() {
   return (
     <section className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8 lg:py-20">
       <SectionHeading
-        eyebrow="kind words"
-        title="Notes From Our Customers"
-        subtitle="Real messages, kept just as they were sent to us."
-      />
+  eyebrow="happy customers"
+  title="Loved by Our Customers"
+  subtitle="Every kind word motivates us to keep creating handmade pieces with love."
+/>
 
       <div className="mt-10 grid grid-cols-1 gap-6 sm:grid-cols-3">
         {testimonials.map((t, i) => (

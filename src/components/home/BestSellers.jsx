@@ -1,9 +1,11 @@
 import { useRef } from 'react'
 import { motion } from 'framer-motion'
 import { ArrowLeft, ArrowRight } from 'lucide-react'
-import { bestSellers } from '../../data/homeData'
+import { products } from '../../data/productsData'
 import SectionHeading from '../ui/SectionHeading'
 import ProductCard from '../ui/ProductCard'
+
+const bestSellers = products.filter((product) => product.isBestSeller)
 
 export default function BestSellers() {
   const scrollerRef = useRef(null)

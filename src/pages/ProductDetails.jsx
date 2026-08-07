@@ -1,11 +1,12 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
-import { motion } from 'framer-motion'
+import { AnimatePresence, motion } from 'framer-motion'
 import { ArrowLeft, Heart, Minus, Plus, ShoppingBag, Star } from 'lucide-react'
 import SwingTag from '../components/ui/SwingTag'
 import Badge from '../components/ui/Badge'
 import ProductCard from '../components/ui/ProductCard'
 import ReviewsSection from '../components/common/ReviewsSection'
+import ImageLightbox from '../components/common/ImageLightbox'
 import { useWishlist } from '../context/WishlistContext.jsx'
 import { useCart } from '../context/CartContext.jsx'
 import { products } from '../data/productsData'
@@ -13,6 +14,9 @@ import { products } from '../data/productsData'
 export default function ProductDetails() {
   const { id } = useParams()
   const [quantity, setQuantity] = useState(1)
+  const [selectedImageIndex, setSelectedImageIndex] = useState(0)
+  const [isLightboxOpen, setIsLightboxOpen] = useState(false)
+  const [showAllRelated, setShowAllRelated] = useState(false)
   const { isWishlisted, toggleWishlist } = useWishlist()
   const { addToCart } = useCart()
 
@@ -21,12 +25,38 @@ export default function ProductDetails() {
     [id]
   )
 
-  const relatedProducts = useMemo(() => {
+  const galleryImages = useMemo(() => {
     if (!product) return []
-    return products
-      .filter((p) => p.category === product.category && p.id !== product.id)
-      .slice(0, 4)
+    return product.images && product.images.length > 0 ? product.images : [product.image]
   }, [product])
+
+const allRelatedProducts = useMemo(() => {
+  if (!product) return [];
+
+  const variants = products.filter(
+    (p) =>
+      p.subCategory === product.subCategory &&
+      p.id !== product.id
+  );
+
+  const categoryProducts = products.filter(
+    (p) =>
+      p.category === product.category &&
+      p.subCategory !== product.subCategory &&
+      p.id !== product.id
+  );
+
+  return [...variants, ...categoryProducts];
+}, [product]);
+
+const relatedProducts = showAllRelated
+  ? allRelatedProducts
+  : allRelatedProducts.slice(0, 8);
+
+
+  useEffect(() => {
+    setSelectedImageIndex(0)
+  }, [id])
 
   if (!product) {
     return (
@@ -58,23 +88,62 @@ export default function ProductDetails() {
       </Link>
 
       <div className="grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-14">
-        {/* Image */}
+        {/* Image gallery */}
         <motion.div
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
-          className="relative overflow-hidden rounded-2xl bg-white/50 ring-1 ring-cocoa/10"
+          className="flex flex-col gap-3"
         >
-          <div className="relative aspect-square w-full overflow-hidden sm:aspect-[4/5]">
-            <img
-              src={product.image}
-              alt={product.name}
-              className="h-full w-full object-cover"
-            />
-            {product.badge && (
-              <SwingTag className="absolute left-4 top-4">{product.badge}</SwingTag>
-            )}
+          <div className="relative overflow-hidden rounded-2xl bg-white/50 ring-1 ring-cocoa/10">
+            <button
+              type="button"
+              onClick={() => setIsLightboxOpen(true)}
+              aria-label={`Open fullscreen gallery for ${product.name}`}
+              className="relative block aspect-square w-full cursor-zoom-in overflow-hidden sm:aspect-[4/5]"
+            >
+              <AnimatePresence mode="wait">
+                <motion.img
+                  key={galleryImages[selectedImageIndex]}
+                  src={galleryImages[selectedImageIndex]}
+                  alt={`${product.name} — view ${selectedImageIndex + 1}`}
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  transition={{ duration: 0.3, ease: 'easeInOut' }}
+                  className="h-full w-full object-cover"
+                />
+              </AnimatePresence>
+              {product.badge && (
+                <SwingTag className="absolute left-4 top-4">{product.badge}</SwingTag>
+              )}
+            </button>
           </div>
+
+          {galleryImages.length > 1 && (
+            <div className="grid grid-cols-4 gap-3">
+              {galleryImages.map((img, index) => (
+                <button
+                  key={img}
+                  type="button"
+                  onClick={() => setSelectedImageIndex(index)}
+                  aria-label={`View image ${index + 1} of ${product.name}`}
+                  aria-pressed={selectedImageIndex === index}
+                  className={`relative aspect-square overflow-hidden rounded-xl ring-2 transition-all duration-300 ${
+                    selectedImageIndex === index
+                      ? 'ring-cocoa'
+                      : 'ring-transparent opacity-70 hover:opacity-100 hover:ring-cocoa/30'
+                  }`}
+                >
+                  <img
+                    src={img}
+                    alt={`${product.name} thumbnail ${index + 1}`}
+                    className="h-full w-full object-cover"
+                  />
+                </button>
+              ))}
+            </div>
+          )}
         </motion.div>
 
         {/* Details */}
@@ -184,13 +253,44 @@ export default function ProductDetails() {
             </h2>
           </div>
 
-          <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
+          {/* <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
             {relatedProducts.map((related) => (
               <ProductCard key={related.id} product={related} />
             ))}
-          </div>
+          </div> */}
+
+          <>
+  <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
+    {relatedProducts.map((related) => (
+      <ProductCard key={related.id} product={related} />
+    ))}
+  </div>
+
+  {allRelatedProducts.length > 8 && (
+    <div className="mt-8 flex justify-center">
+      <button
+        onClick={() => setShowAllRelated(!showAllRelated)}
+        className="rounded-full border border-cocoa px-6 py-3 text-sm font-semibold text-cocoa transition hover:bg-cocoa hover:text-white"
+      >
+        {showAllRelated ? "Show Less" : "See More"}
+      </button>
+    </div>
+  )}
+</>
         </section>
       )}
+
+      {/* Fullscreen image lightbox */}
+      <AnimatePresence>
+        {isLightboxOpen && (
+          <ImageLightbox
+            images={galleryImages}
+            initialIndex={selectedImageIndex}
+            productName={product.name}
+            onClose={() => setIsLightboxOpen(false)}
+          />
+        )}
+      </AnimatePresence>
     </div>
   )
 }

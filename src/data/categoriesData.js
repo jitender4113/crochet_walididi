@@ -1,37 +1,50 @@
-import bouquetImage from '../images/categories/bouquet1.png'
-import bagsImage from '../images/categories/bags1.png'
+import bouquetImage from "../images/categories/bouquet1.png";
+import bagsImage from "../images/categories/bags1.png";
+import hairImage from "../images/categories/hair1.png";      // apni image
+import keychainImage from "../images/categories/keychain1.png"; // apni image
 
 export const pageCategories = [
   {
-    id: 'gifts-bouquets',
-    name: 'Gifts & Bouquets',
-    tagline: 'Blooms that never wilt',
-    description:
-      'Handmade crochet bouquets and gifting sets, crafted stem by stem for birthdays, anniversaries and everyday love.',
+    id: 1,
+    slug: "bouquets",
+    name: "Bouquets",
+    tagline: "Blooms that never wilt",
+    description: "Handmade crochet bouquets for every occasion.",
     image: bouquetImage,
   },
+
   {
-    id: 'accessories',
-    name: 'Accessories',
-    tagline: 'Bags, pouches & keychains',
-    description:
-      'Little everyday companions — totes, pouches and keychains, each looped by hand with quiet, careful detail.',
+    id: 2,
+    slug: "bags",
+    name: "Bags",
+    tagline: "Handmade Bags",
+    description: "Crochet tote bags, sling bags and potli bags.",
     image: bagsImage,
   },
+
   {
-    id: 'fashion',
-    name: 'Fashion',
-    tagline: 'Tops, scarves & shrugs',
-    description:
-      'Wearable warmth — soft crochet tops, scarves and shrugs designed to feel as good as they look.',
-    image: 'https://picsum.photos/seed/cat-fashion/900/1100',
+    id: 3,
+    slug: "hair-accessories",
+    name: "Hair Accessories",
+    tagline: "Beautiful Handmade",
+    description: "Hair clips, headbands, scrunchies and parandas.",
+    image: hairImage,
   },
+
   {
-    id: 'kids-toys',
-    name: 'Kids & Toys',
-    tagline: 'Amigurumi & little joys',
-    description:
-      'Huggable amigurumi friends and playful little makes, stitched safe and snug for the smallest hands.',
-    image: 'https://picsum.photos/seed/cat-kids-toys/900/1100',
+    id: 4,
+    slug: "keychains",
+    name: "Keychains",
+    tagline: "Cute Handmade",
+    description: "Crochet keychains and charms.",
+    image: keychainImage,
   },
-]
+
+  {
+    id: 5,
+    slug: "fashion",
+    name: "Fashion",
+    tagline: "Wear Crochet",
+    description: "Crochet tops and fashion wear.",
+  },
+];

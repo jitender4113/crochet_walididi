@@ -4,17 +4,23 @@ import { Mail, ArrowUp } from 'lucide-react'
 import { Instagram } from 'lucide-react'
 import { PinterestIcon, WhatsAppIcon } from "../ui/BrandIcons";
 
+// const quickLinks = [
+//   { label: 'Home', to: '/' },
+//   { label: 'Products', to: '/products' },
+//   { label: 'About Us', to: '/about' },
+//   { label: 'Contact', to: '/contact' },
+// ]
+
 const quickLinks = [
   { label: 'Home', to: '/' },
   { label: 'Products', to: '/products' },
-  { label: 'About Us', to: '/about' },
-  { label: 'Contact', to: '/contact' },
+  { label: 'Our Story', to: '/our-story' },
 ]
 
 const socials = [
-  { label: 'Instagram', href: 'https://instagram.com/', Icon: Instagram },
-  { label: 'Pinterest', href: 'https://pinterest.com/', Icon: PinterestIcon },
-  { label: 'WhatsApp', href: 'https://wa.me/911234567890', Icon: WhatsAppIcon },
+  { label: 'Instagram', href: 'https://www.instagram.com/crochet_walididi/', Icon: Instagram },
+  { label: 'Pinterest', href: 'https://pin.it/1KBcIisQZ', Icon: PinterestIcon },
+  { label: 'WhatsApp', href: 'https://wa.me/9992175168', Icon: WhatsAppIcon },
 ]
 
 export default function Footer() {
@@ -72,20 +78,20 @@ export default function Footer() {
           <div className="flex flex-col gap-3">
             <span className="font-display text-sm font-semibold text-cocoa">Get in Touch</span>
             <a
-              href="mailto:hello@crochetwalididi.com"
+              href="mailto:lokeshjatin2@gmail.com"
               className="flex items-center gap-2 text-sm text-cocoa-light transition-colors duration-300 hover:text-sage-dark"
             >
               <Mail size={15} strokeWidth={1.75} />
-              hello@crochetwalididi.com
+              lokeshjatin2@gmail.com
             </a>
             <a
-              href="https://wa.me/911234567890"
+              href="https://wa.me/9992175168"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm text-cocoa-light transition-colors duration-300 hover:text-sage-dark"
             >
               <WhatsAppIcon size={15} />
-              +91 12345 67890
+              +91 9992175168
             </a>
           </div>
         </div>
