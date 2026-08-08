@@ -9,18 +9,18 @@ import {
 } from "lucide-react";
 import CustomRequestForm from "./CustomRequestForm";
 
-const features = [
-  {
-    title: "Can We Make It?",
-    desc: "We'll check if your design can be crocheted.",
-    icon: "🧶",
-  },
-  {
-    title: "Get Final Price",
-    desc: "Receive an estimated price on WhatsApp.",
-    icon: "💰",
-  },
-];
+// const features = [
+//   {
+//     title: "Can We Make It?",
+//     desc: "We'll check if your design can be crocheted.",
+//     icon: "🧶",
+//   },
+//   {
+//     title: "Get Final Price",
+//     desc: "Receive an estimated price on WhatsApp.",
+//     icon: "💰",
+//   },
+// ];
 
 export default function DidiYeBanaDoge() {
   return (
@@ -92,7 +92,7 @@ export default function DidiYeBanaDoge() {
             </div>
             {/* Cards */}
 
-            <div className="grid gap-4">
+            {/* <div className="grid gap-4">
               {features.map((item) => (
                 <motion.div
                   whileHover={{
@@ -118,7 +118,7 @@ export default function DidiYeBanaDoge() {
                   </div>
                 </motion.div>
               ))}
-            </div>
+            </div> */}
           </motion.div>
 
           {/* RIGHT */}
