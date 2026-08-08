@@ -16,39 +16,48 @@ export default function Products() {
   const [searchParams, setSearchParams] = useSearchParams()
   const categoryParam = searchParams.get("category");
 
-const isValidCategory =
-  categoryParam && categories.some((c) => c.id === categoryParam);
+  const isValidCategory =
+    categoryParam && categories.some((c) => c.id === categoryParam);
 
-const [activeCategory, setActiveCategory] = useState(
-  isValidCategory ? categoryParam : "all"
-);
+  const [activeCategory, setActiveCategory] = useState(
+    isValidCategory ? categoryParam : "all"
+  );
   const [query, setQuery] = useState('')
   const [isLoading, setIsLoading] = useState(true)
   const scrollerRef = useRef(null)
+  const productsGridRef = useRef(null)
   const isFirstRender = useRef(true)
 
-  // Keep activeCategory in sync if the URL's ?category= changes — e.g. the
-  // user clicks a different FeaturedCategories card while already here.
+  // Keep activeCategory in sync if the URL's ?category= changes.
   useEffect(() => {
-  const nextCategory =
-    categoryParam && categories.some((c) => c.id === categoryParam)
-      ? categoryParam
-      : "all";
+    const nextCategory =
+      categoryParam && categories.some((c) => c.id === categoryParam)
+        ? categoryParam
+        : "all";
 
-  setActiveCategory(nextCategory);
-}, [categoryParam]);
+    setActiveCategory(nextCategory);
+  }, [categoryParam]);
 
   const selectCategory = (slug) => {
-  setActiveCategory(slug)
+    setActiveCategory(slug)
 
-  if (slug === "all") {
-    const next = new URLSearchParams(searchParams);
-    next.delete("category");
-    setSearchParams(next, { replace: true });
-  } else {
-    setSearchParams({ category: slug }, { replace: true });
-  }
-};
+    if (slug === "all") {
+      const next = new URLSearchParams(searchParams);
+      next.delete("category");
+      setSearchParams(next, { replace: true });
+    } else {
+      setSearchParams({ category: slug }, { replace: true });
+    }
+
+    // Scroll ONLY after the user clicks a category.
+    // This does not run on the initial Products page load.
+    setTimeout(() => {
+      productsGridRef.current?.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      })
+    }, 100)
+  };
 
   // Initial "fetch" simulation — shows skeletons before the grid renders
   useEffect(() => {
@@ -56,8 +65,7 @@ const [activeCategory, setActiveCategory] = useState(
     return () => clearTimeout(t)
   }, [])
 
-  // Brief skeleton pulse when switching category, so the grid never
-  // pops in instantly — feels like content is being fetched/filtered
+  // Brief skeleton pulse when switching category.
   useEffect(() => {
     if (isFirstRender.current) {
       isFirstRender.current = false
@@ -68,29 +76,21 @@ const [activeCategory, setActiveCategory] = useState(
     return () => clearTimeout(t)
   }, [activeCategory])
 
-  // const categoryFiltered = useMemo(
-  //   () =>
-  //     activeCategory === 'all'
-  //       ? products
-  //       : products.filter((p) => p.subCategory === activeCategory),
-  //   [activeCategory]
-  // )
-
   const categoryFiltered = useMemo(() => {
-  if (activeCategory === "all") return products;
+    if (activeCategory === "all") return products;
 
-  const map = {
-    bouquets: "Flowers",
-    bags: "Bags",
-    "hair-accessories": "Hair Accessories",
-    keychains: "Keychains",
-    fashion: "Fashion",
-  };
+    const map = {
+      bouquets: "Flowers",
+      bags: "Bags",
+      "hair-accessories": "Hair Accessories",
+      keychains: "Keychains",
+      fashion: "Fashion",
+    };
 
-  return products.filter(
-    (p) => p.category === map[activeCategory]
-  );
-}, [activeCategory]);
+    return products.filter(
+      (p) => p.category === map[activeCategory]
+    );
+  }, [activeCategory]);
 
   const searchedProducts = useMemo(
     () => categoryFiltered.filter((p) => matchesQuery(p, query)),
@@ -108,14 +108,15 @@ const [activeCategory, setActiveCategory] = useState(
 
   return (
     <>
-
       <FeaturedCategories
-  showAll={true}
-  activeCategory={activeCategory}
-  onCategoryClick={selectCategory}
-/>
+        showAll={true}
+        activeCategory={activeCategory}
+        onCategoryClick={selectCategory}
+      />
 
-      <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14">
+      <div
+        className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14"
+      >
         {/* Always-visible search bar */}
         <motion.div
           initial={{ opacity: 0, y: 12 }}
@@ -142,18 +143,6 @@ const [activeCategory, setActiveCategory] = useState(
         {/* Category chips */}
         <div className="mb-12 flex flex-wrap items-center justify-center gap-2.5 sm:gap-3">
 
-  <motion.button
-    whileTap={{ scale: 0.95 }}
-    onClick={() => selectCategory("all")}
-    className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${
-      activeCategory === "all"
-        ? "bg-cocoa text-cream shadow-tag"
-        : "bg-white/60 text-cocoa ring-1 ring-cocoa/15 hover:bg-blush-light"
-    }`}
-  >
-    All
-  </motion.button>
-
   {categories.map((cat) => {
     const active = activeCategory === cat.id;
 
@@ -172,6 +161,20 @@ const [activeCategory, setActiveCategory] = useState(
       </motion.button>
     );
   })}
+
+  {/* All — last */}
+  <motion.button
+    whileTap={{ scale: 0.95 }}
+    onClick={() => selectCategory("all")}
+    className={`rounded-full px-4 py-2 text-sm font-medium transition-all ${
+      activeCategory === "all"
+        ? "bg-cocoa text-cream shadow-tag"
+        : "bg-white/60 text-cocoa ring-1 ring-cocoa/15 hover:bg-blush-light"
+    }`}
+  >
+    All
+  </motion.button>
+
 </div>
 
         {/* Result count */}
@@ -183,24 +186,24 @@ const [activeCategory, setActiveCategory] = useState(
 
         {/* Pinterest-style masonry grid */}
         {isLoading ? (
-          <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
+          <div
+            ref={productsGridRef}
+            className="scroll-mt-28 grid grid-cols-2 gap-5 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4"
+          >
             {Array.from({ length: 8 }).map((_, i) => (
               <ProductCardSkeleton key={i} index={i} />
             ))}
           </div>
         ) : searchedProducts.length > 0 ? (
-          <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4">
-
-          <AnimatePresence>
-
-          {searchedProducts.map((product) => (
-
-          <ProductCard key={product.id} product={product} />
-
-          ))}
-
-          </AnimatePresence>
-
+          <div
+            ref={productsGridRef}
+            className="scroll-mt-28 grid grid-cols-2 gap-5 sm:grid-cols-3 sm:gap-6 lg:grid-cols-4"
+          >
+            <AnimatePresence>
+              {searchedProducts.map((product) => (
+                <ProductCard key={product.id} product={product} />
+              ))}
+            </AnimatePresence>
           </div>
         ) : (
           <div className="flex flex-col items-center gap-2 py-20 text-center">
