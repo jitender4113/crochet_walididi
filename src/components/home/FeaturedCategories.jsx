@@ -29,51 +29,7 @@ export default function FeaturedCategories({
             : "grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 lg:gap-5"
         }`}
       >
-        {/* Only on Products page */}
-        {showAll && (
-  <motion.button
-    type="button"
-    onClick={() => onCategoryClick("all")}
-    initial={{ opacity: 0, y: 20 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true }}
-    whileHover={{ y: -6 }}
-    whileTap={{ scale: 0.97 }}
-    transition={{ duration: 0.4 }}
-    className="text-left"
-  >
-    <div
-      className={`group relative aspect-[3/4] overflow-hidden rounded-2xl transition-all duration-300 ${
-        activeCategory === "all"
-          ? "ring-2 ring-cocoa shadow-xl"
-          : "ring-1 ring-cocoa/10"
-      }`}
-    >
-      {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-cream via-blush-light to-cream-deep" />
-
-      {/* Decorative circles */}
-      <div className="absolute -top-10 -right-10 h-32 w-32 rounded-full bg-cocoa/10 blur-2xl" />
-      <div className="absolute -bottom-8 -left-8 h-24 w-24 rounded-full bg-blush/30 blur-xl" />
-
-      {/* Content */}
-      <div className="relative flex h-full flex-col items-center justify-center text-center px-4">
-        <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg">
-  <Grid2x2 size={30} className="text-cocoa" />
-</div>
-
-        <h3 className="font-display text-2xl font-semibold text-cocoa">
-          All
-        </h3>
-
-        <p className="mt-2 text-sm text-cocoa/70">
-          Browse every handmade creation
-        </p>
-      </div>
-    </div>
-  </motion.button>
-)}
-
+        {/* Categories first */}
         {categories.map((cat, i) => {
           const isActive = activeCategory === cat.id;
 
@@ -140,6 +96,48 @@ export default function FeaturedCategories({
             </MotionLink>
           );
         })}
+
+        {/* All — always last on Products page */}
+        {showAll && (
+          <motion.button
+            type="button"
+            onClick={() => onCategoryClick("all")}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            whileHover={{ y: -6 }}
+            whileTap={{ scale: 0.97 }}
+            transition={{ duration: 0.4, delay: categories.length * 0.08 }}
+            className="text-left"
+          >
+            <div
+              className={`group relative aspect-[3/4] overflow-hidden rounded-2xl transition-all duration-300 ${
+                activeCategory === "all"
+                  ? "ring-2 ring-cocoa shadow-xl"
+                  : "ring-1 ring-cocoa/10"
+              }`}
+            >
+              <div className="absolute inset-0 bg-gradient-to-br from-cream via-blush-light to-cream-deep" />
+
+              <div className="absolute -top-10 -right-10 h-32 w-32 rounded-full bg-cocoa/10 blur-2xl" />
+              <div className="absolute -bottom-8 -left-8 h-24 w-24 rounded-full bg-blush/30 blur-xl" />
+
+              <div className="relative flex h-full flex-col items-center justify-center px-4 text-center">
+                <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg">
+                  <Grid2x2 size={30} className="text-cocoa" />
+                </div>
+
+                <h3 className="font-display text-2xl font-semibold text-cocoa">
+                  All
+                </h3>
+
+                <p className="mt-2 text-sm text-cocoa/70">
+                  Browse every handmade creation
+                </p>
+              </div>
+            </div>
+          </motion.button>
+        )}
       </div>
     </section>
   );
