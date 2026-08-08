@@ -1,556 +1,555 @@
 
 //// Green Bow Bag
-import greenBowBag1 from "../assets/product images/bag/bow_bag/green_bow_bag/green_bow_bag1.png";
-import greenBowBag2 from "../assets/product images/bag/bow_bag/green_bow_bag/green_bow_bag2.png";
-import greenBowBag3 from "../assets/product images/bag/bow_bag/green_bow_bag/green_bow_bag3.png";
-import greenBowBag4 from "../assets/product images/bag/bow_bag/green_bow_bag/green_bow_bag4.png";
+import greenBowBag1 from "../assets/product images/bag/bow_bag/green_bow_bag/green_bow_bag1.webp";
+import greenBowBag2 from "../assets/product images/bag/bow_bag/green_bow_bag/green_bow_bag2.webp";
+import greenBowBag3 from "../assets/product images/bag/bow_bag/green_bow_bag/green_bow_bag3.webp";
+import greenBowBag4 from "../assets/product images/bag/bow_bag/green_bow_bag/green_bow_bag4.webp";
 
 // Pink Bow Bag
-import pinkBowBag1 from "../assets/product images/bag/bow_bag/pink_bow_bag/pink_bow_bag1.png";
-import pinkBowBag2 from "../assets/product images/bag/bow_bag/pink_bow_bag/pink_bow_bag2.png";
-import pinkBowBag3 from "../assets/product images/bag/bow_bag/pink_bow_bag/pink_bow_bag3.png";
-import pinkBowBag4 from "../assets/product images/bag/bow_bag/pink_bow_bag/pink_bow_bag4.png";
+import pinkBowBag1 from "../assets/product images/bag/bow_bag/pink_bow_bag/pink_bow_bag1.webp";
+import pinkBowBag2 from "../assets/product images/bag/bow_bag/pink_bow_bag/pink_bow_bag2.webp";
+import pinkBowBag3 from "../assets/product images/bag/bow_bag/pink_bow_bag/pink_bow_bag3.webp";
+import pinkBowBag4 from "../assets/product images/bag/bow_bag/pink_bow_bag/pink_bow_bag4.webp";
 
 // Purple Bow Bag
-import purpleBowBag1 from "../assets/product images/bag/bow_bag/purple_bow_bag/purple_bow_bag1.png";
-import purpleBowBag2 from "../assets/product images/bag/bow_bag/purple_bow_bag/purple_bow_bag2.png";
-import purpleBowBag3 from "../assets/product images/bag/bow_bag/purple_bow_bag/purple_bow_bag3.png";
-import purpleBowBag4 from "../assets/product images/bag/bow_bag/purple_bow_bag/purple_bow_bag4.png";
+import purpleBowBag1 from "../assets/product images/bag/bow_bag/purple_bow_bag/purple_bow_bag1.webp";
+import purpleBowBag2 from "../assets/product images/bag/bow_bag/purple_bow_bag/purple_bow_bag2.webp";
+import purpleBowBag3 from "../assets/product images/bag/bow_bag/purple_bow_bag/purple_bow_bag3.webp";
+import purpleBowBag4 from "../assets/product images/bag/bow_bag/purple_bow_bag/purple_bow_bag4.webp";
 
 // ====================== Daisy Potli ======================
-import daisyPotli1 from "../assets/product images/bag/potli_bag/daisy_potli/daisy_potli1.png";
-import daisyPotli2 from "../assets/product images/bag/potli_bag/daisy_potli/daisy_potli2.png";
-import daisyPotli3 from "../assets/product images/bag/potli_bag/daisy_potli/daisy_potli3.png";
-import daisyPotli4 from "../assets/product images/bag/potli_bag/daisy_potli/daisy_potli4.png";
+import daisyPotli1 from "../assets/product images/bag/potli_bag/daisy_potli/daisy_potli1.webp";
+import daisyPotli2 from "../assets/product images/bag/potli_bag/daisy_potli/daisy_potli2.webp";
+import daisyPotli3 from "../assets/product images/bag/potli_bag/daisy_potli/daisy_potli3.webp";
+import daisyPotli4 from "../assets/product images/bag/potli_bag/daisy_potli/daisy_potli4.webp";
 
 // ====================== Pink Rose Potli ======================
-import pinkRosePotli1 from "../assets/product images/bag/potli_bag/pink_rose_potli/pink_rose_potli1.png";
-import pinkRosePotli2 from "../assets/product images/bag/potli_bag/pink_rose_potli/pink_rose_potli2.png";
-import pinkRosePotli3 from "../assets/product images/bag/potli_bag/pink_rose_potli/pink_rose_potli3.png";
-import pinkRosePotli4 from "../assets/product images/bag/potli_bag/pink_rose_potli/pink_rose_potli4.png";
+import pinkRosePotli1 from "../assets/product images/bag/potli_bag/pink_rose_potli/pink_rose_potli1.webp";
+import pinkRosePotli2 from "../assets/product images/bag/potli_bag/pink_rose_potli/pink_rose_potli2.webp";
+import pinkRosePotli3 from "../assets/product images/bag/potli_bag/pink_rose_potli/pink_rose_potli3.webp";
+import pinkRosePotli4 from "../assets/product images/bag/potli_bag/pink_rose_potli/pink_rose_potli4.webp";
 
 // ====================== Red Rose Potli ======================
-import redRosePotli1 from "../assets/product images/bag/potli_bag/red_rose_potli/red_rose_potli1.png";
-import redRosePotli2 from "../assets/product images/bag/potli_bag/red_rose_potli/red_rose_potli2.png";
-import redRosePotli3 from "../assets/product images/bag/potli_bag/red_rose_potli/red_rose_potli3.png";
-import redRosePotli4 from "../assets/product images/bag/potli_bag/red_rose_potli/red_rose_potli4.png";
+import redRosePotli1 from "../assets/product images/bag/potli_bag/red_rose_potli/red_rose_potli1.webp";
+import redRosePotli2 from "../assets/product images/bag/potli_bag/red_rose_potli/red_rose_potli2.webp";
+import redRosePotli3 from "../assets/product images/bag/potli_bag/red_rose_potli/red_rose_potli3.webp";
+import redRosePotli4 from "../assets/product images/bag/potli_bag/red_rose_potli/red_rose_potli4.webp";
 
 // ====================== Sunflower Potli ======================
-import sunflowerPotli1 from "../assets/product images/bag/potli_bag/sunflower_potli/sunflower_potli1.png";
-import sunflowerPotli2 from "../assets/product images/bag/potli_bag/sunflower_potli/sunflower_potli2.png";
-import sunflowerPotli3 from "../assets/product images/bag/potli_bag/sunflower_potli/sunflower_potli3.png";
-import sunflowerPotli4 from "../assets/product images/bag/potli_bag/sunflower_potli/sunflower_potli4.png";
+import sunflowerPotli1 from "../assets/product images/bag/potli_bag/sunflower_potli/sunflower_potli1.webp";
+import sunflowerPotli2 from "../assets/product images/bag/potli_bag/sunflower_potli/sunflower_potli2.webp";
+import sunflowerPotli3 from "../assets/product images/bag/potli_bag/sunflower_potli/sunflower_potli3.webp";
+import sunflowerPotli4 from "../assets/product images/bag/potli_bag/sunflower_potli/sunflower_potli4.webp";
 
 // ====================== Tulip Potli ======================
-import tulipPotli1 from "../assets/product images/bag/potli_bag/tulip_potli/tulip_potli1.png";
-import tulipPotli2 from "../assets/product images/bag/potli_bag/tulip_potli/tulip_potli2.png";
-import tulipPotli3 from "../assets/product images/bag/potli_bag/tulip_potli/tulip_potli3.png";
-import tulipPotli4 from "../assets/product images/bag/potli_bag/tulip_potli/tulip_potli4.png";
+import tulipPotli1 from "../assets/product images/bag/potli_bag/tulip_potli/tulip_potli1.webp";
+import tulipPotli2 from "../assets/product images/bag/potli_bag/tulip_potli/tulip_potli2.webp";
+import tulipPotli3 from "../assets/product images/bag/potli_bag/tulip_potli/tulip_potli3.webp";
+import tulipPotli4 from "../assets/product images/bag/potli_bag/tulip_potli/tulip_potli4.webp";
 
 // ====================== Pink Rose Design Bag ======================
-import pinkRoseDesign1 from "../assets/product images/bag/rose_design_bag/pink_rose_design/pink_rose_design1.png";
-import pinkRoseDesign2 from "../assets/product images/bag/rose_design_bag/pink_rose_design/pink_rose_design2.png";
-import pinkRoseDesign3 from "../assets/product images/bag/rose_design_bag/pink_rose_design/pink_rose_design3.png";
-import pinkRoseDesign4 from "../assets/product images/bag/rose_design_bag/pink_rose_design/pink_rose_design4.png";
+import pinkRoseDesign1 from "../assets/product images/bag/rose_design_bag/pink_rose_design/pink_rose_design1.webp";
+import pinkRoseDesign2 from "../assets/product images/bag/rose_design_bag/pink_rose_design/pink_rose_design2.webp";
+import pinkRoseDesign3 from "../assets/product images/bag/rose_design_bag/pink_rose_design/pink_rose_design3.webp";
+import pinkRoseDesign4 from "../assets/product images/bag/rose_design_bag/pink_rose_design/pink_rose_design4.webp";
 
 // ====================== Plain Pink Rose Design Bag ======================
-import plainPinkRoseDesign1 from "../assets/product images/bag/rose_design_bag/plainPink_rose_design/plainPink_rose_design1.png";
-import plainPinkRoseDesign2 from "../assets/product images/bag/rose_design_bag/plainPink_rose_design/plainPink_rose_design2.png";
-import plainPinkRoseDesign3 from "../assets/product images/bag/rose_design_bag/plainPink_rose_design/plainPink_rose_design3.png";
-import plainPinkRoseDesign4 from "../assets/product images/bag/rose_design_bag/plainPink_rose_design/plainPink_rose_design4.png";
+import plainPinkRoseDesign1 from "../assets/product images/bag/rose_design_bag/plainPink_rose_design/plainPink_rose_design1.webp";
+import plainPinkRoseDesign2 from "../assets/product images/bag/rose_design_bag/plainPink_rose_design/plainPink_rose_design2.webp";
+import plainPinkRoseDesign3 from "../assets/product images/bag/rose_design_bag/plainPink_rose_design/plainPink_rose_design3.webp";
+import plainPinkRoseDesign4 from "../assets/product images/bag/rose_design_bag/plainPink_rose_design/plainPink_rose_design4.webp";
 
 // ====================== Purple Rose Design Bag ======================
-import purpleRoseDesign1 from "../assets/product images/bag/rose_design_bag/purple_rose_design/purple_rose_design1.png";
-import purpleRoseDesign2 from "../assets/product images/bag/rose_design_bag/purple_rose_design/purple_rose_design2.png";
-import purpleRoseDesign3 from "../assets/product images/bag/rose_design_bag/purple_rose_design/purple_rose_design3.png";
-import purpleRoseDesign4 from "../assets/product images/bag/rose_design_bag/purple_rose_design/purple_rose_design4.png";
+import purpleRoseDesign1 from "../assets/product images/bag/rose_design_bag/purple_rose_design/purple_rose_design1.webp";
+import purpleRoseDesign2 from "../assets/product images/bag/rose_design_bag/purple_rose_design/purple_rose_design2.webp";
+import purpleRoseDesign3 from "../assets/product images/bag/rose_design_bag/purple_rose_design/purple_rose_design3.webp";
+import purpleRoseDesign4 from "../assets/product images/bag/rose_design_bag/purple_rose_design/purple_rose_design4.webp";
 
 // ====================== Red Rose Design Bag ======================
-import redRoseDesign1 from "../assets/product images/bag/rose_design_bag/red_rose_design/red_rose_design1.png";
-import redRoseDesign2 from "../assets/product images/bag/rose_design_bag/red_rose_design/red_rose_design2.png";
-import redRoseDesign3 from "../assets/product images/bag/rose_design_bag/red_rose_design/red_rose_design3.png";
-import redRoseDesign4 from "../assets/product images/bag/rose_design_bag/red_rose_design/red_rose_design4.png";
+import redRoseDesign1 from "../assets/product images/bag/rose_design_bag/red_rose_design/red_rose_design1.webp";
+import redRoseDesign2 from "../assets/product images/bag/rose_design_bag/red_rose_design/red_rose_design2.webp";
+import redRoseDesign3 from "../assets/product images/bag/rose_design_bag/red_rose_design/red_rose_design3.webp";
+import redRoseDesign4 from "../assets/product images/bag/rose_design_bag/red_rose_design/red_rose_design4.webp";
 
 // ====================== Wine Rose Design Bag ======================
-import wineRoseDesign1 from "../assets/product images/bag/rose_design_bag/wine_rose_Design/wine_rose_design1.png";
-import wineRoseDesign2 from "../assets/product images/bag/rose_design_bag/wine_rose_Design/wine_rose_design2.png";
-import wineRoseDesign3 from "../assets/product images/bag/rose_design_bag/wine_rose_Design/wine_rose_design3.png";
-import wineRoseDesign4 from "../assets/product images/bag/rose_design_bag/wine_rose_Design/wine_rose_design4.png";
+import wineRoseDesign1 from "../assets/product images/bag/rose_design_bag/wine_rose_Design/wine_rose_design1.webp";
+import wineRoseDesign2 from "../assets/product images/bag/rose_design_bag/wine_rose_Design/wine_rose_design2.webp";
+import wineRoseDesign3 from "../assets/product images/bag/rose_design_bag/wine_rose_Design/wine_rose_design3.webp";
+import wineRoseDesign4 from "../assets/product images/bag/rose_design_bag/wine_rose_Design/wine_rose_design4.webp";
 
 // ====================== Blue Tote ======================
-import blueTote1 from "../assets/product images/bag/tote_bag/blue_tote/blue_tote1.png";
-import blueTote2 from "../assets/product images/bag/tote_bag/blue_tote/blue_tote2.png";
-import blueTote3 from "../assets/product images/bag/tote_bag/blue_tote/blue_tote3.png";
-import blueTote4 from "../assets/product images/bag/tote_bag/blue_tote/blue_tote4.png";
+import blueTote1 from "../assets/product images/bag/tote_bag/blue_tote/blue_tote1.webp";
+import blueTote2 from "../assets/product images/bag/tote_bag/blue_tote/blue_tote2.webp";
+import blueTote3 from "../assets/product images/bag/tote_bag/blue_tote/blue_tote3.webp";
+import blueTote4 from "../assets/product images/bag/tote_bag/blue_tote/blue_tote4.webp";
 
 // ====================== Daisy Tote ======================
-import daisyTote1 from "../assets/product images/bag/tote_bag/daisy_tote/daisy_tote1.png";
-import daisyTote2 from "../assets/product images/bag/tote_bag/daisy_tote/daisy_tote2.png";
-import daisyTote3 from "../assets/product images/bag/tote_bag/daisy_tote/daisy_tote3.png";
-import daisyTote4 from "../assets/product images/bag/tote_bag/daisy_tote/daisy_tote4.png";
+import daisyTote1 from "../assets/product images/bag/tote_bag/daisy_tote/daisy_tote1.webp";
+import daisyTote2 from "../assets/product images/bag/tote_bag/daisy_tote/daisy_tote2.webp";
+import daisyTote3 from "../assets/product images/bag/tote_bag/daisy_tote/daisy_tote3.webp";
+import daisyTote4 from "../assets/product images/bag/tote_bag/daisy_tote/daisy_tote4.webp";
 
 // ====================== Green Heart Tote ======================
-import greenHeartTote1 from "../assets/product images/bag/tote_bag/green_heart_tote/green_heart_tote1.png";
-import greenHeartTote2 from "../assets/product images/bag/tote_bag/green_heart_tote/green_heart_tote2.png";
-import greenHeartTote3 from "../assets/product images/bag/tote_bag/green_heart_tote/green_heart_tote3.png";
-import greenHeartTote4 from "../assets/product images/bag/tote_bag/green_heart_tote/green_heart_tote4.png";
+import greenHeartTote1 from "../assets/product images/bag/tote_bag/green_heart_tote/green_heart_tote1.webp";
+import greenHeartTote2 from "../assets/product images/bag/tote_bag/green_heart_tote/green_heart_tote2.webp";
+import greenHeartTote3 from "../assets/product images/bag/tote_bag/green_heart_tote/green_heart_tote3.webp";
+import greenHeartTote4 from "../assets/product images/bag/tote_bag/green_heart_tote/green_heart_tote4.webp";
 
 // ====================== Green Tote ======================
-import greenTote1 from "../assets/product images/bag/tote_bag/green_tote/green_tote1.png";
-import greenTote2 from "../assets/product images/bag/tote_bag/green_tote/green_tote2.png";
-import greenTote3 from "../assets/product images/bag/tote_bag/green_tote/green_tote3.png";
-import greenTote4 from "../assets/product images/bag/tote_bag/green_tote/green_tote4.png";
+import greenTote1 from "../assets/product images/bag/tote_bag/green_tote/green_tote1.webp";
+import greenTote2 from "../assets/product images/bag/tote_bag/green_tote/green_tote2.webp";
+import greenTote3 from "../assets/product images/bag/tote_bag/green_tote/green_tote3.webp";
+import greenTote4 from "../assets/product images/bag/tote_bag/green_tote/green_tote4.webp";
 
 // ====================== Mix Flower Tote ======================
-import mixFlowerTote1 from "../assets/product images/bag/tote_bag/mix_flower_tote/mix_flower_tote1.png";
-import mixFlowerTote2 from "../assets/product images/bag/tote_bag/mix_flower_tote/mix_flower_tote2.png";
-import mixFlowerTote3 from "../assets/product images/bag/tote_bag/mix_flower_tote/mix_flower_tote3.png";
-import mixFlowerTote4 from "../assets/product images/bag/tote_bag/mix_flower_tote/mix_flower_tote4.png";
+import mixFlowerTote1 from "../assets/product images/bag/tote_bag/mix_flower_tote/mix_flower_tote1.webp";
+import mixFlowerTote2 from "../assets/product images/bag/tote_bag/mix_flower_tote/mix_flower_tote2.webp";
+import mixFlowerTote3 from "../assets/product images/bag/tote_bag/mix_flower_tote/mix_flower_tote3.webp";
+import mixFlowerTote4 from "../assets/product images/bag/tote_bag/mix_flower_tote/mix_flower_tote4.webp";
 
 // ====================== Pink Daisy Tote ======================
-import pinkDaisyTote1 from "../assets/product images/bag/tote_bag/pink_daisy_tote/pink_daisy_tote1.png";
-import pinkDaisyTote2 from "../assets/product images/bag/tote_bag/pink_daisy_tote/pink_daisy_tote2.png";
-import pinkDaisyTote3 from "../assets/product images/bag/tote_bag/pink_daisy_tote/pink_daisy_tote3.png";
-import pinkDaisyTote4 from "../assets/product images/bag/tote_bag/pink_daisy_tote/pink_daisy_tote4.png";
+import pinkDaisyTote1 from "../assets/product images/bag/tote_bag/pink_daisy_tote/pink_daisy_tote1.webp";
+import pinkDaisyTote2 from "../assets/product images/bag/tote_bag/pink_daisy_tote/pink_daisy_tote2.webp";
+import pinkDaisyTote3 from "../assets/product images/bag/tote_bag/pink_daisy_tote/pink_daisy_tote3.webp";
+import pinkDaisyTote4 from "../assets/product images/bag/tote_bag/pink_daisy_tote/pink_daisy_tote4.webp";
 
 // ====================== Pink Heart Tote ======================
-import pinkHeartTote1 from "../assets/product images/bag/tote_bag/pink_heart_tote/pink_heart_tote1.png";
-import pinkHeartTote2 from "../assets/product images/bag/tote_bag/pink_heart_tote/pink_heart_tote2.png";
-import pinkHeartTote3 from "../assets/product images/bag/tote_bag/pink_heart_tote/pink_heart_tote3.png";
-import pinkHeartTote4 from "../assets/product images/bag/tote_bag/pink_heart_tote/pink_heart_tote4.png";
+import pinkHeartTote1 from "../assets/product images/bag/tote_bag/pink_heart_tote/pink_heart_tote1.webp";
+import pinkHeartTote2 from "../assets/product images/bag/tote_bag/pink_heart_tote/pink_heart_tote2.webp";
+import pinkHeartTote3 from "../assets/product images/bag/tote_bag/pink_heart_tote/pink_heart_tote3.webp";
+import pinkHeartTote4 from "../assets/product images/bag/tote_bag/pink_heart_tote/pink_heart_tote4.webp";
 
 // ====================== Sunflower Tote ======================
-import sunflowerTote1 from "../assets/product images/bag/tote_bag/sunflower_tote/sunflower_tote1.png";
-import sunflowerTote2 from "../assets/product images/bag/tote_bag/sunflower_tote/sunflower_tote2.png";
-import sunflowerTote3 from "../assets/product images/bag/tote_bag/sunflower_tote/sunflower_tote3.png";
-import sunflowerTote4 from "../assets/product images/bag/tote_bag/sunflower_tote/sunflower_tote4.png";
+import sunflowerTote1 from "../assets/product images/bag/tote_bag/sunflower_tote/sunflower_tote1.webp";
+import sunflowerTote2 from "../assets/product images/bag/tote_bag/sunflower_tote/sunflower_tote2.webp";
+import sunflowerTote3 from "../assets/product images/bag/tote_bag/sunflower_tote/sunflower_tote3.webp";
+import sunflowerTote4 from "../assets/product images/bag/tote_bag/sunflower_tote/sunflower_tote4.webp";
 
 // ====================== Baby Breath ======================
-import babyBreath1 from "../assets/product images/flower/flower_babyBreath/babyBreath1.png";
-import babyBreath2 from "../assets/product images/flower/flower_babyBreath/babyBreath2.png";
-import babyBreath3 from "../assets/product images/flower/flower_babyBreath/babyBreath3.png";
-import babyBreath4 from "../assets/product images/flower/flower_babyBreath/babyBreath4.png";
+import babyBreath1 from "../assets/product images/flower/flower_babyBreath/babyBreath1.webp";
+import babyBreath2 from "../assets/product images/flower/flower_babyBreath/babyBreath2.webp";
+import babyBreath3 from "../assets/product images/flower/flower_babyBreath/babyBreath3.webp";
+import babyBreath4 from "../assets/product images/flower/flower_babyBreath/babyBreath4.webp";
 
 // ====================== Cherry Blossom ======================
-import cherryBlossom1 from "../assets/product images/flower/flower_cherryBlossom/cherryBlossom1.png";
-import cherryBlossom2 from "../assets/product images/flower/flower_cherryBlossom/cherryBlossom2.png";
-import cherryBlossom3 from "../assets/product images/flower/flower_cherryBlossom/cherryBlossom3.png";
-import cherryBlossom4 from "../assets/product images/flower/flower_cherryBlossom/cherryBlossom4.png";
+import cherryBlossom1 from "../assets/product images/flower/flower_cherryBlossom/cherryBlossom1.webp";
+import cherryBlossom2 from "../assets/product images/flower/flower_cherryBlossom/cherryBlossom2.webp";
+import cherryBlossom3 from "../assets/product images/flower/flower_cherryBlossom/cherryBlossom3.webp";
+import cherryBlossom4 from "../assets/product images/flower/flower_cherryBlossom/cherryBlossom4.webp";
 
 // ====================== Daisy ======================
-import daisy1 from "../assets/product images/flower/flower_daisy/daisy1.png";
-import daisy2 from "../assets/product images/flower/flower_daisy/daisy2.png";
-import daisy3 from "../assets/product images/flower/flower_daisy/daisy3.png";
-import daisy4 from "../assets/product images/flower/flower_daisy/daisy4.png";
+import daisy1 from "../assets/product images/flower/flower_daisy/daisy1.webp";
+import daisy2 from "../assets/product images/flower/flower_daisy/daisy2.webp";
+import daisy3 from "../assets/product images/flower/flower_daisy/daisy3.webp";
+import daisy4 from "../assets/product images/flower/flower_daisy/daisy4.webp";
 
 // ====================== Forget Me Not ======================
-import forgetMeNot1 from "../assets/product images/flower/flower_forgetMeNot/forgetMeNot1.png";
-import forgetMeNot2 from "../assets/product images/flower/flower_forgetMeNot/forgetMeNot2.png";
-import forgetMeNot3 from "../assets/product images/flower/flower_forgetMeNot/forgetMeNot3.png";
-import forgetMeNot4 from "../assets/product images/flower/flower_forgetMeNot/forgetMeNot4.png";
+import forgetMeNot1 from "../assets/product images/flower/flower_forgetMeNot/forgetMeNot1.webp";
+import forgetMeNot2 from "../assets/product images/flower/flower_forgetMeNot/forgetMeNot2.webp";
+import forgetMeNot3 from "../assets/product images/flower/flower_forgetMeNot/forgetMeNot3.webp";
+import forgetMeNot4 from "../assets/product images/flower/flower_forgetMeNot/forgetMeNot4.webp";
 
 // ====================== Lavender ======================
-import lavender1 from "../assets/product images/flower/flower_lavender/lavender1.png";
-import lavender2 from "../assets/product images/flower/flower_lavender/lavender2.png";
-import lavender3 from "../assets/product images/flower/flower_lavender/lavender3.png";
-import lavender4 from "../assets/product images/flower/flower_lavender/lavender4.png";
+import lavender1 from "../assets/product images/flower/flower_lavender/lavender1.webp";
+import lavender2 from "../assets/product images/flower/flower_lavender/lavender2.webp";
+import lavender3 from "../assets/product images/flower/flower_lavender/lavender3.webp";
+import lavender4 from "../assets/product images/flower/flower_lavender/lavender4.webp";
 
 // ====================== Lily ======================
-import lily1 from "../assets/product images/flower/flower_lily/lily1.png";
-import lily2 from "../assets/product images/flower/flower_lily/lily2.png";
-import lily3 from "../assets/product images/flower/flower_lily/lily3.png";
-import lily4 from "../assets/product images/flower/flower_lily/lily4.png";
+import lily1 from "../assets/product images/flower/flower_lily/lily1.webp";
+import lily2 from "../assets/product images/flower/flower_lily/lily2.webp";
+import lily3 from "../assets/product images/flower/flower_lily/lily3.webp";
+import lily4 from "../assets/product images/flower/flower_lily/lily4.webp";
 
 // ====================== Lotus ======================
-import lotus1 from "../assets/product images/flower/flower_lotus/lotus1.png";
-import lotus2 from "../assets/product images/flower/flower_lotus/lotus2.png";
-import lotus3 from "../assets/product images/flower/flower_lotus/lotus3.png";
-import lotus4 from "../assets/product images/flower/flower_lotus/lotus4.png";
+import lotus1 from "../assets/product images/flower/flower_lotus/lotus1.webp";
+import lotus2 from "../assets/product images/flower/flower_lotus/lotus2.webp";
+import lotus3 from "../assets/product images/flower/flower_lotus/lotus3.webp";
+import lotus4 from "../assets/product images/flower/flower_lotus/lotus4.webp";
 
 // ====================== Marigold ======================
-import marigold1 from "../assets/product images/flower/flower_marigold/marigold1.png";
-import marigold2 from "../assets/product images/flower/flower_marigold/marigold2.png";
-import marigold3 from "../assets/product images/flower/flower_marigold/marigold3.png";
-import marigold4 from "../assets/product images/flower/flower_marigold/marigold4.png";
+import marigold1 from "../assets/product images/flower/flower_marigold/marigold1.webp";
+import marigold2 from "../assets/product images/flower/flower_marigold/marigold2.webp";
+import marigold3 from "../assets/product images/flower/flower_marigold/marigold3.webp";
+import marigold4 from "../assets/product images/flower/flower_marigold/marigold4.webp";
 
 // ====================== Orchid ======================
-import orchid1 from "../assets/product images/flower/flower_orchid/orchid1.png";
-import orchid2 from "../assets/product images/flower/flower_orchid/orchid2.png";
-import orchid3 from "../assets/product images/flower/flower_orchid/orchid3.png";
-import orchid4 from "../assets/product images/flower/flower_orchid/orchid4.png";
+import orchid1 from "../assets/product images/flower/flower_orchid/orchid1.webp";
+import orchid2 from "../assets/product images/flower/flower_orchid/orchid2.webp";
+import orchid3 from "../assets/product images/flower/flower_orchid/orchid3.webp";
+import orchid4 from "../assets/product images/flower/flower_orchid/orchid4.webp";
 
 // ====================== Peony ======================
-import peony1 from "../assets/product images/flower/flower_peony/peony1.png";
-import peony2 from "../assets/product images/flower/flower_peony/peony2.png";
-import peony3 from "../assets/product images/flower/flower_peony/peony3.png";
-import peony4 from "../assets/product images/flower/flower_peony/peony4.png";
+import peony1 from "../assets/product images/flower/flower_peony/peony1.webp";
+import peony2 from "../assets/product images/flower/flower_peony/peony2.webp";
+import peony3 from "../assets/product images/flower/flower_peony/peony3.webp";
+import peony4 from "../assets/product images/flower/flower_peony/peony4.webp";
 
 // ====================== Rose ======================
-import rose1 from "../assets/product images/flower/flower_rose/rose1.png";
-import rose2 from "../assets/product images/flower/flower_rose/rose2.png";
-import rose3 from "../assets/product images/flower/flower_rose/rose3.png";
-import rose4 from "../assets/product images/flower/flower_rose/rose4.png";
+import rose1 from "../assets/product images/flower/flower_rose/rose1.webp";
+import rose2 from "../assets/product images/flower/flower_rose/rose2.webp";
+import rose3 from "../assets/product images/flower/flower_rose/rose3.webp";
+import rose4 from "../assets/product images/flower/flower_rose/rose4.webp";
 
 // ====================== Sunflower ======================
-import sunflower1 from "../assets/product images/flower/flower_sunflower/sunflower1.png";
-import sunflower2 from "../assets/product images/flower/flower_sunflower/sunflower2.png";
-import sunflower3 from "../assets/product images/flower/flower_sunflower/sunflower3.png";
-import sunflower4 from "../assets/product images/flower/flower_sunflower/sunflower4.png";
+import sunflower1 from "../assets/product images/flower/flower_sunflower/sunflower1.webp";
+import sunflower2 from "../assets/product images/flower/flower_sunflower/sunflower2.webp";
+import sunflower3 from "../assets/product images/flower/flower_sunflower/sunflower3.webp";
+import sunflower4 from "../assets/product images/flower/flower_sunflower/sunflower4.webp";
 
 // ====================== Tulip ======================
-import tulip1 from "../assets/product images/flower/flower_tulip/tulip1.png";
-import tulip2 from "../assets/product images/flower/flower_tulip/tulip2.png";
-import tulip3 from "../assets/product images/flower/flower_tulip/tulip3.png";
-import tulip4 from "../assets/product images/flower/flower_tulip/tulip4.png";
+import tulip1 from "../assets/product images/flower/flower_tulip/tulip1.webp";
+import tulip2 from "../assets/product images/flower/flower_tulip/tulip2.webp";
+import tulip3 from "../assets/product images/flower/flower_tulip/tulip3.webp";
+import tulip4 from "../assets/product images/flower/flower_tulip/tulip4.webp";
 
 // ====================== Daisy Bandana ======================
-import daisyBandana1 from "../assets/product images/hair bandana/daisy_bandana/daisy_bandana1.png";
-import daisyBandana2 from "../assets/product images/hair bandana/daisy_bandana/daisy_bandana2.png";
-import daisyBandana3 from "../assets/product images/hair bandana/daisy_bandana/daisy_bandana3.png";
-import daisyBandana4 from "../assets/product images/hair bandana/daisy_bandana/daisy_bandana4.png";
+import daisyBandana1 from "../assets/product images/hair bandana/daisy_bandana/daisy_bandana1.webp";
+import daisyBandana2 from "../assets/product images/hair bandana/daisy_bandana/daisy_bandana2.webp";
+import daisyBandana3 from "../assets/product images/hair bandana/daisy_bandana/daisy_bandana3.webp";
+import daisyBandana4 from "../assets/product images/hair bandana/daisy_bandana/daisy_bandana4.webp";
 
 // ====================== Green Pink Bandana ======================
-import greenPinkBandana1 from "../assets/product images/hair bandana/green_pink_bandana/green_pink_bandana1.png";
-import greenPinkBandana2 from "../assets/product images/hair bandana/green_pink_bandana/green_pink_bandana2.png";
-import greenPinkBandana3 from "../assets/product images/hair bandana/green_pink_bandana/green_pink_bandana3.png";
-import greenPinkBandana4 from "../assets/product images/hair bandana/green_pink_bandana/green_pink_bandana4.png";
+import greenPinkBandana1 from "../assets/product images/hair bandana/green_pink_bandana/green_pink_bandana1.webp";
+import greenPinkBandana2 from "../assets/product images/hair bandana/green_pink_bandana/green_pink_bandana2.webp";
+import greenPinkBandana3 from "../assets/product images/hair bandana/green_pink_bandana/green_pink_bandana3.webp";
+import greenPinkBandana4 from "../assets/product images/hair bandana/green_pink_bandana/green_pink_bandana4.webp";
 
 // ====================== Mix Bandana ======================
-import mixBandana1 from "../assets/product images/hair bandana/mix_bandana/mix_bandana1.png";
-import mixBandana2 from "../assets/product images/hair bandana/mix_bandana/mix_bandana2.png";
-import mixBandana3 from "../assets/product images/hair bandana/mix_bandana/mix_bandana3.png";
-import mixBandana4 from "../assets/product images/hair bandana/mix_bandana/mix_bandana4.png";
+import mixBandana1 from "../assets/product images/hair bandana/mix_bandana/mix_bandana1.webp";
+import mixBandana2 from "../assets/product images/hair bandana/mix_bandana/mix_bandana2.webp";
+import mixBandana3 from "../assets/product images/hair bandana/mix_bandana/mix_bandana3.webp";
+import mixBandana4 from "../assets/product images/hair bandana/mix_bandana/mix_bandana4.webp";
 
 // ====================== Purple Bandana ======================
-import purpleBandana1 from "../assets/product images/hair bandana/purple_bandana/purple_bandana1.png";
-import purpleBandana2 from "../assets/product images/hair bandana/purple_bandana/purple_bandana2.png";
-import purpleBandana3 from "../assets/product images/hair bandana/purple_bandana/purple_bandana3.png";
-import purpleBandana4 from "../assets/product images/hair bandana/purple_bandana/purple_bandana4.png";
+import purpleBandana1 from "../assets/product images/hair bandana/purple_bandana/purple_bandana1.webp";
+import purpleBandana2 from "../assets/product images/hair bandana/purple_bandana/purple_bandana2.webp";
+import purpleBandana3 from "../assets/product images/hair bandana/purple_bandana/purple_bandana3.webp";
+import purpleBandana4 from "../assets/product images/hair bandana/purple_bandana/purple_bandana4.webp";
 
 // ====================== Purple Green Bandana ======================
-import purpleGreenBandana1 from "../assets/product images/hair bandana/purple_green_bandana/purple_green_bandana1.png";
-import purpleGreenBandana2 from "../assets/product images/hair bandana/purple_green_bandana/purple_green_bandana2.png";
-import purpleGreenBandana3 from "../assets/product images/hair bandana/purple_green_bandana/purple_green_bandana3.png";
-import purpleGreenBandana4 from "../assets/product images/hair bandana/purple_green_bandana/purple_green_bandana4.png";
+import purpleGreenBandana1 from "../assets/product images/hair bandana/purple_green_bandana/purple_green_bandana1.webp";
+import purpleGreenBandana2 from "../assets/product images/hair bandana/purple_green_bandana/purple_green_bandana2.webp";
+import purpleGreenBandana3 from "../assets/product images/hair bandana/purple_green_bandana/purple_green_bandana3.webp";
+import purpleGreenBandana4 from "../assets/product images/hair bandana/purple_green_bandana/purple_green_bandana4.webp";
 
 // ====================== Red Bandana ======================
-import redBandana1 from "../assets/product images/hair bandana/red_bandana/red_bandana1.png";
-import redBandana2 from "../assets/product images/hair bandana/red_bandana/red_bandana2.png";
-import redBandana3 from "../assets/product images/hair bandana/red_bandana/red_bandana3.png";
-import redBandana4 from "../assets/product images/hair bandana/red_bandana/red_bandana4.png";
+import redBandana1 from "../assets/product images/hair bandana/red_bandana/red_bandana1.webp";
+import redBandana2 from "../assets/product images/hair bandana/red_bandana/red_bandana2.webp";
+import redBandana3 from "../assets/product images/hair bandana/red_bandana/red_bandana3.webp";
+import redBandana4 from "../assets/product images/hair bandana/red_bandana/red_bandana4.webp";
 
 // ====================== Orange Hair Bun ======================
-import orangeHairBun1 from "../assets/product images/hair bun/orange_hair_bun/orange_hair_bun1.png";
-import orangeHairBun2 from "../assets/product images/hair bun/orange_hair_bun/orange_hair_bun2.png";
-import orangeHairBun3 from "../assets/product images/hair bun/orange_hair_bun/orange_hair_bun3.png";
-import orangeHairBun4 from "../assets/product images/hair bun/orange_hair_bun/orange_hair_bun4.png";
+import orangeHairBun1 from "../assets/product images/hair bun/orange_hair_bun/orange_hair_bun1.webp";
+import orangeHairBun2 from "../assets/product images/hair bun/orange_hair_bun/orange_hair_bun2.webp";
+import orangeHairBun3 from "../assets/product images/hair bun/orange_hair_bun/orange_hair_bun3.webp";
+import orangeHairBun4 from "../assets/product images/hair bun/orange_hair_bun/orange_hair_bun4.webp";
 
 // ====================== Pink Hair Bun ======================
-import pinkHairBun1 from "../assets/product images/hair bun/pink_hair_bun/pink_hair_bun1.png";
-import pinkHairBun2 from "../assets/product images/hair bun/pink_hair_bun/pink_hair_bun2.png";
-import pinkHairBun3 from "../assets/product images/hair bun/pink_hair_bun/pink_hair_bun3.png";
-import pinkHairBun4 from "../assets/product images/hair bun/pink_hair_bun/pink_hair_bun4.png";
+import pinkHairBun1 from "../assets/product images/hair bun/pink_hair_bun/pink_hair_bun1.webp";
+import pinkHairBun2 from "../assets/product images/hair bun/pink_hair_bun/pink_hair_bun2.webp";
+import pinkHairBun3 from "../assets/product images/hair bun/pink_hair_bun/pink_hair_bun3.webp";
+import pinkHairBun4 from "../assets/product images/hair bun/pink_hair_bun/pink_hair_bun4.webp";
 
 // ====================== Purple Hair Bun ======================
-import purpleHairBun1 from "../assets/product images/hair bun/purple_hair_bun/purple_hair_bun1.png";
-import purpleHairBun2 from "../assets/product images/hair bun/purple_hair_bun/purple_hair_bun2.png";
-import purpleHairBun3 from "../assets/product images/hair bun/purple_hair_bun/purple_hair_bun3.png";
-import purpleHairBun4 from "../assets/product images/hair bun/purple_hair_bun/purple_hair_bun4.png";
+import purpleHairBun1 from "../assets/product images/hair bun/purple_hair_bun/purple_hair_bun1.webp";
+import purpleHairBun2 from "../assets/product images/hair bun/purple_hair_bun/purple_hair_bun2.webp";
+import purpleHairBun3 from "../assets/product images/hair bun/purple_hair_bun/purple_hair_bun3.webp";
+import purpleHairBun4 from "../assets/product images/hair bun/purple_hair_bun/purple_hair_bun4.webp";
 
 // ====================== Sunflower Hair Bun ======================
-import sunflowerHairBun1 from "../assets/product images/hair bun/sunflower_hair_bun/sunflower_hair_bun1.png";
-import sunflowerHairBun2 from "../assets/product images/hair bun/sunflower_hair_bun/sunflower_hair_bun2.png";
-import sunflowerHairBun3 from "../assets/product images/hair bun/sunflower_hair_bun/sunflower_hair_bun3.png";
-import sunflowerHairBun4 from "../assets/product images/hair bun/sunflower_hair_bun/sunflower_hair_bun4.png";
+import sunflowerHairBun1 from "../assets/product images/hair bun/sunflower_hair_bun/sunflower_hair_bun1.webp";
+import sunflowerHairBun2 from "../assets/product images/hair bun/sunflower_hair_bun/sunflower_hair_bun2.webp";
+import sunflowerHairBun3 from "../assets/product images/hair bun/sunflower_hair_bun/sunflower_hair_bun3.webp";
+import sunflowerHairBun4 from "../assets/product images/hair bun/sunflower_hair_bun/sunflower_hair_bun4.webp";
 
 // ====================== 3 Daisy Claw ======================
-import threeDaisyClaw1 from "../assets/product images/hair claw/3_daisy_claw/3_daisy_claw1.png";
-import threeDaisyClaw2 from "../assets/product images/hair claw/3_daisy_claw/3_daisy_claw2.png";
-import threeDaisyClaw3 from "../assets/product images/hair claw/3_daisy_claw/3_daisy_claw3.png";
-import threeDaisyClaw4 from "../assets/product images/hair claw/3_daisy_claw/3_daisy_claw4.png";
+import threeDaisyClaw1 from "../assets/product images/hair claw/3_daisy_claw/3_daisy_claw1.webp";
+import threeDaisyClaw2 from "../assets/product images/hair claw/3_daisy_claw/3_daisy_claw2.webp";
+import threeDaisyClaw3 from "../assets/product images/hair claw/3_daisy_claw/3_daisy_claw3.webp";
+import threeDaisyClaw4 from "../assets/product images/hair claw/3_daisy_claw/3_daisy_claw4.webp";
 
 // ====================== Daisy Claw ======================
-import daisyClaw1 from "../assets/product images/hair claw/daisy_claw/daisy_claw1.png";
-import daisyClaw2 from "../assets/product images/hair claw/daisy_claw/daisy_claw2.png";
-import daisyClaw3 from "../assets/product images/hair claw/daisy_claw/daisy_claw3.png";
-import daisyClaw4 from "../assets/product images/hair claw/daisy_claw/daisy_claw4.png";
+import daisyClaw1 from "../assets/product images/hair claw/daisy_claw/daisy_claw1.webp";
+import daisyClaw2 from "../assets/product images/hair claw/daisy_claw/daisy_claw2.webp";
+import daisyClaw3 from "../assets/product images/hair claw/daisy_claw/daisy_claw3.webp";
+import daisyClaw4 from "../assets/product images/hair claw/daisy_claw/daisy_claw4.webp";
 
 // ====================== Blue Bow Clip ======================
-import blueBowClip1 from "../assets/product images/hair clip/blue_bow_clip/blue_bow_clip1.png";
-import blueBowClip2 from "../assets/product images/hair clip/blue_bow_clip/blue_bow_clip2.png";
-import blueBowClip3 from "../assets/product images/hair clip/blue_bow_clip/blue_bow_clip3.png";
-import blueBowClip4 from "../assets/product images/hair clip/blue_bow_clip/blue_bow_clip4.png";
+import blueBowClip1 from "../assets/product images/hair clip/blue_bow_clip/blue_bow_clip1.webp";
+import blueBowClip2 from "../assets/product images/hair clip/blue_bow_clip/blue_bow_clip2.webp";
+import blueBowClip3 from "../assets/product images/hair clip/blue_bow_clip/blue_bow_clip3.webp";
+import blueBowClip4 from "../assets/product images/hair clip/blue_bow_clip/blue_bow_clip4.webp";
 
 // ====================== Butterfly Clip ======================
-import butterflyClip1 from "../assets/product images/hair clip/butterfly_clip/butterfly_clip1.png";
-import butterflyClip2 from "../assets/product images/hair clip/butterfly_clip/butterfly_clip2.png";
-import butterflyClip3 from "../assets/product images/hair clip/butterfly_clip/butterfly_clip3.png";
-import butterflyClip4 from "../assets/product images/hair clip/butterfly_clip/butterfly_clip4.png";
+import butterflyClip1 from "../assets/product images/hair clip/butterfly_clip/butterfly_clip1.webp";
+import butterflyClip2 from "../assets/product images/hair clip/butterfly_clip/butterfly_clip2.webp";
+import butterflyClip3 from "../assets/product images/hair clip/butterfly_clip/butterfly_clip3.webp";
+import butterflyClip4 from "../assets/product images/hair clip/butterfly_clip/butterfly_clip4.webp";
 
 // ====================== Daisy Hair Clip ======================
-import daisyHairClip1 from "../assets/product images/hair clip/daisy_hair_clip/daisy_hair_clip1.png";
-import daisyHairClip2 from "../assets/product images/hair clip/daisy_hair_clip/daisy_hair_clip2.png";
-import daisyHairClip3 from "../assets/product images/hair clip/daisy_hair_clip/daisy_hair_clip3.png";
-import daisyHairClip4 from "../assets/product images/hair clip/daisy_hair_clip/daisy_hair_clip4.png";
+import daisyHairClip1 from "../assets/product images/hair clip/daisy_hair_clip/daisy_hair_clip1.webp";
+import daisyHairClip2 from "../assets/product images/hair clip/daisy_hair_clip/daisy_hair_clip2.webp";
+import daisyHairClip3 from "../assets/product images/hair clip/daisy_hair_clip/daisy_hair_clip3.webp";
+import daisyHairClip4 from "../assets/product images/hair clip/daisy_hair_clip/daisy_hair_clip4.webp";
 
 // ====================== Mix Rose Hair Clip ======================
-import mixRoseHairClip1 from "../assets/product images/hair clip/mix_rose_hair_clip/mix_rose_hair_clip1.png";
-import mixRoseHairClip2 from "../assets/product images/hair clip/mix_rose_hair_clip/mix_rose_hair_clip2.png";
-import mixRoseHairClip3 from "../assets/product images/hair clip/mix_rose_hair_clip/mix_rose_hair_clip3.png";
-import mixRoseHairClip4 from "../assets/product images/hair clip/mix_rose_hair_clip/mix_rose_hair_clip4.png";
+import mixRoseHairClip1 from "../assets/product images/hair clip/mix_rose_hair_clip/mix_rose_hair_clip1.webp";
+import mixRoseHairClip2 from "../assets/product images/hair clip/mix_rose_hair_clip/mix_rose_hair_clip2.webp";
+import mixRoseHairClip3 from "../assets/product images/hair clip/mix_rose_hair_clip/mix_rose_hair_clip3.webp";
+import mixRoseHairClip4 from "../assets/product images/hair clip/mix_rose_hair_clip/mix_rose_hair_clip4.webp";
 
 // ====================== Pink Bow Clip ======================
-import pinkBowClip1 from "../assets/product images/hair clip/pink_bow_clip/pink_bow_clip1.png";
-import pinkBowClip2 from "../assets/product images/hair clip/pink_bow_clip/pink_bow_clip2.png";
-import pinkBowClip3 from "../assets/product images/hair clip/pink_bow_clip/pink_bow_clip3.png";
-import pinkBowClip4 from "../assets/product images/hair clip/pink_bow_clip/pink_bow_clip4.png";
+import pinkBowClip1 from "../assets/product images/hair clip/pink_bow_clip/pink_bow_clip1.webp";
+import pinkBowClip2 from "../assets/product images/hair clip/pink_bow_clip/pink_bow_clip2.webp";
+import pinkBowClip3 from "../assets/product images/hair clip/pink_bow_clip/pink_bow_clip3.webp";
+import pinkBowClip4 from "../assets/product images/hair clip/pink_bow_clip/pink_bow_clip4.webp";
 
 // ====================== Pink Rose Hair Clip ======================
-import pinkRoseHairClip1 from "../assets/product images/hair clip/pink_rose_hair_clip/pink_rose_hair_clip1.png";
-import pinkRoseHairClip2 from "../assets/product images/hair clip/pink_rose_hair_clip/pink_rose_hair_clip2.png";
-import pinkRoseHairClip3 from "../assets/product images/hair clip/pink_rose_hair_clip/pink_rose_hair_clip3.png";
-import pinkRoseHairClip4 from "../assets/product images/hair clip/pink_rose_hair_clip/pink_rose_hair_clip4.png";
+import pinkRoseHairClip1 from "../assets/product images/hair clip/pink_rose_hair_clip/pink_rose_hair_clip1.webp";
+import pinkRoseHairClip2 from "../assets/product images/hair clip/pink_rose_hair_clip/pink_rose_hair_clip2.webp";
+import pinkRoseHairClip3 from "../assets/product images/hair clip/pink_rose_hair_clip/pink_rose_hair_clip3.webp";
+import pinkRoseHairClip4 from "../assets/product images/hair clip/pink_rose_hair_clip/pink_rose_hair_clip4.webp";
 
 // ====================== Red Rose Hair Clip ======================
-import redRoseHairClip1 from "../assets/product images/hair clip/red_rose_hair_clip/red_rose_hair_clip1.png";
-import redRoseHairClip2 from "../assets/product images/hair clip/red_rose_hair_clip/red_rose_hair_clip2.png";
-import redRoseHairClip3 from "../assets/product images/hair clip/red_rose_hair_clip/red_rose_hair_clip3.png";
-import redRoseHairClip4 from "../assets/product images/hair clip/red_rose_hair_clip/red_rose_hair_clip4.png";
+import redRoseHairClip1 from "../assets/product images/hair clip/red_rose_hair_clip/red_rose_hair_clip1.webp";
+import redRoseHairClip2 from "../assets/product images/hair clip/red_rose_hair_clip/red_rose_hair_clip2.webp";
+import redRoseHairClip3 from "../assets/product images/hair clip/red_rose_hair_clip/red_rose_hair_clip3.webp";
+import redRoseHairClip4 from "../assets/product images/hair clip/red_rose_hair_clip/red_rose_hair_clip4.webp";
 
 // ====================== Sunflower Hair Clip ======================
-import sunflowerHairClip1 from "../assets/product images/hair clip/sunflower_hair_clip/sunflower_hair_clip1.png";
-import sunflowerHairClip2 from "../assets/product images/hair clip/sunflower_hair_clip/sunflower_hair_clip2.png";
-import sunflowerHairClip3 from "../assets/product images/hair clip/sunflower_hair_clip/sunflower_hair_clip3.png";
-import sunflowerHairClip4 from "../assets/product images/hair clip/sunflower_hair_clip/sunflower_hair_clip4.png";
+import sunflowerHairClip1 from "../assets/product images/hair clip/sunflower_hair_clip/sunflower_hair_clip1.webp";
+import sunflowerHairClip2 from "../assets/product images/hair clip/sunflower_hair_clip/sunflower_hair_clip2.webp";
+import sunflowerHairClip3 from "../assets/product images/hair clip/sunflower_hair_clip/sunflower_hair_clip3.webp";
+import sunflowerHairClip4 from "../assets/product images/hair clip/sunflower_hair_clip/sunflower_hair_clip4.webp";
 
 // ====================== White Bow Clip ======================
-import whiteBowClip1 from "../assets/product images/hair clip/white_bow_clip/white_bow_clip1.png";
-import whiteBowClip2 from "../assets/product images/hair clip/white_bow_clip/white_bow_clip2.png";
-import whiteBowClip3 from "../assets/product images/hair clip/white_bow_clip/white_bow_clip3.png";
-import whiteBowClip4 from "../assets/product images/hair clip/white_bow_clip/white_bow_clip4.png";
+import whiteBowClip1 from "../assets/product images/hair clip/white_bow_clip/white_bow_clip1.webp";
+import whiteBowClip2 from "../assets/product images/hair clip/white_bow_clip/white_bow_clip2.webp";
+import whiteBowClip3 from "../assets/product images/hair clip/white_bow_clip/white_bow_clip3.webp";
+import whiteBowClip4 from "../assets/product images/hair clip/white_bow_clip/white_bow_clip4.webp";
 
 // ====================== White Pink Bow Clip ======================
-import whitePinkBowClip1 from "../assets/product images/hair clip/white_pink_bow_clip/white_pink_bow_clip1.png";
-import whitePinkBowClip2 from "../assets/product images/hair clip/white_pink_bow_clip/white_pink_bow_clip2.png";
-import whitePinkBowClip3 from "../assets/product images/hair clip/white_pink_bow_clip/white_pink_bow_clip3.png";
-import whitePinkBowClip4 from "../assets/product images/hair clip/white_pink_bow_clip/white_pink_bow_clip4.png";
+import whitePinkBowClip1 from "../assets/product images/hair clip/white_pink_bow_clip/white_pink_bow_clip1.webp";
+import whitePinkBowClip2 from "../assets/product images/hair clip/white_pink_bow_clip/white_pink_bow_clip2.webp";
+import whitePinkBowClip3 from "../assets/product images/hair clip/white_pink_bow_clip/white_pink_bow_clip3.webp";
+import whitePinkBowClip4 from "../assets/product images/hair clip/white_pink_bow_clip/white_pink_bow_clip4.webp";
 
 // ====================== Pink Tulip Hair Tie ======================
-import pinkTulipHairTie1 from "../assets/product images/hair tie/pink_tulip_hair_tie/pink_tulip_hair_tie1.png";
-import pinkTulipHairTie2 from "../assets/product images/hair tie/pink_tulip_hair_tie/pink_tulip_hair_tie2.png";
-import pinkTulipHairTie3 from "../assets/product images/hair tie/pink_tulip_hair_tie/pink_tulip_hair_tie3.png";
-import pinkTulipHairTie4 from "../assets/product images/hair tie/pink_tulip_hair_tie/pink_tulip_hair_tie4.png";
+import pinkTulipHairTie1 from "../assets/product images/hair tie/pink_tulip_hair_tie/pink_tulip_hair_tie1.webp";
+import pinkTulipHairTie2 from "../assets/product images/hair tie/pink_tulip_hair_tie/pink_tulip_hair_tie2.webp";
+import pinkTulipHairTie3 from "../assets/product images/hair tie/pink_tulip_hair_tie/pink_tulip_hair_tie3.webp";
+import pinkTulipHairTie4 from "../assets/product images/hair tie/pink_tulip_hair_tie/pink_tulip_hair_tie4.webp";
 
 // ====================== Purple Tulip Hair Tie ======================
-import purpleTulipHairTie1 from "../assets/product images/hair tie/purple_tulip_hair_tie/purple_tulip_hair_tie1.png";
-import purpleTulipHairTie2 from "../assets/product images/hair tie/purple_tulip_hair_tie/purple_tulip_hair_tie2.png";
-import purpleTulipHairTie3 from "../assets/product images/hair tie/purple_tulip_hair_tie/purple_tulip_hair_tie3.png";
-import purpleTulipHairTie4 from "../assets/product images/hair tie/purple_tulip_hair_tie/purple_tulip_hair_tie4.png";
+import purpleTulipHairTie1 from "../assets/product images/hair tie/purple_tulip_hair_tie/purple_tulip_hair_tie1.webp";
+import purpleTulipHairTie2 from "../assets/product images/hair tie/purple_tulip_hair_tie/purple_tulip_hair_tie2.webp";
+import purpleTulipHairTie3 from "../assets/product images/hair tie/purple_tulip_hair_tie/purple_tulip_hair_tie3.webp";
+import purpleTulipHairTie4 from "../assets/product images/hair tie/purple_tulip_hair_tie/purple_tulip_hair_tie4.webp";
 
 // ====================== Yellow Tulip Hair Tie ======================
-import yellowTulipHairTie1 from "../assets/product images/hair tie/yellow_tulip_hair_tie/yellow_tulip_hair_tie1.png";
-import yellowTulipHairTie2 from "../assets/product images/hair tie/yellow_tulip_hair_tie/yellow_tulip_hair_tie2.png";
-import yellowTulipHairTie3 from "../assets/product images/hair tie/yellow_tulip_hair_tie/yellow_tulip_hair_tie3.png";
-import yellowTulipHairTie4 from "../assets/product images/hair tie/yellow_tulip_hair_tie/yellow_tulip_hair_tie4.png";
+import yellowTulipHairTie1 from "../assets/product images/hair tie/yellow_tulip_hair_tie/yellow_tulip_hair_tie1.webp";
+import yellowTulipHairTie2 from "../assets/product images/hair tie/yellow_tulip_hair_tie/yellow_tulip_hair_tie2.webp";
+import yellowTulipHairTie3 from "../assets/product images/hair tie/yellow_tulip_hair_tie/yellow_tulip_hair_tie3.webp";
+import yellowTulipHairTie4 from "../assets/product images/hair tie/yellow_tulip_hair_tie/yellow_tulip_hair_tie4.webp";
 
 // ====================== Blue Hairband ======================
-import blueHairband1 from "../assets/product images/hairband/blue_hairband/blue_hairband1.png";
-import blueHairband2 from "../assets/product images/hairband/blue_hairband/blue_hairband2.png";
-import blueHairband3 from "../assets/product images/hairband/blue_hairband/blue_hairband3.png";
-import blueHairband4 from "../assets/product images/hairband/blue_hairband/blue_hairband4.png";
+import blueHairband1 from "../assets/product images/hairband/blue_hairband/blue_hairband1.webp";
+import blueHairband2 from "../assets/product images/hairband/blue_hairband/blue_hairband2.webp";
+import blueHairband3 from "../assets/product images/hairband/blue_hairband/blue_hairband3.webp";
+import blueHairband4 from "../assets/product images/hairband/blue_hairband/blue_hairband4.webp";
 
 // ====================== Pink Hairband ======================
-import pinkHairband1 from "../assets/product images/hairband/pink_hairband/pink_hairband1.png";
-import pinkHairband2 from "../assets/product images/hairband/pink_hairband/pink_hairband2.png";
-import pinkHairband3 from "../assets/product images/hairband/pink_hairband/pink_hairband3.png";
-import pinkHairband4 from "../assets/product images/hairband/pink_hairband/pink_hairband4.png";
+import pinkHairband1 from "../assets/product images/hairband/pink_hairband/pink_hairband1.webp";
+import pinkHairband2 from "../assets/product images/hairband/pink_hairband/pink_hairband2.webp";
+import pinkHairband3 from "../assets/product images/hairband/pink_hairband/pink_hairband3.webp";
+import pinkHairband4 from "../assets/product images/hairband/pink_hairband/pink_hairband4.webp";
 
 // ====================== Plain Pink Hairband ======================
-import plainPinkHairband1 from "../assets/product images/hairband/plain_pink_hairband/plain_pink_hairband1.png";
-import plainPinkHairband2 from "../assets/product images/hairband/plain_pink_hairband/plain_pink_hairband2.png";
-import plainPinkHairband3 from "../assets/product images/hairband/plain_pink_hairband/plain_pink_hairband3.png";
-import plainPinkHairband4 from "../assets/product images/hairband/plain_pink_hairband/plain_pink_hairband4.png";
+import plainPinkHairband1 from "../assets/product images/hairband/plain_pink_hairband/plain_pink_hairband1.webp";
+import plainPinkHairband2 from "../assets/product images/hairband/plain_pink_hairband/plain_pink_hairband2.webp";
+import plainPinkHairband3 from "../assets/product images/hairband/plain_pink_hairband/plain_pink_hairband3.webp";
+import plainPinkHairband4 from "../assets/product images/hairband/plain_pink_hairband/plain_pink_hairband4.webp";
 
 // ====================== Purple Hairband ======================
-import purpleHairband1 from "../assets/product images/hairband/purple_hairband/purple_hairband1.png";
-import purpleHairband2 from "../assets/product images/hairband/purple_hairband/purple_hairband2.png";
-import purpleHairband3 from "../assets/product images/hairband/purple_hairband/purple_hairband3.png";
-import purpleHairband4 from "../assets/product images/hairband/purple_hairband/purple_hairband4.png";
+import purpleHairband1 from "../assets/product images/hairband/purple_hairband/purple_hairband1.webp";
+import purpleHairband2 from "../assets/product images/hairband/purple_hairband/purple_hairband2.webp";
+import purpleHairband3 from "../assets/product images/hairband/purple_hairband/purple_hairband3.webp";
+import purpleHairband4 from "../assets/product images/hairband/purple_hairband/purple_hairband4.webp";
 
 // ====================== Yellow Hairband ======================
-import yellowHairband1 from "../assets/product images/hairband/yellow_hairband/yellow_hairband1.png";
-import yellowHairband2 from "../assets/product images/hairband/yellow_hairband/yellow_hairband2.png";
-import yellowHairband3 from "../assets/product images/hairband/yellow_hairband/yellow_hairband3.png";
-import yellowHairband4 from "../assets/product images/hairband/yellow_hairband/yellow_hairband4.png";
+import yellowHairband1 from "../assets/product images/hairband/yellow_hairband/yellow_hairband1.webp";
+import yellowHairband2 from "../assets/product images/hairband/yellow_hairband/yellow_hairband2.webp";
+import yellowHairband3 from "../assets/product images/hairband/yellow_hairband/yellow_hairband3.webp";
+import yellowHairband4 from "../assets/product images/hairband/yellow_hairband/yellow_hairband4.webp";
 
 // ====================== Daisy Headband ======================
-import daisyHeadband1 from "../assets/product images/headband/daisy_headband/daisy_headband1.png";
-import daisyHeadband2 from "../assets/product images/headband/daisy_headband/daisy_headband2.png";
-import daisyHeadband3 from "../assets/product images/headband/daisy_headband/daisy_headband3.png";
-import daisyHeadband4 from "../assets/product images/headband/daisy_headband/daisy_headband4.png";
+import daisyHeadband1 from "../assets/product images/headband/daisy_headband/daisy_headband1.webp";
+import daisyHeadband2 from "../assets/product images/headband/daisy_headband/daisy_headband2.webp";
+import daisyHeadband3 from "../assets/product images/headband/daisy_headband/daisy_headband3.webp";
+import daisyHeadband4 from "../assets/product images/headband/daisy_headband/daisy_headband4.webp";
 
 // ====================== Plain Pink Headband ======================
-import plainPinkHeadband1 from "../assets/product images/headband/plain_pink_headband/pink_plain_headband1.png";
-import plainPinkHeadband2 from "../assets/product images/headband/plain_pink_headband/pink_plain_headband2.png";
-import plainPinkHeadband3 from "../assets/product images/headband/plain_pink_headband/pink_plain_headband3.png";
-import plainPinkHeadband4 from "../assets/product images/headband/plain_pink_headband/pink_plain_headband4.png";
+import plainPinkHeadband1 from "../assets/product images/headband/plain_pink_headband/pink_plain_headband1.webp";
+import plainPinkHeadband2 from "../assets/product images/headband/plain_pink_headband/pink_plain_headband2.webp";
+import plainPinkHeadband3 from "../assets/product images/headband/plain_pink_headband/pink_plain_headband3.webp";
+import plainPinkHeadband4 from "../assets/product images/headband/plain_pink_headband/pink_plain_headband4.webp";
 
 // ====================== Red Plain Headband ======================
-import redPlainHeadband1 from "../assets/product images/headband/red_plain_headband/red_plain_headband1.png";
-import redPlainHeadband2 from "../assets/product images/headband/red_plain_headband/red_plain_headband2.png";
-import redPlainHeadband3 from "../assets/product images/headband/red_plain_headband/red_plain_headband3.png";
-import redPlainHeadband4 from "../assets/product images/headband/red_plain_headband/red_plain_headband4.png";
+import redPlainHeadband1 from "../assets/product images/headband/red_plain_headband/red_plain_headband1.webp";
+import redPlainHeadband2 from "../assets/product images/headband/red_plain_headband/red_plain_headband2.webp";
+import redPlainHeadband3 from "../assets/product images/headband/red_plain_headband/red_plain_headband3.webp";
+import redPlainHeadband4 from "../assets/product images/headband/red_plain_headband/red_plain_headband4.webp";
 
 // ====================== Sunflower Headband ======================
-import sunflowerHeadband1 from "../assets/product images/headband/sunflower_headband/sunflower_headband1.png";
-import sunflowerHeadband2 from "../assets/product images/headband/sunflower_headband/sunflower_headband2.png";
-import sunflowerHeadband3 from "../assets/product images/headband/sunflower_headband/sunflower_headband3.png";
-import sunflowerHeadband4 from "../assets/product images/headband/sunflower_headband/sunflower_headband4.png";
+import sunflowerHeadband1 from "../assets/product images/headband/sunflower_headband/sunflower_headband1.webp";
+import sunflowerHeadband2 from "../assets/product images/headband/sunflower_headband/sunflower_headband2.webp";
+import sunflowerHeadband3 from "../assets/product images/headband/sunflower_headband/sunflower_headband3.webp";
+import sunflowerHeadband4 from "../assets/product images/headband/sunflower_headband/sunflower_headband4.webp";
 
 // ====================== Bouquet Keychain ======================
-import bouquetKeychain1 from "../assets/product images/keychain/bouquet_keychain/bouquet_keychain1.png";
-import bouquetKeychain2 from "../assets/product images/keychain/bouquet_keychain/bouquet_keychain2.png";
-import bouquetKeychain3 from "../assets/product images/keychain/bouquet_keychain/bouquet_keychain3.png";
-import bouquetKeychain4 from "../assets/product images/keychain/bouquet_keychain/bouquet_keychain4.png";
+import bouquetKeychain1 from "../assets/product images/keychain/bouquet_keychain/bouquet_keychain1.webp";
+import bouquetKeychain2 from "../assets/product images/keychain/bouquet_keychain/bouquet_keychain2.webp";
+import bouquetKeychain3 from "../assets/product images/keychain/bouquet_keychain/bouquet_keychain3.webp";
+import bouquetKeychain4 from "../assets/product images/keychain/bouquet_keychain/bouquet_keychain4.webp";
 
 // ====================== Bow Keychain ======================
-import bowKeychain1 from "../assets/product images/keychain/bow_keychain/bow_keychain1.png";
-import bowKeychain2 from "../assets/product images/keychain/bow_keychain/bow_keychain2.png";
-import bowKeychain3 from "../assets/product images/keychain/bow_keychain/bow_keychain3.png";
-import bowKeychain4 from "../assets/product images/keychain/bow_keychain/bow_keychain4.png";
+import bowKeychain1 from "../assets/product images/keychain/bow_keychain/bow_keychain1.webp";
+import bowKeychain2 from "../assets/product images/keychain/bow_keychain/bow_keychain2.webp";
+import bowKeychain3 from "../assets/product images/keychain/bow_keychain/bow_keychain3.webp";
+import bowKeychain4 from "../assets/product images/keychain/bow_keychain/bow_keychain4.webp";
 
 // ====================== Brown Teddy Keychain ======================
-import brownTeddyKeychain1 from "../assets/product images/keychain/brown_teddy_keychain/teddy_keychainq.png";
-import brownTeddyKeychain2 from "../assets/product images/keychain/brown_teddy_keychain/teddy_keychain2.png";
-import brownTeddyKeychain3 from "../assets/product images/keychain/brown_teddy_keychain/teddy_keychain3.png";
-import brownTeddyKeychain4 from "../assets/product images/keychain/brown_teddy_keychain/teddy_keychain4.png";
+import brownTeddyKeychain1 from "../assets/product images/keychain/brown_teddy_keychain/teddy_keychainq.webp";
+import brownTeddyKeychain2 from "../assets/product images/keychain/brown_teddy_keychain/teddy_keychain2.webp";
+import brownTeddyKeychain3 from "../assets/product images/keychain/brown_teddy_keychain/teddy_keychain3.webp";
+import brownTeddyKeychain4 from "../assets/product images/keychain/brown_teddy_keychain/teddy_keychain4.webp";
 
 // ====================== Daisy Keychain ======================
-import daisyKeychain1 from "../assets/product images/keychain/daisy_keychain/daisy_keychain1.png";
-import daisyKeychain2 from "../assets/product images/keychain/daisy_keychain/daisy_keychain2.png";
-import daisyKeychain3 from "../assets/product images/keychain/daisy_keychain/daisy_keychain3.png";
-import daisyKeychain4 from "../assets/product images/keychain/daisy_keychain/daisy_keychain4.png";
+import daisyKeychain1 from "../assets/product images/keychain/daisy_keychain/daisy_keychain1.webp";
+import daisyKeychain2 from "../assets/product images/keychain/daisy_keychain/daisy_keychain2.webp";
+import daisyKeychain3 from "../assets/product images/keychain/daisy_keychain/daisy_keychain3.webp";
+import daisyKeychain4 from "../assets/product images/keychain/daisy_keychain/daisy_keychain4.webp";
 
 // ====================== Evil Eye Keychain ======================
-import evilEyeKeychain1 from "../assets/product images/keychain/evil_eye_keychain/evil_eye_keychain1.png";
-import evilEyeKeychain2 from "../assets/product images/keychain/evil_eye_keychain/evil_eye_keychain2.png";
-import evilEyeKeychain3 from "../assets/product images/keychain/evil_eye_keychain/evil_eye_keychain3.png";
-import evilEyeKeychain4 from "../assets/product images/keychain/evil_eye_keychain/evil_eye_keychain4.png";
+import evilEyeKeychain1 from "../assets/product images/keychain/evil_eye_keychain/evil_eye_keychain1.webp";
+import evilEyeKeychain2 from "../assets/product images/keychain/evil_eye_keychain/evil_eye_keychain2.webp";
+import evilEyeKeychain3 from "../assets/product images/keychain/evil_eye_keychain/evil_eye_keychain3.webp";
+import evilEyeKeychain4 from "../assets/product images/keychain/evil_eye_keychain/evil_eye_keychain4.webp";
 
 // ====================== Pink Teddy Keychain ======================
-import pinkTeddyKeychain1 from "../assets/product images/keychain/pink_teddy_keychain/pink_teddy_keychain1.png";
-import pinkTeddyKeychain2 from "../assets/product images/keychain/pink_teddy_keychain/pink_teddy_keychain2.png";
-import pinkTeddyKeychain3 from "../assets/product images/keychain/pink_teddy_keychain/pink_teddy_keychain3.png";
-import pinkTeddyKeychain4 from "../assets/product images/keychain/pink_teddy_keychain/pink_teddy_keychain4.png";
+import pinkTeddyKeychain1 from "../assets/product images/keychain/pink_teddy_keychain/pink_teddy_keychain1.webp";
+import pinkTeddyKeychain2 from "../assets/product images/keychain/pink_teddy_keychain/pink_teddy_keychain2.webp";
+import pinkTeddyKeychain3 from "../assets/product images/keychain/pink_teddy_keychain/pink_teddy_keychain3.webp";
+import pinkTeddyKeychain4 from "../assets/product images/keychain/pink_teddy_keychain/pink_teddy_keychain4.webp";
 
 // ====================== Rose Keychain ======================
-import roseKeychain1 from "../assets/product images/keychain/rose_keychain/rose_keychain1.png";
-import roseKeychain2 from "../assets/product images/keychain/rose_keychain/rose_keychain2.png";
-import roseKeychain3 from "../assets/product images/keychain/rose_keychain/rose_keychain3.png";
-import roseKeychain4 from "../assets/product images/keychain/rose_keychain/rose_keychain4.png";
+import roseKeychain1 from "../assets/product images/keychain/rose_keychain/rose_keychain1.webp";
+import roseKeychain2 from "../assets/product images/keychain/rose_keychain/rose_keychain2.webp";
+import roseKeychain3 from "../assets/product images/keychain/rose_keychain/rose_keychain3.webp";
+import roseKeychain4 from "../assets/product images/keychain/rose_keychain/rose_keychain4.webp";
 
 // ====================== Sunflower Keychain ======================
-import sunflowerKeychain1 from "../assets/product images/keychain/sunflower_keychain/sunflower_keychain1.png";
-import sunflowerKeychain2 from "../assets/product images/keychain/sunflower_keychain/sunflower_keychain2.png";
-import sunflowerKeychain3 from "../assets/product images/keychain/sunflower_keychain/sunflower_keychain3.png";
-import sunflowerKeychain4 from "../assets/product images/keychain/sunflower_keychain/sunflower_keychain4.png";
+import sunflowerKeychain1 from "../assets/product images/keychain/sunflower_keychain/sunflower_keychain1.webp";
+import sunflowerKeychain2 from "../assets/product images/keychain/sunflower_keychain/sunflower_keychain2.webp";
+import sunflowerKeychain3 from "../assets/product images/keychain/sunflower_keychain/sunflower_keychain3.webp";
+import sunflowerKeychain4 from "../assets/product images/keychain/sunflower_keychain/sunflower_keychain4.webp";
 
 // ====================== Swiss Roll Keychain ======================
-import swissRollKeychain1 from "../assets/product images/keychain/swissroll_keychain/swissRoll_keychain1.png";
-import swissRollKeychain2 from "../assets/product images/keychain/swissroll_keychain/swissRoll_keychain2.png";
-import swissRollKeychain3 from "../assets/product images/keychain/swissroll_keychain/swissRoll_keychain3.png";
-import swissRollKeychain4 from "../assets/product images/keychain/swissroll_keychain/swissRoll_keychain4.png";
+import swissRollKeychain1 from "../assets/product images/keychain/swissroll_keychain/swissRoll_keychain1.webp";
+import swissRollKeychain2 from "../assets/product images/keychain/swissroll_keychain/swissRoll_keychain2.webp";
+import swissRollKeychain3 from "../assets/product images/keychain/swissroll_keychain/swissRoll_keychain3.webp";
+import swissRollKeychain4 from "../assets/product images/keychain/swissroll_keychain/swissRoll_keychain4.webp";
 
 // ====================== Pink Paranda ======================
-import pinkParanda1 from "../assets/product images/pranda/paranda_pink/pinkparanda1.png";
-import pinkParanda2 from "../assets/product images/pranda/paranda_pink/pinkparanda2.png";
-import pinkParanda3 from "../assets/product images/pranda/paranda_pink/pinkparanda3.png";
-import pinkParanda4 from "../assets/product images/pranda/paranda_pink/pinkparanda4.png";
+import pinkParanda1 from "../assets/product images/pranda/paranda_pink/pinkparanda1.webp";
+import pinkParanda2 from "../assets/product images/pranda/paranda_pink/pinkparanda2.webp";
+import pinkParanda3 from "../assets/product images/pranda/paranda_pink/pinkparanda3.webp";
+import pinkParanda4 from "../assets/product images/pranda/paranda_pink/pinkparanda4.webp";
 
 // ====================== Purple Paranda ======================
-import purpleParanda1 from "../assets/product images/pranda/paranda_purple/purpleparanda1.png";
-import purpleParanda2 from "../assets/product images/pranda/paranda_purple/purpleparanda2.png";
-import purpleParanda3 from "../assets/product images/pranda/paranda_purple/purpleparanda3.png";
-import purpleParanda4 from "../assets/product images/pranda/paranda_purple/purpleparanda4.png";
+import purpleParanda1 from "../assets/product images/pranda/paranda_purple/purpleparanda1.webp";
+import purpleParanda2 from "../assets/product images/pranda/paranda_purple/purpleparanda2.webp";
+import purpleParanda3 from "../assets/product images/pranda/paranda_purple/purpleparanda3.webp";
+import purpleParanda4 from "../assets/product images/pranda/paranda_purple/purpleparanda4.webp";
 
 // ====================== Red Paranda ======================
-import redParanda1 from "../assets/product images/pranda/paranda_red/roseparanda1.png";
-import redParanda2 from "../assets/product images/pranda/paranda_red/roseparanda2.png";
-import redParanda3 from "../assets/product images/pranda/paranda_red/roseparanda3.png";
-import redParanda4 from "../assets/product images/pranda/paranda_red/roseparanda4.png";
+import redParanda1 from "../assets/product images/pranda/paranda_red/roseparanda1.webp";
+import redParanda2 from "../assets/product images/pranda/paranda_red/roseparanda2.webp";
+import redParanda3 from "../assets/product images/pranda/paranda_red/roseparanda3.webp";
+import redParanda4 from "../assets/product images/pranda/paranda_red/roseparanda4.webp";
 
 // ====================== Sunflower Paranda ======================
-import sunflowerParanda1 from "../assets/product images/pranda/pranda_sunflower/sunflowerparanda1.png";
-import sunflowerParanda2 from "../assets/product images/pranda/pranda_sunflower/sunflowerparanda2.png";
-import sunflowerParanda3 from "../assets/product images/pranda/pranda_sunflower/sunflowerparanda3.png";
-import sunflowerParanda4 from "../assets/product images/pranda/pranda_sunflower/sunflowerparanda4.png";
+import sunflowerParanda1 from "../assets/product images/pranda/pranda_sunflower/sunflowerparanda1.webp";
+import sunflowerParanda2 from "../assets/product images/pranda/pranda_sunflower/sunflowerparanda2.webp";
+import sunflowerParanda3 from "../assets/product images/pranda/pranda_sunflower/sunflowerparanda3.webp";
+import sunflowerParanda4 from "../assets/product images/pranda/pranda_sunflower/sunflowerparanda4.webp";
 
 // ====================== Tulip Paranda ======================
-import tulipParanda1 from "../assets/product images/pranda/pranda_tulip/tulipParanda1.png";
-import tulipParanda2 from "../assets/product images/pranda/pranda_tulip/tulipparanda2.png";
-import tulipParanda3 from "../assets/product images/pranda/pranda_tulip/tulipparanda3.png.png";
-import tulipParanda4 from "../assets/product images/pranda/pranda_tulip/tulipparanda4.png.png";
+import tulipParanda1 from "../assets/product images/pranda/pranda_tulip/tulipParanda1.webp";
+import tulipParanda2 from "../assets/product images/pranda/pranda_tulip/tulipparanda2.webp";
+import tulipParanda3 from "../assets/product images/pranda/pranda_tulip/tulipparanda3.png.webp";
+import tulipParanda4 from "../assets/product images/pranda/pranda_tulip/tulipparanda4.png.webp";
 
 // ====================== Pink Scrunchie ======================
-import pinkScrunchie1 from "../assets/product images/scrunchie/pink_scrunchie/pink_scrunchie1.png";
-import pinkScrunchie2 from "../assets/product images/scrunchie/pink_scrunchie/pink_scrunchie2.png";
-import pinkScrunchie3 from "../assets/product images/scrunchie/pink_scrunchie/pink_scrunchie3.png";
-import pinkScrunchie4 from "../assets/product images/scrunchie/pink_scrunchie/pink_scrunchie4.png";
+import pinkScrunchie1 from "../assets/product images/scrunchie/pink_scrunchie/pink_scrunchie1.webp";
+import pinkScrunchie2 from "../assets/product images/scrunchie/pink_scrunchie/pink_scrunchie2.webp";
+import pinkScrunchie3 from "../assets/product images/scrunchie/pink_scrunchie/pink_scrunchie3.webp";
+import pinkScrunchie4 from "../assets/product images/scrunchie/pink_scrunchie/pink_scrunchie4.webp";
 
 // ====================== Purple Scrunchie ======================
-import purpleScrunchie1 from "../assets/product images/scrunchie/purple_scrunchie/purple_scrunchie1.png";
-import purpleScrunchie2 from "../assets/product images/scrunchie/purple_scrunchie/purple_scrunchie2.png";
-import purpleScrunchie3 from "../assets/product images/scrunchie/purple_scrunchie/purple_scrunchie3.png";
-import purpleScrunchie4 from "../assets/product images/scrunchie/purple_scrunchie/purple_scrunchie4.png";
+import purpleScrunchie1 from "../assets/product images/scrunchie/purple_scrunchie/purple_scrunchie1.webp";
+import purpleScrunchie2 from "../assets/product images/scrunchie/purple_scrunchie/purple_scrunchie2.webp";
+import purpleScrunchie3 from "../assets/product images/scrunchie/purple_scrunchie/purple_scrunchie3.webp";
+import purpleScrunchie4 from "../assets/product images/scrunchie/purple_scrunchie/purple_scrunchie4.webp";
 
 // ====================== Brown Tank Top ======================
-import brownTankTop1 from "../assets/product images/top/brown_tank_top/brown_tank_top1.png";
-import brownTankTop2 from "../assets/product images/top/brown_tank_top/brown_tank_top2.png";
-import brownTankTop3 from "../assets/product images/top/brown_tank_top/brown_tank_top3.png";
-import brownTankTop4 from "../assets/product images/top/brown_tank_top/brown_tank_top4.png";
+import brownTankTop1 from "../assets/product images/top/brown_tank_top/brown_tank_top1.webp";
+import brownTankTop2 from "../assets/product images/top/brown_tank_top/brown_tank_top2.webp";
+import brownTankTop3 from "../assets/product images/top/brown_tank_top/brown_tank_top3.webp";
+import brownTankTop4 from "../assets/product images/top/brown_tank_top/brown_tank_top4.webp";
 
 // ====================== Orange Bouquet Top ======================
-import orangeBouquetTop1 from "../assets/product images/top/orange_bouquet_top/orange_bouquet_top1.png";
-import orangeBouquetTop2 from "../assets/product images/top/orange_bouquet_top/orange_bouquet_top2.png";
-import orangeBouquetTop3 from "../assets/product images/top/orange_bouquet_top/orange_bouquet_top3.png";
-import orangeBouquetTop4 from "../assets/product images/top/orange_bouquet_top/orange_bouquet_top4.png";
+import orangeBouquetTop1 from "../assets/product images/top/orange_bouquet_top/orange_bouquet_top1.webp";
+import orangeBouquetTop2 from "../assets/product images/top/orange_bouquet_top/orange_bouquet_top2.webp";
+import orangeBouquetTop3 from "../assets/product images/top/orange_bouquet_top/orange_bouquet_top3.webp";
+import orangeBouquetTop4 from "../assets/product images/top/orange_bouquet_top/orange_bouquet_top4.webp";
 
 // // ====================== Orange Tank Top ======================
-// import orangeTankTop1 from "../assets/product images/top/orange_tank_top/orange_tank_top1.png";
-// import orangeTankTop2 from "../assets/product images/top/orange_tank_top/orange_tank_top2.png";
-// import orangeTankTop3 from "../assets/product images/top/orange_tank_top/orange_tank_top3.png";
-// import orangeTankTop4 from "../assets/product images/top/orange_tank_top/orange_tank_top4.png";
+// import orangeTankTop1 from "../assets/product images/top/orange_tank_top/orange_tank_top1.webp";
+// import orangeTankTop2 from "../assets/product images/top/orange_tank_top/orange_tank_top2.webp";
+// import orangeTankTop3 from "../assets/product images/top/orange_tank_top/orange_tank_top3.webp";
+// import orangeTankTop4 from "../assets/product images/top/orange_tank_top/orange_tank_top4.webp";
 
 // ====================== Pink Bouquet Top ======================
-import pinkBouquetTop1 from "../assets/product images/top/pink_bouquet_top/pink_bouquet_top1.png";
-import pinkBouquetTop2 from "../assets/product images/top/pink_bouquet_top/pink_bouquet_top2.png";
-import pinkBouquetTop3 from "../assets/product images/top/pink_bouquet_top/pink_bouquet_top3.png";
-import pinkBouquetTop4 from "../assets/product images/top/pink_bouquet_top/pink_bouquet_top4.png";
+import pinkBouquetTop1 from "../assets/product images/top/pink_bouquet_top/pink_bouquet_top1.webp";
+import pinkBouquetTop2 from "../assets/product images/top/pink_bouquet_top/pink_bouquet_top2.webp";
+import pinkBouquetTop3 from "../assets/product images/top/pink_bouquet_top/pink_bouquet_top3.webp";
+import pinkBouquetTop4 from "../assets/product images/top/pink_bouquet_top/pink_bouquet_top4.webp";
 
 // ====================== White Red Bouquet Top ======================
-import whiteRedBouquetTop1 from "../assets/product images/top/white_red_bouquet_top/white_red_bouquet_top1.png";
-import whiteRedBouquetTop2 from "../assets/product images/top/white_red_bouquet_top/white_red_bouquet_top2.png";
-import whiteRedBouquetTop3 from "../assets/product images/top/white_red_bouquet_top/white_red_bouquet_top3.png";
-import whiteRedBouquetTop4 from "../assets/product images/top/white_red_bouquet_top/white_red_bouquet_top4.png";
+import whiteRedBouquetTop1 from "../assets/product images/top/white_red_bouquet_top/white_red_bouquet_top1.webp";
+import whiteRedBouquetTop2 from "../assets/product images/top/white_red_bouquet_top/white_red_bouquet_top2.webp";
+import whiteRedBouquetTop3 from "../assets/product images/top/white_red_bouquet_top/white_red_bouquet_top3.webp";
+import whiteRedBouquetTop4 from "../assets/product images/top/white_red_bouquet_top/white_red_bouquet_top4.webp";
 
 // ====================== White Tank Top ======================
-import whiteTankTop1 from "../assets/product images/top/white_tank_top/white_tank_top1.png";
-import whiteTankTop2 from "../assets/product images/top/white_tank_top/white_tank_top2.png";
-import whiteTankTop3 from "../assets/product images/top/white_tank_top/white_tank_top3.png";
-import whiteTankTop4 from "../assets/product images/top/white_tank_top/white_tank_top4.png";
+import whiteTankTop1 from "../assets/product images/top/white_tank_top/white_tank_top1.webp";
+import whiteTankTop2 from "../assets/product images/top/white_tank_top/white_tank_top2.webp";
+import whiteTankTop3 from "../assets/product images/top/white_tank_top/white_tank_top3.webp";
+import whiteTankTop4 from "../assets/product images/top/white_tank_top/white_tank_top4.webp";
 
 // ====================== Wine Bouquet Top ======================
-import wineBouquetTop1 from "../assets/product images/top/wine_bouquet_top/wine_bouquet_top1.png";
-import wineBouquetTop2 from "../assets/product images/top/wine_bouquet_top/wine_bouquet_top2.png";
-import wineBouquetTop3 from "../assets/product images/top/wine_bouquet_top/wine_bouquet_top3.png";
-import wineBouquetTop4 from "../assets/product images/top/wine_bouquet_top/wine_bouquet_top4.png";
+import wineBouquetTop1 from "../assets/product images/top/wine_bouquet_top/wine_bouquet_top1.webp";
+import wineBouquetTop2 from "../assets/product images/top/wine_bouquet_top/wine_bouquet_top2.webp";
+import wineBouquetTop3 from "../assets/product images/top/wine_bouquet_top/wine_bouquet_top3.webp";
+import wineBouquetTop4 from "../assets/product images/top/wine_bouquet_top/wine_bouquet_top4.webp"
 
 // ====================== Yellow Bouquet Top ======================
-import yellowBouquetTop1 from "../assets/product images/top/yellow_bouquet_top/yellow_bouquet_top1.png";
-import yellowBouquetTop2 from "../assets/product images/top/yellow_bouquet_top/yellow_bouquet_top2.png";
-import yellowBouquetTop3 from "../assets/product images/top/yellow_bouquet_top/yellow_bouquet_top3.png";
-import yellowBouquetTop4 from "../assets/product images/top/yellow_bouquet_top/yellow_bouquet_top4.png";
-
+import yellowBouquetTop1 from "../assets/product images/top/yellow_bouquet_top/yellow_bouquet_top1.webp";
+import yellowBouquetTop2 from "../assets/product images/top/yellow_bouquet_top/yellow_bouquet_top2.webp";
+import yellowBouquetTop3 from "../assets/product images/top/yellow_bouquet_top/yellow_bouquet_top3.webp";
+import yellowBouquetTop4 from "../assets/product images/top/yellow_bouquet_top/yellow_bouquet_top4.webp";
 
 
 

@@ -16,10 +16,12 @@ export default function ProductCard({ product, className = '' }) {
       <Link to={`/product/${product.id}`} className="flex flex-col">
         <div className="relative aspect-[5/6] w-full overflow-hidden">
           <img
-            src={product.image}
-            alt={product.name}
-            className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
-          />
+  src={product.image}
+  alt={product.name}
+  loading="lazy"
+  decoding="async"
+  className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
+/>
           {/* {product.badge && (
             <SwingTag className="absolute left-3 top-3">{product.badge}</SwingTag>
           )} */}
