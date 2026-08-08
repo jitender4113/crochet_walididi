@@ -1,57 +1,57 @@
 import { Flower2, Candy, Gift, Gem, Sparkles, PackageOpen } from 'lucide-react'
 
-import rose from "../assets/bouquet_image/flowers/rose.png";
-import tulip from "../assets/bouquet_image/flowers/tulip.png";
-import sunflower from "../assets/bouquet_image/flowers/sunflower.png";
-import daisy from "../assets/bouquet_image/flowers/daisy.png";
-import lily from "../assets/bouquet_image/flowers/lily.png";
-import peony from "../assets/bouquet_image/flowers/peony.png";
-import lavender from "../assets/bouquet_image/flowers/lavender.png";
-import carnation from "../assets/bouquet_image/flowers/carnation.png";
-import babyBreath from "../assets/bouquet_image/flowers/babyBreath.png";
-import lotus from "../assets/bouquet_image/flowers/lotus.png";
-import forgetMeNot from "../assets/bouquet_image/flowers/forgetMeNot.png";
-import cherryBlossom from "../assets/bouquet_image/flowers/cherryBlossom.png";
-import orchid from "../assets/bouquet_image/flowers/orchid.png";
-import marigold from "../assets/bouquet_image/flowers/marigold.png";
+import rose from "../assets/bouquet_image/flowers/rose.webp";
+import tulip from "../assets/bouquet_image/flowers/tulip.webp";
+import sunflower from "../assets/bouquet_image/flowers/sunflower.webp";
+import daisy from "../assets/bouquet_image/flowers/daisy.webp";
+import lily from "../assets/bouquet_image/flowers/lily.webp";
+import peony from "../assets/bouquet_image/flowers/peony.webp";
+import lavender from "../assets/bouquet_image/flowers/lavender.webp";
+import carnation from "../assets/bouquet_image/flowers/carnation.webp";
+import babyBreath from "../assets/bouquet_image/flowers/babyBreath.webp";
+import lotus from "../assets/bouquet_image/flowers/lotus.webp";
+import forgetMeNot from "../assets/bouquet_image/flowers/forgetMeNot.webp";
+import cherryBlossom from "../assets/bouquet_image/flowers/cherryBlossom.webp";
+import orchid from "../assets/bouquet_image/flowers/orchid.webp";
+import marigold from "../assets/bouquet_image/flowers/marigold.webp";
 
 
-import ferreroRocher from "../assets/bouquet_image/chocolates/ferreoRocher.png";
-import kinderJoy from "../assets/bouquet_image/chocolates/kinderJoy.png";
-import dairyMilk from "../assets/bouquet_image/chocolates/dairyMilk.png";
-import fiveStar from "../assets/bouquet_image/chocolates/5star.png";
-import bournville from "../assets/bouquet_image/chocolates/bournville.png";
-import cadburyCelebrations from "../assets/bouquet_image/chocolates/cadburyCelebrations.png";
-import hersheysKisses from "../assets/bouquet_image/chocolates/harsheysKisses.png";
-import kitkat from "../assets/bouquet_image/chocolates/kitkat.png";
-import snickers from "../assets/bouquet_image/chocolates/snickers.png";
+import ferreroRocher from "../assets/bouquet_image/chocolates/ferreoRocher.webp";
+import kinderJoy from "../assets/bouquet_image/chocolates/kinderJoy.webp";
+import dairyMilk from "../assets/bouquet_image/chocolates/dairyMilk.webp";
+import fiveStar from "../assets/bouquet_image/chocolates/5star.webp";
+import bournville from "../assets/bouquet_image/chocolates/bournville.webp";
+import cadburyCelebrations from "../assets/bouquet_image/chocolates/cadburyCelebrations.webp";
+import hersheysKisses from "../assets/bouquet_image/chocolates/harsheysKisses.webp";
+import kitkat from "../assets/bouquet_image/chocolates/kitkat.webp";
+import snickers from "../assets/bouquet_image/chocolates/snickers.webp";
 
-import polaroid from "../assets/bouquet_image/gifts/polaroid.png";
-import miniDiary from "../assets/bouquet_image/gifts/miniDiary.png";
-import handwrittenCard from "../assets/bouquet_image/gifts/handwrittenCard.png";
-import greetingCard from "../assets/bouquet_image/gifts/greetingCard.png";
-import loveCoupons from "../assets/bouquet_image/gifts/loveCoupons.png";
-import perfume from "../assets/bouquet_image/gifts/perfume.png";
-import spotify from "../assets/bouquet_image/gifts/spotify.png";
-import teddyBear from "../assets/bouquet_image/gifts/teddyBear.png";
+import polaroid from "../assets/bouquet_image/gifts/polaroid.webp";
+import miniDiary from "../assets/bouquet_image/gifts/miniDiary.webp";
+import handwrittenCard from "../assets/bouquet_image/gifts/handwrittenCard.webp";
+import greetingCard from "../assets/bouquet_image/gifts/greetingCard.webp";
+import loveCoupons from "../assets/bouquet_image/gifts/loveCoupons.webp";
+import perfume from "../assets/bouquet_image/gifts/perfume.webp";
+import spotify from "../assets/bouquet_image/gifts/spotify.webp";
+import teddyBear from "../assets/bouquet_image/gifts/teddyBear.webp";
 
-import crochetEarings from "../assets/bouquet_image/jwellery/crochetEarings.png";
-import nails from "../assets/bouquet_image/jwellery/nails.png";
-import bracelet from "../assets/bouquet_image/jwellery/bracelet.png";
-import anklet from "../assets/bouquet_image/jwellery/anklet.png";
-import earrings from "../assets/bouquet_image/jwellery/earrings.png";
-import fairyLights from "../assets/bouquet_image/jwellery/fairyLights.png";
-import hairCLip from "../assets/bouquet_image/jwellery/hairCLip.png";
-import hairClow from "../assets/bouquet_image/jwellery/hairClow.png";
-import necklace from "../assets/bouquet_image/jwellery/necklace.png";
-import ring from "../assets/bouquet_image/jwellery/ring.png";
-import scrunchie from "../assets/bouquet_image/jwellery/scrunchie.png";
+import crochetEarings from "../assets/bouquet_image/jwellery/crochetEarings.webp";
+import nails from "../assets/bouquet_image/jwellery/nails.webp";
+import bracelet from "../assets/bouquet_image/jwellery/bracelet.webp";
+import anklet from "../assets/bouquet_image/jwellery/anklet.webp";
+import earrings from "../assets/bouquet_image/jwellery/earrings.webp";
+import fairyLights from "../assets/bouquet_image/jwellery/fairyLights.webp";
+import hairCLip from "../assets/bouquet_image/jwellery/hairCLip.webp";
+import hairClow from "../assets/bouquet_image/jwellery/hairClow.webp";
+import necklace from "../assets/bouquet_image/jwellery/necklace.webp";
+import ring from "../assets/bouquet_image/jwellery/ring.webp";
+import scrunchie from "../assets/bouquet_image/jwellery/scrunchie.webp";
 
-import ribbon from "../assets/bouquet_image/packaging/ribbon.png";
-import koreanWrap from "../assets/bouquet_image/packaging/koreanWrap.png";
-import luxuryBox from "../assets/bouquet_image/packaging/luxuryBox.png";
-import giftBag from "../assets/bouquet_image/packaging/gitBag.png";
-import mattWrap from "../assets/bouquet_image/packaging/mattWrap.png";
+import ribbon from "../assets/bouquet_image/packaging/ribbon.webp";
+import koreanWrap from "../assets/bouquet_image/packaging/koreanWrap.webp";
+import luxuryBox from "../assets/bouquet_image/packaging/luxuryBox.webp";
+import giftBag from "../assets/bouquet_image/packaging/gitBag.webp";
+import mattWrap from "../assets/bouquet_image/packaging/mattWrap.webp";
 
 // Each item has its own placeholder image (swap for real transparent PNGs later)
 // and a `layer` z-index used to stack it sensibly in the live preview.

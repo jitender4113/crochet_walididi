@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import Button from '../ui/Button'
-import heroBouquet from "../../images/hero-bouquet.jpg";
+import heroBouquet from "../../images/hero-bouquet.webp";
 
 export default function Hero() {
   return (

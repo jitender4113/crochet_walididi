@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
-import customBouquet from "../../images/home_build/image1.png"; // add your image
+import customBouquet from "../../images/home_build/image1.webp"; // add your image
 
 export default function CustomBouquetBanner() {
   return (

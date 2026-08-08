@@ -25,9 +25,9 @@ import {
 import Button from '../components/ui/Button'
 import { customizationCategories, offerTiers } from '../data/customizationData'
 import { useCart } from '../context/CartContext.jsx'
-import build_hero from '../images/home_build/build_hero.png'
-import bouquet_base from '../images/home_build/build-bouquet.png'
-import hamper_base from "../images/home_build/hamper_box.png"
+import build_hero from '../images/home_build/build_hero.webp'
+import bouquet_base from '../images/home_build/build-bouquet.webp'
+import hamper_base from "../images/home_build/hamper_box.webp"
 
 const categoryCards = [
   { icon: Flower2, title: 'Crochet Flowers' },

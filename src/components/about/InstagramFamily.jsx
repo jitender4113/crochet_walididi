@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { CheckCircle2, Heart, Instagram } from 'lucide-react'
-import instagramProfile from '../../assets/instagram-profile.jpg'
+import instagramProfile from '../../assets/instagram-profile.webp'
 
 const features = [
   { emoji: '✨', title: 'New Designs Every Week' },

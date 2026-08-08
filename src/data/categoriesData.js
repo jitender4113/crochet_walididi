@@ -1,7 +1,7 @@
-import bouquetImage from "../images/categories/bouquet1.png";
-import bagsImage from "../images/categories/bags1.png";
-import hairImage from "../images/categories/hair1.png";      // apni image
-import keychainImage from "../images/categories/keychain1.png"; // apni image
+import bouquetImage from "../images/categories/bouquet1.webp";
+import bagsImage from "../images/categories/bags1.webp";
+import hairImage from "../images/categories/hair1.webp";      // apni image
+import keychainImage from "../images/categories/keychain1.webp"; // apni image
 
 export const pageCategories = [
   {

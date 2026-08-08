@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import crochetPattern from "../../assets/patterns/didi_bnadoge.png";
+import crochetPattern from "../../assets/patterns/didi_bnadoge.webp";
 
 import {
   ArrowRight,

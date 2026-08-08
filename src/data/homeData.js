@@ -1,9 +1,9 @@
-import allCat from "../assets/category/all_cat.png";
-import bouquetFlowerCat from "../assets/category/bouquet&flower_Cat.png";
-import bagsCat from "../assets/category/bags_cat.png";
-import hairCat from "../assets/category/hair_cat.png";
-import keychainCat from "../assets/category/keychain_cat.png";
-import dressCat from "../assets/category/dress_cat.png";
+import allCat from "../assets/category/all_cat.webp";
+import bouquetFlowerCat from "../assets/category/bouquet&flower_Cat.webp";
+import bagsCat from "../assets/category/bags_cat.webp";
+import hairCat from "../assets/category/hair_cat.webp";
+import keychainCat from "../assets/category/keychain_cat.webp";
+import dressCat from "../assets/category/dress_cat.webp";
 
 export const categories = [
   
@@ -47,10 +47,10 @@ export const trending = [
   { id: 6, name: 'Cream Cable Phone Pouch', price: 899, image: 'https://picsum.photos/seed/trend-6/500/500' },
 ]
 
-import journey1 from '../assets/journey/journey1.png'
-import journey2 from '../assets/journey/journey2.png'
-import journey3 from '../assets/journey/journey3.png'
-import journey4 from '../assets/journey/journey4.png'
+import journey1 from '../assets/journey/journey1.webp'
+import journey2 from '../assets/journey/journey2.webp'
+import journey3 from '../assets/journey/journey3.webp'
+import journey4 from '../assets/journey/journey4.webp'
 
 
 export const processSteps = [
@@ -104,9 +104,9 @@ export const testimonials = [
   },
 ]
 
-import post1 from '../assets/gallery/post1.png'
-import post2 from '../assets/gallery/post2.jpg'
-import post3 from '../assets/gallery/post3.jpg'
+import post1 from '../assets/gallery/post1.webp'
+import post2 from '../assets/gallery/post2.webp'
+import post3 from '../assets/gallery/post3.webp'
 
 export const instagramPosts = [
   {

@@ -6,7 +6,7 @@ import { useWishlist } from '../../context/WishlistContext.jsx'
 import { useCart } from '../../context/CartContext.jsx'
 import { useProductSearch } from '../../hooks/useProductSearch.js'
 import SearchSuggestions from '../common/SearchSuggestions.jsx'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo.webp'
 
 // const mainLinks = [
 //   { label: 'Home', to: '/' },
