@@ -29,7 +29,7 @@ export default function FeaturedCategories({
             : "grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 lg:gap-5"
         }`}
       >
-        {/* Categories first */}
+        {/* Categories */}
         {categories.map((cat, i) => {
           const isActive = activeCategory === cat.id;
 
@@ -45,6 +45,7 @@ export default function FeaturedCategories({
                 <img
                   src={cat.image}
                   alt={cat.name}
+                  loading="lazy"
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
                 />
 
@@ -63,6 +64,10 @@ export default function FeaturedCategories({
             </div>
           );
 
+          /*
+           * PRODUCTS PAGE
+           * Category click filters products directly.
+           */
           if (onCategoryClick) {
             return (
               <motion.button
@@ -74,7 +79,10 @@ export default function FeaturedCategories({
                 viewport={{ once: true }}
                 whileHover={{ y: -6 }}
                 whileTap={{ scale: 0.97 }}
-                transition={{ duration: 0.5, delay: i * 0.08 }}
+                transition={{
+                  duration: 0.5,
+                  delay: i * 0.08,
+                }}
                 className="text-left"
               >
                 {card}
@@ -82,22 +90,30 @@ export default function FeaturedCategories({
             );
           }
 
+          /*
+           * HOME PAGE
+           * Category click goes to Products page
+           * with category + from=home.
+           */
           return (
             <MotionLink
               key={cat.id}
-              to={`/products?category=${cat.id}`}
+              to={`/products?category=${cat.id}&from=home`}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               whileHover={{ y: -6 }}
-              transition={{ duration: 0.5, delay: i * 0.08 }}
+              transition={{
+                duration: 0.5,
+                delay: i * 0.08,
+              }}
             >
               {card}
             </MotionLink>
           );
         })}
 
-        {/* All — always last on Products page */}
+        {/* All */}
         {showAll && (
           <motion.button
             type="button"
@@ -107,7 +123,10 @@ export default function FeaturedCategories({
             viewport={{ once: true }}
             whileHover={{ y: -6 }}
             whileTap={{ scale: 0.97 }}
-            transition={{ duration: 0.4, delay: categories.length * 0.08 }}
+            transition={{
+              duration: 0.4,
+              delay: categories.length * 0.08,
+            }}
             className="text-left"
           >
             <div
@@ -119,12 +138,16 @@ export default function FeaturedCategories({
             >
               <div className="absolute inset-0 bg-gradient-to-br from-cream via-blush-light to-cream-deep" />
 
-              <div className="absolute -top-10 -right-10 h-32 w-32 rounded-full bg-cocoa/10 blur-2xl" />
+              <div className="absolute -right-10 -top-10 h-32 w-32 rounded-full bg-cocoa/10 blur-2xl" />
+
               <div className="absolute -bottom-8 -left-8 h-24 w-24 rounded-full bg-blush/30 blur-xl" />
 
               <div className="relative flex h-full flex-col items-center justify-center px-4 text-center">
                 <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-full bg-white shadow-lg">
-                  <Grid2x2 size={30} className="text-cocoa" />
+                  <Grid2x2
+                    size={30}
+                    className="text-cocoa"
+                  />
                 </div>
 
                 <h3 className="font-display text-2xl font-semibold text-cocoa">
