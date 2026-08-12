@@ -1010,6 +1010,254 @@ export const products = [
 
 
 
+//dress---------------------
+
+{
+  id: 87,
+  name: "Brown Crochet Tank Top",
+  price: 1699,
+  category: "Fashion",
+  subCategory: "tops",
+  rating: 4.9,
+  badge: "Bestseller",
+  image: brownTankTop1,
+  images: [brownTankTop1, brownTankTop2, brownTankTop3, brownTankTop4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "tank top", "brown", "fashion", "handmade"],
+  description: "Handmade brown crochet tank top crafted with premium cotton yarn for a stylish and comfortable everyday look."
+},
+
+{
+  id: 92,
+  name: "White Crochet Tank Top",
+  price: 1699,
+  category: "Fashion",
+  subCategory: "tops",
+  rating: 4.9,
+  badge: "Trending",
+  image: whiteTankTop1,
+  images: [whiteTankTop1, whiteTankTop2, whiteTankTop3, whiteTankTop4],
+  isBestSeller: true,
+  isTrending: false,
+  keywords: ["crochet", "white", "tank top", "fashion"],
+  description: "Minimal handmade white crochet tank top made with premium cotton yarn, perfect for casual and summer wear."
+},
+
+{
+  id: 88,
+  name: "Orange Bouquet Crochet Top",
+  price: 1499,
+  category: "Fashion",
+  subCategory: "tops",
+  rating: 4.9,
+  badge: "Trending",
+  image: orangeBouquetTop1,
+  images: [orangeBouquetTop1, orangeBouquetTop2, orangeBouquetTop3, orangeBouquetTop4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "bouquet top", "orange", "fashion"],
+  description: "Beautiful handmade crochet bouquet top featuring floral detailing and premium yarn for a unique handmade outfit."
+},
+
+
+
+
+{
+  id: 90,
+  name: "Pink Bouquet Crochet Top",
+  price: 1499,
+  category: "Fashion",
+  subCategory: "tops",
+  rating: 4.9,
+  badge: "Bestseller",
+  image: pinkBouquetTop1,
+  images: [pinkBouquetTop1, pinkBouquetTop2, pinkBouquetTop3, pinkBouquetTop4],
+  isBestSeller: true,
+  isTrending: false,
+  keywords: ["crochet", "pink", "bouquet top", "fashion"],
+  description: "Elegant handmade pink bouquet crochet top designed with floral patterns using premium quality yarn."
+},
+
+{
+  id: 91,
+  name: "White & Red Bouquet Crochet Top",
+  price: 1499,
+  category: "Fashion",
+  subCategory: "tops",
+  rating: 4.9,
+  badge: "Premium",
+  image: whiteRedBouquetTop1,
+  images: [
+    whiteRedBouquetTop1,
+    whiteRedBouquetTop2,
+    whiteRedBouquetTop3,
+    whiteRedBouquetTop4
+  ],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "white", "red", "bouquet top", "fashion"],
+  description: "Premium handmade white and red bouquet crochet top crafted with elegant floral detailing and soft premium yarn."
+},
+
+
+
+{
+  id: 93,
+  name: "Wine Bouquet Crochet Top",
+  price: 1499,
+  category: "Fashion",
+  subCategory: "tops",
+  rating: 4.9,
+  badge: "Premium",
+  image: wineBouquetTop1,
+  images: [
+    wineBouquetTop1,
+    wineBouquetTop2,
+    wineBouquetTop3,
+    wineBouquetTop4
+  ],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "wine", "bouquet top", "fashion", "handmade"],
+  description: "Premium handmade wine bouquet crochet top featuring elegant floral detailing, crafted with soft premium cotton yarn for a sophisticated look."
+},
+
+{
+  id: 94,
+  name: "Yellow Bouquet Crochet Top",
+  price: 1499,
+  category: "Fashion",
+  subCategory: "tops",
+  rating: 4.9,
+  badge: "Bestseller",
+  image: yellowBouquetTop1,
+  images: [
+    yellowBouquetTop1,
+    yellowBouquetTop2,
+    yellowBouquetTop3,
+    yellowBouquetTop4
+  ],
+  isBestSeller: false,
+  isTrending: true,
+  keywords: ["crochet", "yellow", "bouquet top", "fashion", "handmade"],
+  description: "Beautiful handmade yellow bouquet crochet top crafted with premium cotton yarn and floral detailing, perfect for summer styling and special occasions."
+},
+
+
+
+
+
+
+
+
+
+//paranda-------------------------------------------
+
+
+
+{
+  id: 80,
+  name: "Pink Crochet Paranda",
+  price: 349,
+  category: "Hair Accessories",
+  subCategory: "paranda",
+  rating: 4.9,
+  badge: "Bestseller",
+  image: pinkParanda1,
+  images: [
+    pinkParanda1,
+    pinkParanda2,
+    pinkParanda3,
+    pinkParanda4
+  ],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "pink", "paranda", "hair accessory"],
+  description: "Beautiful handmade pink crochet paranda crafted with premium yarn, perfect for festive and traditional hairstyles."
+},
+
+{
+  id: 81,
+  name: "Purple Crochet Paranda",
+  price: 349,
+  category: "Hair Accessories",
+  subCategory: "paranda",
+  rating: 4.9,
+  badge: "Trending",
+  image: purpleParanda1,
+  images: [
+    purpleParanda1,
+    purpleParanda2,
+    purpleParanda3,
+    purpleParanda4
+  ],
+  isBestSeller: true,
+  isTrending: false,
+  keywords: ["crochet", "purple", "paranda", "hair accessory"],
+  description: "Premium handmade purple crochet paranda featuring elegant floral detailing, ideal for weddings, festivals and traditional wear."
+},
+
+{
+  id: 82,
+  name: "Red Rose Crochet Paranda",
+  price: 349,
+  category: "Hair Accessories",
+  subCategory: "paranda",
+  rating: 4.9,
+  badge: "Bestseller",
+  image: redParanda1,
+  images: [redParanda1, redParanda2, redParanda3, redParanda4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "red", "rose", "paranda", "hair accessory"],
+  description: "Handcrafted red rose crochet paranda made with premium yarn, perfect for weddings, festivals and traditional hairstyles."
+},
+
+{
+  id: 83,
+  name: "Sunflower Crochet Paranda",
+  price: 349,
+  category: "Hair Accessories",
+  subCategory: "paranda",
+  rating: 4.9,
+  badge: "Trending",
+  image: sunflowerParanda1,
+  images: [
+    sunflowerParanda1,
+    sunflowerParanda2,
+    sunflowerParanda3,
+    sunflowerParanda4
+  ],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "sunflower", "paranda", "hair accessory"],
+  description: "Beautiful handmade sunflower crochet paranda crafted with premium yarn for a bright and elegant traditional look."
+},
+
+{
+  id: 84,
+  name: "Tulip Crochet Paranda",
+  price: 399,
+  category: "Hair Accessories",
+  subCategory: "paranda",
+  rating: 4.9,
+  badge: "New",
+  image: tulipParanda1,
+  images: [
+    tulipParanda1,
+    tulipParanda2,
+    tulipParanda3,
+    tulipParanda4
+  ],
+  isBestSeller: false,
+  isTrending: true,
+  keywords: ["crochet", "tulip", "paranda", "hair accessory"],
+  description: "Premium handmade tulip crochet paranda designed with elegant floral detailing for festive and traditional occasions."
+},
+
+
+
 
 
 
@@ -2072,105 +2320,7 @@ export const products = [
   description: "Cute handmade crochet Swiss Roll keychain crafted with premium yarn, perfect for dessert lovers and gifting."
 },
 
-{
-  id: 80,
-  name: "Pink Crochet Paranda",
-  price: 349,
-  category: "Hair Accessories",
-  subCategory: "paranda",
-  rating: 4.9,
-  badge: "Bestseller",
-  image: pinkParanda1,
-  images: [
-    pinkParanda1,
-    pinkParanda2,
-    pinkParanda3,
-    pinkParanda4
-  ],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "pink", "paranda", "hair accessory"],
-  description: "Beautiful handmade pink crochet paranda crafted with premium yarn, perfect for festive and traditional hairstyles."
-},
 
-{
-  id: 81,
-  name: "Purple Crochet Paranda",
-  price: 349,
-  category: "Hair Accessories",
-  subCategory: "paranda",
-  rating: 4.9,
-  badge: "Trending",
-  image: purpleParanda1,
-  images: [
-    purpleParanda1,
-    purpleParanda2,
-    purpleParanda3,
-    purpleParanda4
-  ],
-  isBestSeller: true,
-  isTrending: false,
-  keywords: ["crochet", "purple", "paranda", "hair accessory"],
-  description: "Premium handmade purple crochet paranda featuring elegant floral detailing, ideal for weddings, festivals and traditional wear."
-},
-
-{
-  id: 82,
-  name: "Red Rose Crochet Paranda",
-  price: 349,
-  category: "Hair Accessories",
-  subCategory: "paranda",
-  rating: 4.9,
-  badge: "Bestseller",
-  image: redParanda1,
-  images: [redParanda1, redParanda2, redParanda3, redParanda4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "red", "rose", "paranda", "hair accessory"],
-  description: "Handcrafted red rose crochet paranda made with premium yarn, perfect for weddings, festivals and traditional hairstyles."
-},
-
-{
-  id: 83,
-  name: "Sunflower Crochet Paranda",
-  price: 349,
-  category: "Hair Accessories",
-  subCategory: "paranda",
-  rating: 4.9,
-  badge: "Trending",
-  image: sunflowerParanda1,
-  images: [
-    sunflowerParanda1,
-    sunflowerParanda2,
-    sunflowerParanda3,
-    sunflowerParanda4
-  ],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "sunflower", "paranda", "hair accessory"],
-  description: "Beautiful handmade sunflower crochet paranda crafted with premium yarn for a bright and elegant traditional look."
-},
-
-{
-  id: 84,
-  name: "Tulip Crochet Paranda",
-  price: 399,
-  category: "Hair Accessories",
-  subCategory: "paranda",
-  rating: 4.9,
-  badge: "New",
-  image: tulipParanda1,
-  images: [
-    tulipParanda1,
-    tulipParanda2,
-    tulipParanda3,
-    tulipParanda4
-  ],
-  isBestSeller: false,
-  isTrending: true,
-  keywords: ["crochet", "tulip", "paranda", "hair accessory"],
-  description: "Premium handmade tulip crochet paranda designed with elegant floral detailing for festive and traditional occasions."
-},
 
 {
   id: 85,
@@ -2214,136 +2364,6 @@ export const products = [
   description: "Elegant handmade purple crochet scrunchie made with premium quality yarn for a stylish everyday look."
 },
 
-{
-  id: 87,
-  name: "Brown Crochet Tank Top",
-  price: 1699,
-  category: "Fashion",
-  subCategory: "tops",
-  rating: 4.9,
-  badge: "Bestseller",
-  image: brownTankTop1,
-  images: [brownTankTop1, brownTankTop2, brownTankTop3, brownTankTop4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "tank top", "brown", "fashion", "handmade"],
-  description: "Handmade brown crochet tank top crafted with premium cotton yarn for a stylish and comfortable everyday look."
-},
 
-{
-  id: 92,
-  name: "White Crochet Tank Top",
-  price: 1699,
-  category: "Fashion",
-  subCategory: "tops",
-  rating: 4.9,
-  badge: "Trending",
-  image: whiteTankTop1,
-  images: [whiteTankTop1, whiteTankTop2, whiteTankTop3, whiteTankTop4],
-  isBestSeller: true,
-  isTrending: false,
-  keywords: ["crochet", "white", "tank top", "fashion"],
-  description: "Minimal handmade white crochet tank top made with premium cotton yarn, perfect for casual and summer wear."
-},
-
-{
-  id: 88,
-  name: "Orange Bouquet Crochet Top",
-  price: 1499,
-  category: "Fashion",
-  subCategory: "tops",
-  rating: 4.9,
-  badge: "Trending",
-  image: orangeBouquetTop1,
-  images: [orangeBouquetTop1, orangeBouquetTop2, orangeBouquetTop3, orangeBouquetTop4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "bouquet top", "orange", "fashion"],
-  description: "Beautiful handmade crochet bouquet top featuring floral detailing and premium yarn for a unique handmade outfit."
-},
-
-
-
-
-{
-  id: 90,
-  name: "Pink Bouquet Crochet Top",
-  price: 1499,
-  category: "Fashion",
-  subCategory: "tops",
-  rating: 4.9,
-  badge: "Bestseller",
-  image: pinkBouquetTop1,
-  images: [pinkBouquetTop1, pinkBouquetTop2, pinkBouquetTop3, pinkBouquetTop4],
-  isBestSeller: true,
-  isTrending: false,
-  keywords: ["crochet", "pink", "bouquet top", "fashion"],
-  description: "Elegant handmade pink bouquet crochet top designed with floral patterns using premium quality yarn."
-},
-
-{
-  id: 91,
-  name: "White & Red Bouquet Crochet Top",
-  price: 1499,
-  category: "Fashion",
-  subCategory: "tops",
-  rating: 4.9,
-  badge: "Premium",
-  image: whiteRedBouquetTop1,
-  images: [
-    whiteRedBouquetTop1,
-    whiteRedBouquetTop2,
-    whiteRedBouquetTop3,
-    whiteRedBouquetTop4
-  ],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "white", "red", "bouquet top", "fashion"],
-  description: "Premium handmade white and red bouquet crochet top crafted with elegant floral detailing and soft premium yarn."
-},
-
-
-
-{
-  id: 93,
-  name: "Wine Bouquet Crochet Top",
-  price: 1499,
-  category: "Fashion",
-  subCategory: "tops",
-  rating: 4.9,
-  badge: "Premium",
-  image: wineBouquetTop1,
-  images: [
-    wineBouquetTop1,
-    wineBouquetTop2,
-    wineBouquetTop3,
-    wineBouquetTop4
-  ],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "wine", "bouquet top", "fashion", "handmade"],
-  description: "Premium handmade wine bouquet crochet top featuring elegant floral detailing, crafted with soft premium cotton yarn for a sophisticated look."
-},
-
-{
-  id: 94,
-  name: "Yellow Bouquet Crochet Top",
-  price: 1499,
-  category: "Fashion",
-  subCategory: "tops",
-  rating: 4.9,
-  badge: "Bestseller",
-  image: yellowBouquetTop1,
-  images: [
-    yellowBouquetTop1,
-    yellowBouquetTop2,
-    yellowBouquetTop3,
-    yellowBouquetTop4
-  ],
-  isBestSeller: false,
-  isTrending: true,
-  keywords: ["crochet", "yellow", "bouquet top", "fashion", "handmade"],
-  description: "Beautiful handmade yellow bouquet crochet top crafted with premium cotton yarn and floral detailing, perfect for summer styling and special occasions."
-},
 
 ]
