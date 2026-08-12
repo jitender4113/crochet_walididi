@@ -577,153 +577,10 @@ export const productFilterCategories = [
 export const products = [
 
 
-
-
-  {
-  id: 3,
-  name: 'Green Crochet Bow Bag',
-  price: 1499,
-  category: 'Bags',
-  subCategory: 'bow-bag',
-  rating: 4.9,
-  badge: 'New',
-  image: greenBowBag1,
-  images: [
-    greenBowBag1,
-    greenBowBag2,
-    greenBowBag3,
-    greenBowBag4
-  ],
-  isBestSeller: false,
-  isTrending: true,
-  keywords: ['crochet', 'bag', 'bow bag', 'green', 'handbag', 'gift', 'fashion'],
-  description: 'Elegant handmade green crochet bow bag crafted with premium yarn. Spacious, lightweight and perfect for everyday use.'
-},
-
-{
-  id: 4,
-  name: 'Pink Crochet Bow Bag',
-  price: 1499,
-  category: 'Bags',
-  subCategory: 'bow-bag',
-  rating: 4.9,
-  badge: 'Bestseller',
-  image: pinkBowBag1,
-  images: [
-    pinkBowBag1,
-    pinkBowBag2,
-    pinkBowBag3,
-    pinkBowBag4
-  ],
-  isBestSeller: true,
-  isTrending: false,
-  keywords: ['crochet', 'bag', 'bow bag', 'pink', 'handbag', 'gift', 'fashion'],
-  description: 'A beautiful handmade pink crochet bow bag designed for a cute and elegant look. Perfect for casual outings and gifting.'
-},
-
-{
-  id: 5,
-  name: 'Purple Crochet Bow Bag',
-  price: 1499,
-  category: 'Bags',
-  subCategory: 'bow-bag',
-  rating: 4.9,
-  badge: 'Trending',
-  image: purpleBowBag1,
-  images: [
-    purpleBowBag1,
-    purpleBowBag2,
-    purpleBowBag3,
-    purpleBowBag4
-  ],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ['crochet', 'bag', 'bow bag', 'purple', 'handbag', 'gift', 'fashion'],
-  description: 'Handcrafted purple crochet bow bag made with premium quality yarn. Stylish, durable and a perfect accessory for every outfit.'
-},
-  {
-  id: 6,
-  name: 'Daisy Crochet Potli Bag',
-  price: 999,
-  category: 'Bags',
-  subCategory: 'potli-bag',
-  rating: 4.9,
-  badge: 'New',
-  image: daisyPotli1,
-  images: [daisyPotli1, daisyPotli2, daisyPotli3, daisyPotli4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ['crochet', 'potli', 'daisy', 'bag', 'gift', 'ethnic'],
-  description: 'Handcrafted crochet daisy potli bag made with premium yarn. A perfect accessory for festive occasions and gifting.'
-},
-
-{
-  id: 7,
-  name: 'Pink Rose Crochet Potli Bag',
-  price: 1099,
-  category: 'Bags',
-  subCategory: 'potli-bag',
-  rating: 4.9,
-  badge: 'Bestseller',
-  image: pinkRosePotli1,
-  images: [pinkRosePotli1, pinkRosePotli2, pinkRosePotli3, pinkRosePotli4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ['crochet', 'potli', 'pink rose', 'bag', 'gift'],
-  description: 'Beautiful handmade crochet potli bag featuring elegant pink rose detailing and a premium handcrafted finish.'
-},
-
-{
-  id: 8,
-  name: 'Red Rose Crochet Potli Bag',
-  price: 1099,
-  category: 'Bags',
-  subCategory: 'potli-bag',
-  rating: 4.9,
-  badge: 'Trending',
-  image: redRosePotli1,
-  images: [redRosePotli1, redRosePotli2, redRosePotli3, redRosePotli4],
-  isBestSeller: true,
-  isTrending: false,
-  keywords: ['crochet', 'potli', 'red rose', 'bag', 'ethnic'],
-  description: 'Elegant handmade crochet red rose potli bag crafted with premium yarn for weddings and festive wear.'
-},
-
-{
-  id: 9,
-  name: 'Sunflower Crochet Potli Bag',
-  price: 1099,
-  category: 'Bags',
-  subCategory: 'potli-bag',
-  rating: 4.9,
-  badge: 'Bestseller',
-  image: sunflowerPotli1,
-  images: [sunflowerPotli1, sunflowerPotli2, sunflowerPotli3, sunflowerPotli4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ['crochet', 'potli', 'sunflower', 'bag', 'gift'],
-  description: 'Bright and cheerful sunflower crochet potli bag, handcrafted to add a unique touch to every outfit.'
-},
-
-{
-  id: 10,
-  name: 'Tulip Crochet Potli Bag',
-  price: 1099,
-  category: 'Bags',
-  subCategory: 'potli-bag',
-  rating: 4.9,
-  badge: 'New',
-  image: tulipPotli1,
-  images: [tulipPotli1, tulipPotli2, tulipPotli3, tulipPotli4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ['crochet', 'potli', 'tulip', 'bag', 'gift'],
-  description: 'Premium handmade tulip crochet potli bag designed with elegant floral craftsmanship and timeless style.'
-},
   {
   id: 11,
   name: 'Pink Rose Design Crochet Bag',
-  price: 1599,
+  price: 1099,
   category: 'Bags',
   subCategory: 'rose-design-bag',
   rating: 4.9,
@@ -744,7 +601,7 @@ export const products = [
 {
   id: 12,
   name: 'Plain Pink Rose Crochet Bag',
-  price: 1499,
+  price: 1099,
   category: 'Bags',
   subCategory: 'rose-design-bag',
   rating: 4.9,
@@ -765,7 +622,7 @@ export const products = [
 {
   id: 13,
   name: 'Purple Rose Design Crochet Bag',
-  price: 1599,
+  price: 1099,
   category: 'Bags',
   subCategory: 'rose-design-bag',
   rating: 4.9,
@@ -786,7 +643,7 @@ export const products = [
 {
   id: 14,
   name: 'Red Rose Design Crochet Bag',
-  price: 1599,
+  price: 1099,
   category: 'Bags',
   subCategory: 'rose-design-bag',
   rating: 4.9,
@@ -807,7 +664,7 @@ export const products = [
 {
   id: 15,
   name: 'Wine Rose Design Crochet Bag',
-  price: 1699,
+  price: 1099,
   category: 'Bags',
   subCategory: 'rose-design-bag',
   rating: 4.9,
@@ -824,66 +681,181 @@ export const products = [
   keywords: ['crochet', 'bag', 'wine rose', 'luxury'],
   description: 'Luxury handcrafted crochet handbag with elegant wine rose detailing, perfect for festive and special occasions.'
 },
+
+{
+  id: 8,
+  name: 'Red Rose Crochet Potli Bag',
+  price: 1199,
+  category: 'Bags',
+  subCategory: 'potli-bag',
+  rating: 4.9,
+  badge: 'Trending',
+  image: redRosePotli1,
+  images: [redRosePotli1, redRosePotli2, redRosePotli3, redRosePotli4],
+  isBestSeller: true,
+  isTrending: false,
+  keywords: ['crochet', 'potli', 'red rose', 'bag', 'ethnic'],
+  description: 'Elegant handmade crochet red rose potli bag crafted with premium yarn for weddings and festive wear.'
+},
+
+{
+  id: 7,
+  name: 'Pink Rose Crochet Potli Bag',
+  price: 1199,
+  category: 'Bags',
+  subCategory: 'potli-bag',
+  rating: 4.9,
+  badge: 'Bestseller',
+  image: pinkRosePotli1,
+  images: [pinkRosePotli1, pinkRosePotli2, pinkRosePotli3, pinkRosePotli4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ['crochet', 'potli', 'pink rose', 'bag', 'gift'],
+  description: 'Beautiful handmade crochet potli bag featuring elegant pink rose detailing and a premium handcrafted finish.'
+},
+
+{
+  id: 6,
+  name: 'Daisy Crochet Potli Bag',
+  price: 1199,
+  category: 'Bags',
+  subCategory: 'potli-bag',
+  rating: 4.9,
+  badge: 'New',
+  image: daisyPotli1,
+  images: [daisyPotli1, daisyPotli2, daisyPotli3, daisyPotli4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ['crochet', 'potli', 'daisy', 'bag', 'gift', 'ethnic'],
+  description: 'Handcrafted crochet daisy potli bag made with premium yarn. A perfect accessory for festive occasions and gifting.'
+},
+
+
+
+
+
+{
+  id: 9,
+  name: 'Sunflower Crochet Potli Bag',
+  price: 1199,
+  category: 'Bags',
+  subCategory: 'potli-bag',
+  rating: 4.9,
+  badge: 'Bestseller',
+  image: sunflowerPotli1,
+  images: [sunflowerPotli1, sunflowerPotli2, sunflowerPotli3, sunflowerPotli4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ['crochet', 'potli', 'sunflower', 'bag', 'gift'],
+  description: 'Bright and cheerful sunflower crochet potli bag, handcrafted to add a unique touch to every outfit.'
+},
+
+{
+  id: 10,
+  name: 'Tulip Crochet Potli Bag',
+  price: 1199,
+  category: 'Bags',
+  subCategory: 'potli-bag',
+  rating: 4.9,
+  badge: 'New',
+  image: tulipPotli1,
+  images: [tulipPotli1, tulipPotli2, tulipPotli3, tulipPotli4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ['crochet', 'potli', 'tulip', 'bag', 'gift'],
+  description: 'Premium handmade tulip crochet potli bag designed with elegant floral craftsmanship and timeless style.'
+},
+
+
   {
-  id: 16,
-  name: "Blue Crochet Tote Bag",
-  price: 1499,
+  id: 3,
+  name: 'Green Crochet Bow Bag',
+  price: 999,
+  category: 'Bags',
+  subCategory: 'bow-bag',
+  rating: 4.9,
+  badge: 'New',
+  image: greenBowBag1,
+  images: [
+    greenBowBag1,
+    greenBowBag2,
+    greenBowBag3,
+    greenBowBag4
+  ],
+  isBestSeller: false,
+  isTrending: true,
+  keywords: ['crochet', 'bag', 'bow bag', 'green', 'handbag', 'gift', 'fashion'],
+  description: 'Elegant handmade green crochet bow bag crafted with premium yarn. Spacious, lightweight and perfect for everyday use.'
+},
+
+{
+  id: 4,
+  name: 'Pink Crochet Bow Bag',
+  price: 999,
+  category: 'Bags',
+  subCategory: 'bow-bag',
+  rating: 4.9,
+  badge: 'Bestseller',
+  image: pinkBowBag1,
+  images: [
+    pinkBowBag1,
+    pinkBowBag2,
+    pinkBowBag3,
+    pinkBowBag4
+  ],
+  isBestSeller: true,
+  isTrending: false,
+  keywords: ['crochet', 'bag', 'bow bag', 'pink', 'handbag', 'gift', 'fashion'],
+  description: 'A beautiful handmade pink crochet bow bag designed for a cute and elegant look. Perfect for casual outings and gifting.'
+},
+
+{
+  id: 5,
+  name: 'Purple Crochet Bow Bag',
+  price: 999,
+  category: 'Bags',
+  subCategory: 'bow-bag',
+  rating: 4.9,
+  badge: 'Trending',
+  image: purpleBowBag1,
+  images: [
+    purpleBowBag1,
+    purpleBowBag2,
+    purpleBowBag3,
+    purpleBowBag4
+  ],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ['crochet', 'bag', 'bow bag', 'purple', 'handbag', 'gift', 'fashion'],
+  description: 'Handcrafted purple crochet bow bag made with premium quality yarn. Stylish, durable and a perfect accessory for every outfit.'
+},
+
+{
+  id: 23,
+  name: "Sunflower Crochet Tote Bag",
+  price: 1149,
   category: "Bags",
   subCategory: "tote-bag",
   rating: 4.9,
   badge: "Bestseller",
-  image: blueTote1,
-  images: [blueTote1, blueTote2, blueTote3, blueTote4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "tote", "blue", "bag", "handmade", "fashion"],
-  description:
-    "A stylish handmade blue crochet tote bag crafted with premium yarn. Spacious, durable and perfect for everyday use."
-},
-
-{
-  id: 17,
-  name: "Daisy Crochet Tote Bag",
-  price: 1599,
-  category: "Bags",
-  subCategory: "tote-bag",
-  rating: 4.9,
-  badge: "New",
-  image: daisyTote1,
-  images: [daisyTote1, daisyTote2, daisyTote3, daisyTote4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "daisy", "tote", "bag", "gift", "fashion"],
-  description:
-    "Beautiful handcrafted crochet tote bag decorated with elegant daisy flowers. Lightweight, stylish and perfect for daily use."
-},
-
-{
-  id: 18,
-  name: "Green Heart Crochet Tote Bag",
-  price: 1599,
-  category: "Bags",
-  subCategory: "tote-bag",
-  rating: 4.9,
-  badge: "Trending",
-  image: greenHeartTote1,
+  image: sunflowerTote1,
   images: [
-    greenHeartTote1,
-    greenHeartTote2,
-    greenHeartTote3,
-    greenHeartTote4
+    sunflowerTote1,
+    sunflowerTote2,
+    sunflowerTote3,
+    sunflowerTote4
   ],
-  isBestSeller: true,
-  isTrending: false,
-  keywords: ["crochet", "heart", "green", "tote", "bag", "fashion"],
+  isBestSeller: false,
+  isTrending: true,
+  keywords: ["crochet", "sunflower", "tote", "bag", "handmade", "gift"],
   description:
-    "Premium handmade green heart crochet tote bag designed with soft yarn and elegant detailing for everyday styling."
+    "Bright and cheerful sunflower crochet tote bag handcrafted with premium yarn. Perfect for daily use, gifting and adding a floral touch to any outfit."
 },
 
 {
   id: 19,
   name: "Green Crochet Tote Bag",
-  price: 1499,
+  price: 1149,
   category: "Bags",
   subCategory: "tote-bag",
   rating: 4.9,
@@ -904,7 +876,7 @@ export const products = [
 {
   id: 20,
   name: "Mixed Flower Crochet Tote Bag",
-  price: 1699,
+  price: 1149,
   category: "Bags",
   subCategory: "tote-bag",
   rating: 4.9,
@@ -926,7 +898,7 @@ export const products = [
 {
   id: 21,
   name: "Pink Daisy Crochet Tote Bag",
-  price: 1699,
+  price: 1149,
   category: "Bags",
   subCategory: "tote-bag",
   rating: 4.9,
@@ -945,10 +917,56 @@ export const products = [
     "Elegant handmade pink daisy crochet tote bag crafted with premium yarn. A perfect blend of beauty, durability and everyday style."
 },
 
+
+
+
+  
+  
+  
+
+{
+  id: 17,
+  name: "Daisy Crochet Tote Bag",
+  price: 999,
+  category: "Bags",
+  subCategory: "tote-bag",
+  rating: 4.9,
+  badge: "New",
+  image: daisyTote1,
+  images: [daisyTote1, daisyTote2, daisyTote3, daisyTote4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "daisy", "tote", "bag", "gift", "fashion"],
+  description:
+    "Beautiful handcrafted crochet tote bag decorated with elegant daisy flowers. Lightweight, stylish and perfect for daily use."
+},
+
+{
+  id: 18,
+  name: "Green Heart Crochet Tote Bag",
+  price: 999,
+  category: "Bags",
+  subCategory: "tote-bag",
+  rating: 4.9,
+  badge: "Trending",
+  image: greenHeartTote1,
+  images: [
+    greenHeartTote1,
+    greenHeartTote2,
+    greenHeartTote3,
+    greenHeartTote4
+  ],
+  isBestSeller: true,
+  isTrending: false,
+  keywords: ["crochet", "heart", "green", "tote", "bag", "fashion"],
+  description:
+    "Premium handmade green heart crochet tote bag designed with soft yarn and elegant detailing for everyday styling."
+},
+
 {
   id: 22,
   name: "Pink Heart Crochet Tote Bag",
-  price: 1599,
+  price: 999,
   category: "Bags",
   subCategory: "tote-bag",
   rating: 4.9,
@@ -967,200 +985,41 @@ export const products = [
     "Handcrafted pink heart crochet tote bag designed with premium quality yarn for a cute, elegant and timeless handmade look."
 },
 
+
 {
-  id: 23,
-  name: "Sunflower Crochet Tote Bag",
-  price: 1699,
+  id: 16,
+  name: "Blue Crochet Tote Bag",
+  price: 1499,
   category: "Bags",
   subCategory: "tote-bag",
   rating: 4.9,
   badge: "Bestseller",
-  image: sunflowerTote1,
-  images: [
-    sunflowerTote1,
-    sunflowerTote2,
-    sunflowerTote3,
-    sunflowerTote4
-  ],
+  image: blueTote1,
+  images: [blueTote1, blueTote2, blueTote3, blueTote4],
   isBestSeller: false,
-  isTrending: true,
-  keywords: ["crochet", "sunflower", "tote", "bag", "handmade", "gift"],
+  isTrending: false,
+  keywords: ["crochet", "tote", "blue", "bag", "handmade", "fashion"],
   description:
-    "Bright and cheerful sunflower crochet tote bag handcrafted with premium yarn. Perfect for daily use, gifting and adding a floral touch to any outfit."
-},
-{
-  id: 24,
-  name: "Crochet Baby Breath Flower",
-  price: 249,
-  category: "Flowers",
-  subCategory: "flowers",
-  rating: 4.9,
-  badge: "New",
-  image: babyBreath1,
-  images: [babyBreath1, babyBreath2, babyBreath3, babyBreath4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "baby breath", "flower", "gift", "bouquet"],
-  description: "Handmade crochet Baby Breath flower crafted with premium yarn. Perfect for bouquets, gifts and home decor."
+    "A stylish handmade blue crochet tote bag crafted with premium yarn. Spacious, durable and perfect for everyday use."
 },
 
-{
-  id: 25,
-  name: "Crochet Cherry Blossom Flower",
-  price: 299,
-  category: "Flowers",
-  subCategory: "flowers",
-  rating: 4.9,
-  badge: "Bestseller",
-  image: cherryBlossom1,
-  images: [
-    cherryBlossom1,
-    cherryBlossom2,
-    cherryBlossom3,
-    cherryBlossom4
-  ],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "cherry blossom", "flower", "gift"],
-  description: "Beautiful handmade crochet Cherry Blossom flower designed with premium quality yarn for a timeless floral look."
-},
 
-{
-  id: 26,
-  name: "Crochet Daisy Flower",
-  price: 249,
-  category: "Flowers",
-  subCategory: "flowers",
-  rating: 4.9,
-  badge: "Trending",
-  image: daisy1,
-  images: [daisy1, daisy2, daisy3, daisy4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "daisy", "flower", "gift", "bouquet"],
-  description: "A cheerful handmade crochet Daisy flower that adds beauty to bouquets, gifts and home decoration."
-},
 
-{
-  id: 27,
-  name: "Crochet Forget Me Not Flower",
-  price: 249,
-  category: "Flowers",
-  subCategory: "flowers",
-  rating: 4.9,
-  badge: "New",
-  image: forgetMeNot1,
-  images: [
-    forgetMeNot1,
-    forgetMeNot2,
-    forgetMeNot3,
-    forgetMeNot4
-  ],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "forget me not", "flower", "gift"],
-  description: "Premium handmade Forget Me Not crochet flower crafted with soft yarn to create a lasting floral keepsake."
-},
 
-{
-  id: 28,
-  name: "Crochet Lavender Flower",
-  price: 299,
-  category: "Flowers",
-  subCategory: "flowers",
-  rating: 4.9,
-  badge: "Bestseller",
-  image: lavender1,
-  images: [lavender1, lavender2, lavender3, lavender4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "lavender", "flower", "gift", "bouquet"],
-  description: "Elegant handmade crochet Lavender flower with realistic detailing, perfect for bouquets, decor and gifting."
-},
 
-{
-  id: 29,
-  name: "Crochet Lily Flower",
-  price: 299,
-  category: "Flowers",
-  subCategory: "flowers",
-  rating: 4.9,
-  badge: "Bestseller",
-  image: lily1,
-  images: [lily1, lily2, lily3, lily4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "lily", "flower", "gift", "bouquet"],
-  description: "Elegant handmade crochet Lily flower crafted with premium yarn, perfect for bouquets, gifts and home decor."
-},
 
-{
-  id: 30,
-  name: "Crochet Lotus Flower",
-  price: 299,
-  category: "Flowers",
-  subCategory: "flowers",
-  rating: 4.9,
-  badge: "New",
-  image: lotus1,
-  images: [lotus1, lotus2, lotus3, lotus4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "lotus", "flower", "gift", "decor"],
-  description: "Beautiful handcrafted crochet Lotus flower symbolizing purity and elegance with a premium handmade finish."
-},
 
-{
-  id: 31,
-  name: "Crochet Marigold Flower",
-  price: 249,
-  category: "Flowers",
-  subCategory: "flowers",
-  rating: 4.9,
-  badge: "Trending",
-  image: marigold1,
-  images: [marigold1, marigold2, marigold3, marigold4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "marigold", "flower", "gift", "festival"],
-  description: "Bright handmade crochet Marigold flower crafted with soft premium yarn, ideal for festive decorations and gifting."
-},
 
-{
-  id: 32,
-  name: "Crochet Orchid Flower",
-  price: 349,
-  category: "Flowers",
-  subCategory: "flowers",
-  rating: 4.9,
-  badge: "Premium",
-  image: orchid1,
-  images: [orchid1, orchid2, orchid3, orchid4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "orchid", "flower", "luxury", "gift"],
-  description: "Premium handcrafted crochet Orchid flower with elegant detailing, perfect for luxury bouquets and home decoration."
-},
 
-{
-  id: 33,
-  name: "Crochet Peony Flower",
-  price: 349,
-  category: "Flowers",
-  subCategory: "flowers",
-  rating: 4.9,
-  badge: "Bestseller",
-  image: peony1,
-  images: [peony1, peony2, peony3, peony4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "peony", "flower", "gift", "bouquet"],
-  description: "Handcrafted crochet Peony flower made with premium quality yarn, offering a timeless floral beauty that lasts forever."
-},
+
+
+
+//flower----------------------------------------------
+
 {
   id: 34,
   name: "Crochet Rose Flower",
-  price: 299,
+  price: 249,
   category: "Flowers",
   subCategory: "flowers",
   rating: 4.9,
@@ -1177,7 +1036,7 @@ export const products = [
 {
   id: 35,
   name: "Crochet Sunflower",
-  price: 299,
+  price: 249,
   category: "Flowers",
   subCategory: "flowers",
   rating: 4.9,
@@ -1199,7 +1058,7 @@ export const products = [
 {
   id: 36,
   name: "Crochet Tulip Flower",
-  price: 299,
+  price: 199,
   category: "Flowers",
   subCategory: "flowers",
   rating: 4.9,
@@ -1217,6 +1076,214 @@ export const products = [
   description:
     "Elegant handmade crochet Tulip flower crafted with soft premium yarn. Perfect for bouquets, gifting and adding everlasting floral beauty."
 },
+
+{
+  id: 26,
+  name: "Crochet Daisy Flower",
+  price: 199,
+  category: "Flowers",
+  subCategory: "flowers",
+  rating: 4.9,
+  badge: "Trending",
+  image: daisy1,
+  images: [daisy1, daisy2, daisy3, daisy4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "daisy", "flower", "gift", "bouquet"],
+  description: "A cheerful handmade crochet Daisy flower that adds beauty to bouquets, gifts and home decoration."
+},
+
+{
+  id: 30,
+  name: "Crochet Lotus Flower",
+  price: 299,
+  category: "Flowers",
+  subCategory: "flowers",
+  rating: 4.9,
+  badge: "New",
+  image: lotus1,
+  images: [lotus1, lotus2, lotus3, lotus4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "lotus", "flower", "gift", "decor"],
+  description: "Beautiful handcrafted crochet Lotus flower symbolizing purity and elegance with a premium handmade finish."
+},
+
+{
+  id: 29,
+  name: "Crochet Lily Flower",
+  price: 249,
+  category: "Flowers",
+  subCategory: "flowers",
+  rating: 4.9,
+  badge: "Bestseller",
+  image: lily1,
+  images: [lily1, lily2, lily3, lily4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "lily", "flower", "gift", "bouquet"],
+  description: "Elegant handmade crochet Lily flower crafted with premium yarn, perfect for bouquets, gifts and home decor."
+},
+
+
+
+{
+  id: 25,
+  name: "Crochet Cherry Blossom Flower",
+  price: 199,
+  category: "Flowers",
+  subCategory: "flowers",
+  rating: 4.9,
+  badge: "Bestseller",
+  image: cherryBlossom1,
+  images: [
+    cherryBlossom1,
+    cherryBlossom2,
+    cherryBlossom3,
+    cherryBlossom4
+  ],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "cherry blossom", "flower", "gift"],
+  description: "Beautiful handmade crochet Cherry Blossom flower designed with premium quality yarn for a timeless floral look."
+},
+
+
+
+{
+  id: 27,
+  name: "Crochet Forget Me Not Flower",
+  price: 199,
+  category: "Flowers",
+  subCategory: "flowers",
+  rating: 4.9,
+  badge: "New",
+  image: forgetMeNot1,
+  images: [
+    forgetMeNot1,
+    forgetMeNot2,
+    forgetMeNot3,
+    forgetMeNot4
+  ],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "forget me not", "flower", "gift"],
+  description: "Premium handmade Forget Me Not crochet flower crafted with soft yarn to create a lasting floral keepsake."
+},
+
+{
+  id: 28,
+  name: "Crochet Lavender Flower",
+  price: 199,
+  category: "Flowers",
+  subCategory: "flowers",
+  rating: 4.9,
+  badge: "Bestseller",
+  image: lavender1,
+  images: [lavender1, lavender2, lavender3, lavender4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "lavender", "flower", "gift", "bouquet"],
+  description: "Elegant handmade crochet Lavender flower with realistic detailing, perfect for bouquets, decor and gifting."
+},
+
+
+
+
+
+{
+  id: 31,
+  name: "Crochet Marigold Flower",
+  price: 199,
+  category: "Flowers",
+  subCategory: "flowers",
+  rating: 4.9,
+  badge: "Trending",
+  image: marigold1,
+  images: [marigold1, marigold2, marigold3, marigold4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "marigold", "flower", "gift", "festival"],
+  description: "Bright handmade crochet Marigold flower crafted with soft premium yarn, ideal for festive decorations and gifting."
+},
+
+{
+  id: 32,
+  name: "Crochet Orchid Flower",
+  price: 199,
+  category: "Flowers",
+  subCategory: "flowers",
+  rating: 4.9,
+  badge: "Premium",
+  image: orchid1,
+  images: [orchid1, orchid2, orchid3, orchid4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "orchid", "flower", "luxury", "gift"],
+  description: "Premium handcrafted crochet Orchid flower with elegant detailing, perfect for luxury bouquets and home decoration."
+},
+
+{
+  id: 33,
+  name: "Crochet Peony Flower",
+  price: 299,
+  category: "Flowers",
+  subCategory: "flowers",
+  rating: 4.9,
+  badge: "Bestseller",
+  image: peony1,
+  images: [peony1, peony2, peony3, peony4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "peony", "flower", "gift", "bouquet"],
+  description: "Handcrafted crochet Peony flower made with premium quality yarn, offering a timeless floral beauty that lasts forever."
+},
+{
+  id: 24,
+  name: "Crochet Baby Breath Flower",
+  price: 199,
+  category: "Flowers",
+  subCategory: "flowers",
+  rating: 4.9,
+  badge: "New",
+  image: babyBreath1,
+  images: [babyBreath1, babyBreath2, babyBreath3, babyBreath4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "baby breath", "flower", "gift", "bouquet"],
+  description: "Handmade crochet Baby Breath flower crafted with premium yarn. Perfect for bouquets, gifts and home decor."
+},
+
+
+
+
+
+
+
+
+
+
+
+
+
+//bandana----------------------------------------
+
+{
+  id: 40,
+  name: "Purple Crochet Hair Bandana",
+  price: 399,
+  category: "Hair Accessories",
+  subCategory: "hair-bandana",
+  rating: 4.9,
+  badge: "Bestseller",
+  image: purpleBandana1,
+  images: [purpleBandana1, purpleBandana2, purpleBandana3, purpleBandana4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "purple", "hair bandana"],
+  description: "Elegant handmade purple crochet hair bandana made with premium quality yarn for everyday wear."
+},
+
 {
   id: 37,
   name: "Daisy Crochet Hair Bandana",
@@ -1265,21 +1332,7 @@ export const products = [
   description: "Colorful handmade crochet hair bandana featuring a vibrant mix of premium yarn shades for a stylish look."
 },
 
-{
-  id: 40,
-  name: "Purple Crochet Hair Bandana",
-  price: 499,
-  category: "Hair Accessories",
-  subCategory: "hair-bandana",
-  rating: 4.9,
-  badge: "Bestseller",
-  image: purpleBandana1,
-  images: [purpleBandana1, purpleBandana2, purpleBandana3, purpleBandana4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "purple", "hair bandana"],
-  description: "Elegant handmade purple crochet hair bandana made with premium quality yarn for everyday wear."
-},
+
 
 {
   id: 41,
@@ -1312,10 +1365,28 @@ export const products = [
   keywords: ["crochet", "red", "hair bandana", "hair accessory"],
   description: "Classic handmade red crochet hair bandana crafted with soft premium yarn for an elegant handmade style."
 },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//hair-----------------------------------
 {
   id: 43,
   name: "Orange Crochet Hair Bun",
-  price: 399,
+  price: 199,
   category: "Hair Accessories",
   subCategory: "hair-bun",
   rating: 4.9,
@@ -1331,7 +1402,7 @@ export const products = [
 {
   id: 44,
   name: "Pink Crochet Hair Bun",
-  price: 399,
+  price: 199,
   category: "Hair Accessories",
   subCategory: "hair-bun",
   rating: 4.9,
@@ -1347,7 +1418,7 @@ export const products = [
 {
   id: 45,
   name: "Purple Crochet Hair Bun",
-  price: 399,
+  price: 199,
   category: "Hair Accessories",
   subCategory: "hair-bun",
   rating: 4.9,
@@ -1363,7 +1434,7 @@ export const products = [
 {
   id: 46,
   name: "Sunflower Crochet Hair Bun",
-  price: 449,
+  price: 199,
   category: "Hair Accessories",
   subCategory: "hair-bun",
   rating: 4.9,
@@ -1380,10 +1451,26 @@ export const products = [
   keywords: ["crochet", "sunflower", "hair bun", "hair accessory"],
   description: "Handcrafted sunflower crochet hair bun featuring premium yarn and floral detailing, perfect for festive and everyday wear."
 },
+
+{
+  id: 48,
+  name: "Daisy Crochet Hair Claw",
+  price: 99,
+  category: "Hair Accessories",
+  subCategory: "hair-claw",
+  rating: 4.9,
+  badge: "Trending",
+  image: daisyClaw1,
+  images: [daisyClaw1, daisyClaw2, daisyClaw3, daisyClaw4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "hair claw", "daisy"],
+  description: "Elegant handmade crochet daisy hair claw crafted with premium yarn for a stylish and comfortable look."
+},
 {
   id: 47,
   name: "3 Daisy Crochet Hair Claw",
-  price: 349,
+  price: 149,
   category: "Hair Accessories",
   subCategory: "hair-claw",
   rating: 4.9,
@@ -1396,26 +1483,12 @@ export const products = [
   description: "Handcrafted crochet hair claw featuring three beautiful daisy flowers, perfect for everyday styling."
 },
 
-{
-  id: 48,
-  name: "Daisy Crochet Hair Claw",
-  price: 299,
-  category: "Hair Accessories",
-  subCategory: "hair-claw",
-  rating: 4.9,
-  badge: "Trending",
-  image: daisyClaw1,
-  images: [daisyClaw1, daisyClaw2, daisyClaw3, daisyClaw4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "hair claw", "daisy"],
-  description: "Elegant handmade crochet daisy hair claw crafted with premium yarn for a stylish and comfortable look."
-},
+
 
 {
   id: 49,
   name: "Blue Bow Crochet Hair Clip",
-  price: 249,
+  price: 179,
   category: "Hair Accessories",
   subCategory: "hair-clip",
   rating: 4.9,
@@ -1431,7 +1504,7 @@ export const products = [
 {
   id: 53,
   name: "Pink Bow Crochet Hair Clip",
-  price: 249,
+  price: 179,
   category: "Hair Accessories",
   subCategory: "hair-clip",
   rating: 4.9,
@@ -1447,7 +1520,7 @@ export const products = [
 {
   id: 57,
   name: "White Bow Crochet Hair Clip",
-  price: 249,
+  price: 179,
   category: "Hair Accessories",
   subCategory: "hair-clip",
   rating: 4.9,
@@ -1463,7 +1536,7 @@ export const products = [
 {
   id: 58,
   name: "White & Pink Bow Crochet Hair Clip",
-  price: 249,
+  price: 199,
   category: "Hair Accessories",
   subCategory: "hair-clip",
   rating: 4.9,
@@ -1484,7 +1557,7 @@ export const products = [
 {
   id: 50,
   name: "Butterfly Crochet Hair Clip",
-  price: 249,
+  price: 99,
   category: "Hair Accessories",
   subCategory: "hair-clip",
   rating: 4.9,
@@ -1500,7 +1573,7 @@ export const products = [
 {
   id: 51,
   name: "Daisy Crochet Hair Clip",
-  price: 249,
+  price: 79,
   category: "Hair Accessories",
   subCategory: "hair-clip",
   rating: 4.9,
@@ -1516,7 +1589,7 @@ export const products = [
 {
   id: 52,
   name: "Mixed Rose Crochet Hair Clip",
-  price: 299,
+  price: 79,
   category: "Hair Accessories",
   subCategory: "hair-clip",
   rating: 4.9,
@@ -1534,7 +1607,7 @@ export const products = [
 {
   id: 54,
   name: "Pink Rose Crochet Hair Clip",
-  price: 299,
+  price: 79,
   category: "Hair Accessories",
   subCategory: "hair-clip",
   rating: 4.9,
@@ -1550,7 +1623,7 @@ export const products = [
 {
   id: 55,
   name: "Red Rose Crochet Hair Clip",
-  price: 299,
+  price: 79,
   category: "Hair Accessories",
   subCategory: "hair-clip",
   rating: 4.9,
@@ -1566,7 +1639,7 @@ export const products = [
 {
   id: 56,
   name: "Sunflower Crochet Hair Clip",
-  price: 299,
+  price: 99,
   category: "Hair Accessories",
   subCategory: "hair-clip",
   rating: 4.9,
@@ -1584,7 +1657,7 @@ export const products = [
 {
   id: 59,
   name: "Pink Tulip Crochet Hair Tie",
-  price: 199,
+  price: 99,
   category: "Hair Accessories",
   subCategory: "hair-tie",
   rating: 4.9,
@@ -1605,7 +1678,7 @@ export const products = [
 {
   id: 60,
   name: "Purple Tulip Crochet Hair Tie",
-  price: 199,
+  price: 99,
   category: "Hair Accessories",
   subCategory: "hair-tie",
   rating: 4.9,
@@ -1626,7 +1699,7 @@ export const products = [
 {
   id: 61,
   name: "Yellow Tulip Crochet Hair Tie",
-  price: 199,
+  price: 99,
   category: "Hair Accessories",
   subCategory: "hair-tie",
   rating: 4.9,
@@ -1645,41 +1718,9 @@ export const products = [
 },
 
 {
-  id: 62,
-  name: "Blue Crochet Hairband",
-  price: 399,
-  category: "Hair Accessories",
-  subCategory: "hairband",
-  rating: 4.9,
-  badge: "Bestseller",
-  image: blueHairband1,
-  images: [blueHairband1, blueHairband2, blueHairband3, blueHairband4],
-  isBestSeller: true,
-  isTrending: false,
-  keywords: ["crochet", "blue", "hairband", "hair accessory"],
-  description: "Handcrafted blue crochet hairband made with premium yarn for a stylish and comfortable everyday look."
-},
-
-{
-  id: 63,
-  name: "Pink Crochet Hairband",
-  price: 399,
-  category: "Hair Accessories",
-  subCategory: "hairband",
-  rating: 4.9,
-  badge: "Trending",
-  image: pinkHairband1,
-  images: [pinkHairband1, pinkHairband2, pinkHairband3, pinkHairband4],
-  isBestSeller: false,
-  isTrending: false,
-  keywords: ["crochet", "pink", "hairband"],
-  description: "Elegant handmade pink crochet hairband crafted with soft premium yarn for daily wear."
-},
-
-{
   id: 64,
   name: "Plain Pink Crochet Hairband",
-  price: 399,
+  price: 149,
   category: "Hair Accessories",
   subCategory: "hairband",
   rating: 4.9,
@@ -1698,9 +1739,43 @@ export const products = [
 },
 
 {
+  id: 62,
+  name: "Blue Crochet Hairband",
+  price: 179,
+  category: "Hair Accessories",
+  subCategory: "hairband",
+  rating: 4.9,
+  badge: "Bestseller",
+  image: blueHairband1,
+  images: [blueHairband1, blueHairband2, blueHairband3, blueHairband4],
+  isBestSeller: true,
+  isTrending: false,
+  keywords: ["crochet", "blue", "hairband", "hair accessory"],
+  description: "Handcrafted blue crochet hairband made with premium yarn for a stylish and comfortable everyday look."
+},
+
+{
+  id: 63,
+  name: "Pink Crochet Hairband",
+  price: 179,
+  category: "Hair Accessories",
+  subCategory: "hairband",
+  rating: 4.9,
+  badge: "Trending",
+  image: pinkHairband1,
+  images: [pinkHairband1, pinkHairband2, pinkHairband3, pinkHairband4],
+  isBestSeller: false,
+  isTrending: false,
+  keywords: ["crochet", "pink", "hairband"],
+  description: "Elegant handmade pink crochet hairband crafted with soft premium yarn for daily wear."
+},
+
+
+
+{
   id: 65,
   name: "Purple Crochet Hairband",
-  price: 399,
+  price: 179,
   category: "Hair Accessories",
   subCategory: "hairband",
   rating: 4.9,
@@ -1721,7 +1796,7 @@ export const products = [
 {
   id: 66,
   name: "Yellow Crochet Hairband",
-  price: 399,
+  price: 179,
   category: "Hair Accessories",
   subCategory: "hairband",
   rating: 4.9,
@@ -1742,7 +1817,7 @@ export const products = [
 {
   id: 67,
   name: "Daisy Crochet Headband",
-  price: 449,
+  price: 249,
   category: "Hair Accessories",
   subCategory: "headband",
   rating: 4.9,
@@ -1758,7 +1833,7 @@ export const products = [
 {
   id: 68,
   name: "Plain Pink Crochet Headband",
-  price: 399,
+  price: 299,
   category: "Hair Accessories",
   subCategory: "headband",
   rating: 4.9,
@@ -1779,7 +1854,7 @@ export const products = [
 {
   id: 69,
   name: "Red Plain Crochet Headband",
-  price: 399,
+  price: 299,
   category: "Hair Accessories",
   subCategory: "headband",
   rating: 4.9,
@@ -1800,7 +1875,7 @@ export const products = [
 {
   id: 70,
   name: "Sunflower Crochet Headband",
-  price: 449,
+  price: 249,
   category: "Hair Accessories",
   subCategory: "headband",
   rating: 4.9,
@@ -1842,7 +1917,7 @@ export const products = [
 {
   id: 72,
   name: "Crochet Bow Keychain",
-  price: 199,
+  price: 99,
   category: "Keychains",
   subCategory: "keychain",
   rating: 4.9,
@@ -1858,7 +1933,7 @@ export const products = [
 {
   id: 73,
   name: "Brown Teddy Crochet Keychain",
-  price: 299,
+  price: 199,
   category: "Keychains",
   subCategory: "keychain",
   rating: 4.9,
@@ -1879,7 +1954,7 @@ export const products = [
 {
   id: 76,
   name: "Pink Teddy Crochet Keychain",
-  price: 299,
+  price: 199,
   category: "Keychains",
   subCategory: "keychain",
   rating: 4.9,
@@ -1900,7 +1975,7 @@ export const products = [
 {
   id: 74,
   name: "Crochet Daisy Keychain",
-  price: 199,
+  price: 149,
   category: "Keychains",
   subCategory: "keychain",
   rating: 4.9,
@@ -1921,7 +1996,7 @@ export const products = [
 {
   id: 75,
   name: "Crochet Evil Eye Keychain",
-  price: 249,
+  price: 149,
   category: "Keychains",
   subCategory: "keychain",
   rating: 4.9,
@@ -1942,7 +2017,7 @@ export const products = [
 {
   id: 77,
   name: "Crochet Rose Keychain",
-  price: 249,
+  price: 149,
   category: "Keychains",
   subCategory: "keychain",
   rating: 4.9,
@@ -1958,7 +2033,7 @@ export const products = [
 {
   id: 78,
   name: "Crochet Sunflower Keychain",
-  price: 249,
+  price: 149,
   category: "Keychains",
   subCategory: "keychain",
   rating: 4.9,
@@ -1979,7 +2054,7 @@ export const products = [
 {
   id: 79,
   name: "Crochet Swiss Roll Keychain",
-  price: 249,
+  price: 99,
   category: "Keychains",
   subCategory: "keychain",
   rating: 4.9,
@@ -2000,7 +2075,7 @@ export const products = [
 {
   id: 80,
   name: "Pink Crochet Paranda",
-  price: 799,
+  price: 349,
   category: "Hair Accessories",
   subCategory: "paranda",
   rating: 4.9,
@@ -2021,7 +2096,7 @@ export const products = [
 {
   id: 81,
   name: "Purple Crochet Paranda",
-  price: 799,
+  price: 349,
   category: "Hair Accessories",
   subCategory: "paranda",
   rating: 4.9,
@@ -2042,7 +2117,7 @@ export const products = [
 {
   id: 82,
   name: "Red Rose Crochet Paranda",
-  price: 799,
+  price: 349,
   category: "Hair Accessories",
   subCategory: "paranda",
   rating: 4.9,
@@ -2058,7 +2133,7 @@ export const products = [
 {
   id: 83,
   name: "Sunflower Crochet Paranda",
-  price: 799,
+  price: 349,
   category: "Hair Accessories",
   subCategory: "paranda",
   rating: 4.9,
@@ -2079,7 +2154,7 @@ export const products = [
 {
   id: 84,
   name: "Tulip Crochet Paranda",
-  price: 799,
+  price: 399,
   category: "Hair Accessories",
   subCategory: "paranda",
   rating: 4.9,
@@ -2100,7 +2175,7 @@ export const products = [
 {
   id: 85,
   name: "Pink Crochet Scrunchie",
-  price: 199,
+  price: 99,
   category: "Hair Accessories",
   subCategory: "scrunchie",
   rating: 4.9,
@@ -2121,7 +2196,7 @@ export const products = [
 {
   id: 86,
   name: "Purple Crochet Scrunchie",
-  price: 199,
+  price: 99,
   category: "Hair Accessories",
   subCategory: "scrunchie",
   rating: 4.9,
@@ -2142,7 +2217,7 @@ export const products = [
 {
   id: 87,
   name: "Brown Crochet Tank Top",
-  price: 1499,
+  price: 1699,
   category: "Fashion",
   subCategory: "tops",
   rating: 4.9,
@@ -2158,7 +2233,7 @@ export const products = [
 {
   id: 92,
   name: "White Crochet Tank Top",
-  price: 1499,
+  price: 1699,
   category: "Fashion",
   subCategory: "tops",
   rating: 4.9,
@@ -2174,7 +2249,7 @@ export const products = [
 {
   id: 88,
   name: "Orange Bouquet Crochet Top",
-  price: 1699,
+  price: 1499,
   category: "Fashion",
   subCategory: "tops",
   rating: 4.9,
@@ -2193,7 +2268,7 @@ export const products = [
 {
   id: 90,
   name: "Pink Bouquet Crochet Top",
-  price: 1699,
+  price: 1499,
   category: "Fashion",
   subCategory: "tops",
   rating: 4.9,
@@ -2209,7 +2284,7 @@ export const products = [
 {
   id: 91,
   name: "White & Red Bouquet Crochet Top",
-  price: 1799,
+  price: 1499,
   category: "Fashion",
   subCategory: "tops",
   rating: 4.9,
@@ -2232,7 +2307,7 @@ export const products = [
 {
   id: 93,
   name: "Wine Bouquet Crochet Top",
-  price: 1799,
+  price: 1499,
   category: "Fashion",
   subCategory: "tops",
   rating: 4.9,
@@ -2253,7 +2328,7 @@ export const products = [
 {
   id: 94,
   name: "Yellow Bouquet Crochet Top",
-  price: 1699,
+  price: 1499,
   category: "Fashion",
   subCategory: "tops",
   rating: 4.9,
